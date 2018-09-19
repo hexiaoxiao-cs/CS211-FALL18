@@ -1,0 +1,49 @@
+PA1 Auto-grader, Release 1
+
+rle: incorrect output
+  called as ['./rle', 'qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq']
+  line 1
+    expected: 'q95q34'
+    received: 'q129'
+
+rle: incorrect output
+  called as ['./rle', '************************WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr']
+  line 1
+    expected: '*24W62!0r52'
+    received: '*24W62r52'
+
+rle: incorrect output
+  called as ['./rle', '````````````````````````````````````````````````````````````````````````````````````````YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY']
+  line 1
+    expected: 'a0`88Y49'
+    received: '`88Y49'
+
+rle: incorrect output
+  called as ['./rle', 'EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE$$$$$$$$$$$$$$$$$$$$$$$$$$$$aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']
+  line 1
+    expected: 'E39$28&0a47'
+    received: 'E39$28a47'
+
+rle: incorrect output
+  called as ['./rle', 'HHHHHHHHHHHHHHHHHHHHHHHH))))))))))))))EEEEEeeeeeeeeeeeeIIIIIIIIIIIIIIIIIIIIIIIIIIooooooooooooooooPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP']
+  line 1
+    expected: 'H24)14E5e12U0I26o16P78'
+    received: 'H24)14E5e12I26o16P78'
+
+Tests performed 215
+Tests failed      5
+
+Points
+      Score
+gcd    15.0
+rot13  15.0
+rle    15.0
+----- -----
+Total  45.0
+
+User tests
+      Score
+gcd   100.0
+rle    95.0
+----- -----
+Total 195.0
