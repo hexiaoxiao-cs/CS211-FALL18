@@ -48,6 +48,8 @@ void rle()
 		if(place*2<c){
 		for(c=0;c<place;c++)
 			{
+			if(occurance[c]==0){continue;}
+			if(str[c]==str[c+1]){printf("%c%d",b[str[c]],occurance[c]+occurance[c+1]);c++;continue;}
 			printf("%c%d",b[str[c]],occurance[c]);
 			}}
 		else{}
