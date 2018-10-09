@@ -1,0 +1,255 @@
+PA1 Auto-grader, Release 1
+
+queens: incorrect output
+  called as ['./queens', '+2', '/ilab/users/xh172/CS211/pa2/data/queens/test.2.1.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.2.1.ref.txt'
+  line 9
+    expected: 'One'
+    received end of file
+
+queens: incorrect output
+  called as ['./queens', '+2', '/ilab/users/xh172/CS211/pa2/data/queens/test.2.2.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.2.2.ref.txt'
+  line 9
+    expected: 'Zero'
+    received end of file
+
+queens: incorrect output
+  called as ['./queens', '+2', '/ilab/users/xh172/CS211/pa2/data/queens/test.2.3.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.2.3.ref.txt'
+  line 9
+    expected: 'Two or more'
+    received end of file
+
+queens: incorrect output
+  called as ['./queens', '+2', '/ilab/users/xh172/CS211/pa2/data/queens/test.2.4.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.2.4.ref.txt'
+  line 9
+    expected: 'One'
+    received end of file
+
+queens: incorrect output
+  called as ['./queens', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.3.1.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.3.1.ref.txt'
+  line 1
+    expected: 'ww...q..'
+    received: 'qq...q..'
+  line 2
+    expected: 'ww.....q'
+    received: 'qq.....q'
+  line 7
+    expected: '.....w.w'
+    received: '.....q.q'
+  line 8
+    expected: '.q.q.w.w'
+    received: '.q.q.q.q'
+
+queens: incorrect output
+  called as ['./queens', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.3.2.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.3.2.ref.txt'
+  line 1
+    expected: 'Invalid'
+    received: 'qqqqqqqq'
+  7 extra lines in output
+
+queens: incorrect output
+  called as ['./queens', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.3.3.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.3.3.ref.txt'
+  line 8
+    expected: '...ww...'
+    received: '...qq...'
+
+queens: incorrect output
+  called as ['./queens', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.3.4.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.3.4.ref.txt'
+  line 2
+    expected: '........'
+    received: 'qqq....q'
+  line 3
+    expected: '.....q.q'
+    received: 'qq.q.q.q'
+  line 4
+    expected: '..W.....'
+    received: 'q.qq....'
+  line 6
+    expected: '........'
+    received: 'qqqq....'
+  line 7
+    expected: '.......q'
+    received: 'qqqq.q.q'
+  line 8
+    expected: '.W......'
+    received: 'qqq..q.q'
+
+queens: incorrect output
+  called as ['./queens', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.3.5.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.3.5.ref.txt'
+  line 1
+    expected: 'wwww.www'
+    received: 'qqqq.qqq'
+  line 2
+    expected: '.www.www'
+    received: '.qqq.qqq'
+  line 3
+    expected: 'w.ww.ww.'
+    received: 'q.qq.qq.'
+  line 4
+    expected: 'ww.q.q.w'
+    received: 'qq.q.q.q'
+  line 5
+    expected: 'wwq...qw'
+    received: 'qqq...qq'
+  line 7
+    expected: 'wwq...qw'
+    received: 'qqq...qq'
+  line 8
+    expected: 'ww.q.q.w'
+    received: 'qq.q.q.q'
+
+queens: incorrect output
+  called as ['./queens', '+2', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.4.1.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.4.1.ref.txt'
+  line 1
+    expected: 'ww...q..'
+    received: 'qq...q.q'
+  line 2
+    expected: 'ww.....q'
+    received: 'qqq....q'
+  line 5
+    expected: '........'
+    received: 'qq.q....'
+  line 6
+    expected: '..W.....'
+    received: 'q.qq.q..'
+  line 7
+    expected: '.....w.w'
+    received: '.qq..q.q'
+  line 8
+    expected: '.....w.w'
+    received: 'qq.q.q.q'
+  line 9
+    expected: 'Two or more'
+    received end of file
+
+queens: incorrect output
+  called as ['./queens', '+2', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.4.2.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.4.2.ref.txt'
+  line 5
+    expected: '........'
+    received: '.....q..'
+  line 6
+    expected: '....W...'
+    received: '..q.q.q.'
+  line 7
+    expected: '........'
+    received: '.....qq.'
+  line 9
+    expected: 'One'
+    received end of file
+
+queens: incorrect output
+  called as ['./queens', '+2', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.4.3.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.4.3.ref.txt'
+  line 2
+    expected: '.......q'
+    received: 'qq.q...q'
+  line 3
+    expected: '....q...'
+    received: 'qqq.q...'
+  line 4
+    expected: '.W......'
+    received: 'qq.q...q'
+  line 5
+    expected: '........'
+    received: 'q.qqq...'
+  line 7
+    expected: '...W....'
+    received: 'qqqqq...'
+  line 8
+    expected: 'w......q'
+    received: 'qqqq...q'
+  line 9
+    expected: 'Two or more'
+    received end of file
+
+queens: incorrect output
+  called as ['./queens', '+2', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.4.4.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.4.4.ref.txt'
+  line 1
+    expected: '.......W'
+    received: 'qqqqqqqq'
+  line 2
+    expected: 'w.......'
+    received: 'qqqqqqqq'
+  line 3
+    expected: '...W....'
+    received: 'qqqqqqqq'
+  line 4
+    expected: '........'
+    received: 'qqqqqqqq'
+  line 5
+    expected: '......W.'
+    received: 'qqqqqqqq'
+  line 6
+    expected: '........'
+    received: 'qqqqqqqq'
+  line 7
+    expected: '..W.....'
+    received: 'qqqqqqqq'
+  line 8
+    expected: '.....w..'
+    received: 'qqqqqqqq'
+  line 9
+    expected: 'Two or more'
+    received end of file
+
+queens: incorrect output
+  called as ['./queens', '+2', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.4.5.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.4.5.ref.txt'
+  line 1
+    expected: '.......W'
+    received: 'qqqqqqqq'
+  line 2
+    expected: 'W.......'
+    received: 'qqqqqqqq'
+  line 3
+    expected: '...W....'
+    received: 'qqqqqqqq'
+  line 4
+    expected: '........'
+    received: 'qqqqqqqq'
+  line 5
+    expected: '......W.'
+    received: 'qqqqqqqq'
+  line 6
+    expected: '........'
+    received: 'qqqqqqqq'
+  line 7
+    expected: '..W.....'
+    received: 'qqqqqqqq'
+  line 8
+    expected: '.....W..'
+    received: 'qqqqqqqq'
+  line 9
+    expected: 'Zero'
+    received end of file
+
+Tests performed  55
+Tests failed     14
+
+Points
+         Score
+llist     20.0
+mexp      20.0
+stddev    20.0
+bst:1     20.0
+bst:2     10.0
+life      20.0
+queens:1  20.0
+queens:2   4.0
+-------- -----
+Total    134.0
+
+Extra credit
+         Score
+queens:3   0.0
