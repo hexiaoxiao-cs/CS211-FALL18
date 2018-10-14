@@ -2,8 +2,8 @@
 import autograde
 import os, os.path
 
-assignment_name = 'PA2'
-release = 2
+assignment_name = 'PA1'
+release = 1
 
 class LifeTests(autograde.FileTests):
     def get_tests(self, prog, data_dir):

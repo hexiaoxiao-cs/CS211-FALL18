@@ -1,0 +1,5 @@
+inserted
+inserted
+deleted
+present
+absent

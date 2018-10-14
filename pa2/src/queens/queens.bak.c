@@ -12,22 +12,15 @@ void getconflictmap(int board[8][8], int conflict[8][8])
 	for(temp1=0;temp1<8;temp1++){
 		for(temp2=0;temp2<8;temp2++)
 		{
-			//for(deb1=0;deb1<8;deb1++){
-			//for(deb2=0;deb2<8;deb2++){
-			//printf("%d",conflict[deb1][deb2]);}
-			//printf("\n");
-			//}
-			//printf("-----------------------\n");	
+		//	for(deb1=0;deb1<8;deb1++){
+		//	for(deb2=0;deb2<8;deb2++){
+		//	printf("%d",conflict[deb1][deb2]);}
+		//	printf("\n");
+		//	}
+		//	printf("-----------------------\n");	
 			if(board[temp1][temp2]!=0){
-			//for(deb1=0;deb1<8;deb1++){
-			//for(deb2=0;deb2<8;deb2++){
-			//printf("%d",conflict[deb1][deb2]);}
-			//printf("\n");
-			//}
-			//printf("----------------\n");
-
 				for(temp3=1;temp3<8;temp3++)
-				{	
+				{
 					if(temp1-temp3>=0){conflict[temp1-temp3][temp2]=1;}
 					if(temp1+temp3<8){conflict[temp1+temp3][temp2]=1;}
 					if(temp2-temp3>=0){conflict[temp1][temp2-temp3]=1;}
@@ -45,48 +38,48 @@ void getconflictmap(int board[8][8], int conflict[8][8])
 					if(temp2+1<8){conflict[temp1-2][temp2+1]=1;}
 					//else{conflict[temp1-2][temp2+1-8]=1;}
 				}
-			//	else{
-			//		if(temp2-1>=0){conflict[temp1-2+8][temp2-1]=1;}
+				else{
+					if(temp2-1>=0){conflict[temp1-2+8][temp2-1]=1;}
 					//else{conflict[temp1-2+8][8+temp2-1]=1;}
-			//		if(temp2+1<8){conflict[temp1-2+8][temp2+1]=1;}
+					if(temp2+1<8){conflict[temp1-2+8][temp2+1]=1;}
 					//else{conflict[temp1-2+8][temp2+1-8]=1;}
-			//	}
+				}
 				if(temp1+2<8){
 					if(temp2-1>=0){conflict[temp1+2][temp2-1]=1;}
 					//else{conflict[temp1+2][8+temp2-1]=1;}
 					if(temp2+1<8){conflict[temp1+2][temp2+1]=1;}
 					//else{conflict[temp1+2][temp2+1-8]=1;}
 				}
-			//	else{
-			//		if(temp2-1>=0){conflict[temp1+2-8][temp2-1]=1;}
+				else{
+					if(temp2-1>=0){conflict[temp1+2-8][temp2-1]=1;}
 					//else{conflict[temp1+2-8][8+temp2-1]=1;}
-			//		if(temp2+1<8){conflict[temp1+2-8][temp2+1]=1;}
+					if(temp2+1<8){conflict[temp1+2-8][temp2+1]=1;}
 					//else{conflict[temp1+2-8][temp2+1-8]=1;}
-			//	}
+				}
 				if(temp1-1>=0){
 					if(temp2-2>=0){conflict[temp1-1][temp2-2]=1;}
 					//else{conflict[temp1-1][8+temp2-2]=1;}
 					if(temp2+2<8){conflict[temp1-1][temp2+2]=1;}
 					//else{conflict[temp1-1][temp2+2-8]=1;}
 				}
-			//	else{
-			//		if(temp2-2>=0){conflict[temp1-1+8][temp2-2]=1;}
+				else{
+					if(temp2-2>=0){conflict[temp1-1+8][temp2-2]=1;}
 					//else{conflict[temp1-1+8][8+temp2-2]=1;}
-			//		if(temp2+2<8){conflict[temp1-1+8][temp2+2]=1;}
+					if(temp2+2<8){conflict[temp1-1+8][temp2+2]=1;}
 					//else{conflict[temp1-1+8][temp2+2-8]=1;}
-			//	}
+				}
 				if(temp1+1<8){
 					if(temp2-2>=0){conflict[temp1+1][temp2-2]=1;}
 					//else{conflict[temp1+1][8+temp2-2]=1;}
 					if(temp2+2<8){conflict[temp1+1][temp2+2]=1;}
 					//else{conflict[temp1+1][temp2+2-8]=1;}
 				}
-			//	else{
-			//		if(temp2-2>=0){conflict[temp1+1-8][temp2-2]=1;}
+				else{
+					if(temp2-2>=0){conflict[temp1+1-8][temp2-2]=1;}
 					//else{conflict[temp1+1-8][8+temp2-2]=1;}
-			//		if(temp2+2<8){conflict[temp1+1-8][temp2+2]=1;}
+					if(temp2+2<8){conflict[temp1+1-8][temp2+2]=1;}
 					//else{conflict[temp1+1-8][temp2+2-8]=1;}
-			//	}
+				}
 
 
 
@@ -194,8 +187,7 @@ int main(int argc,char* argv[])
 			scanf(" %c ",&tempchar);
 			if(tempchar=='Q'){board[temp1][temp2]=2;}
 			else{if(tempchar=='W'){board[temp1][temp2]=3;}
-				else{if(tempchar=='.'){board[temp1][temp2]=0;}
-					else{printf("WRONGFILE!!!");return EXIT_SUCCESS;}}}
+				else{board[temp1][temp2]=0;}}
 		}
 	}
 	getconflictmap(board,conflictbd);

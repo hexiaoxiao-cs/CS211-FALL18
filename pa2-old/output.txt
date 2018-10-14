@@ -1,0 +1,44 @@
+PA1 Auto-grader, Release 1
+
+queens: incorrect output
+  called as ['./queens', '+2', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.4.4.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.4.4.ref.txt'
+  line 4
+    expected: '........'
+    received: 'w.......'
+  line 8
+    expected: '.....w..'
+    received: '........'
+  line 9
+    expected: 'Two or more'
+    received: 'One'
+
+queens: incorrect output
+  called as ['./queens', '+2', '-w', '/ilab/users/xh172/CS211/pa2/data/queens/test.4.5.txt']
+  reference file: '/ilab/users/xh172/CS211/pa2/data/queens/test.4.5.ref.txt'
+  line 1
+    expected: '.......W'
+    received: 'Invalid'
+  line 2
+    expected: 'W.......'
+    received end of file
+
+Tests performed  55
+Tests failed      2
+
+Points
+         Score
+llist     20.0
+mexp      20.0
+stddev    20.0
+bst:1     20.0
+bst:2     10.0
+life      20.0
+queens:1  20.0
+queens:2  20.0
+-------- -----
+Total    150.0
+
+Extra credit
+         Score
+queens:3   8.0

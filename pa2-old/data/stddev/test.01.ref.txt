@@ -1,0 +1,2 @@
+mean: 102
+stddev: 4
