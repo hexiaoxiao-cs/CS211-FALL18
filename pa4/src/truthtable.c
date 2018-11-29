@@ -4,9 +4,11 @@
 
 #include <ctype.h>
 
+int DEBUG=1;
 int powy(int x,int y)
 {
 	int tmp=0,toret=x;
+	if(y==0){return 1;}
 	for(tmp=1;tmp<y;tmp++)
 	{
 		toret*=x;
@@ -84,56 +86,96 @@ int chkdep(instrblk *curr, int *varin)
 	if(curr->instr==2){size=1;}
 	if(curr->instr>=3&&curr->instr<=6){size=2;}
 	if(curr->instr==7){size=-(curr->inputs[0])+1;tempvar=1;}
-	if(curr->instr==8){tempvar=1;size=powy(2,-curr->inputs[0])+1;}
+	if(curr->instr==8){tempvar=1;size=powy(2,-curr->inputs[0])+1-curr->inputs[0];}
+	if(DEBUG==1){printf("CHKDEP START\n");}
 	for(;tempvar<size;tempvar++)
 	{
-		if(varin[curr->inputs[tempvar]]==0){return -1;}
+		if(DEBUG==1){
+		printf("Checking %d\n",tempvar);}
+		if (curr->inputs[tempvar] > 0) {
+			if (varin[curr->inputs[tempvar]] == -1) { 
+				if(DEBUG==1){
+					printf("We need: %d, do we have?:%d",curr->inputs[tempvar],varin[curr->inputs[tempvar]]);}
+			return -1; }
+		}else
+		{ }
+
 	}
+	if(DEBUG==1){printf("CHKDEP STOPPED\n");}
 	return 0;
+}
+void printarr(int* a,int valnums)
+{
+	int tmp=1;
+	printf("PRINT CURR ARR\n");
+	for(tmp=1;tmp<valnums;tmp++)
+	{
+		printf("%d:%d\n",tmp,a[tmp]);
+	}
+	printf("\n");
 }
 void instrsort(instrblk *head,int valnums)
 {
 	int *a,tempvar=0,size=0;
 	int counter=0;
+	int flag=0;
 	instrblk *curr=head,*before=head,*currbefore=head;
 	a=(int*)malloc(valnums*sizeof(int));
 	memset(a,-1,sizeof(int)*valnums);
-	
+	printf("\nSTARTSORT\n");
 	while(curr!=NULL){
-		printf("%d\n",counter);
+		if(curr==NULL){break;}
+		if(DEBUG==1){
+		printf("%d\n",counter);}
 		counter++;
 		if(curr->instr==0){//inputblock
 			for(tempvar=1;tempvar<=-(curr->outputs[0]);tempvar++){
 				a[curr->outputs[tempvar]]=1;
 			}
-			before=curr;
-			currbefore=curr;
+			before=curr->next;
+			currbefore=curr->next;
 			curr=curr->next;
 			continue;
 		}
 		//check if satisfy dependence
 		if(chkdep(curr,a)==-1){
+			if(DEBUG==1){
+			printf("%d Block Not Pass, Continue to next block\n",curr->instr);
+			printarr(a,valnums);}
 			currbefore=curr;
 			curr=curr->next;
+			flag=1;
 			continue;}
 		//dependence satisfied
-		if(curr->instr==2){size=1;}
-		if(curr->instr>=3&&curr->instr<=6){size=2;}
+		if(DEBUG==1){
+		printf("%d DEPENDENCE SATISFIED\n",curr->instr);
+		printf("We need to switch two block from: %d, to %d\n",curr->instr,before->instr);
+		printarr(a,valnums);
+		}
+		if(curr->instr==2){tempvar=0;size=1;}
+		if(curr->instr>=3&&curr->instr<=6){tempvar=0;size=1;}
 		if(curr->instr==7){size=-(curr->inputs[0])+1;tempvar=1;}
-		if(curr->instr==8){tempvar=1;size=powy(2,-curr->inputs[0])+1;}
+		if(curr->instr==8){tempvar=0;size=1;}
 		for(;tempvar<size;tempvar++)
 		{
-			a[curr->outputs[tempvar]]=1;
+			if (curr->outputs[tempvar] > 0) {
+				a[curr->outputs[tempvar]] = 1;
+			}
 		}
-		if(currbefore!=before){
-		currbefore->next=curr->next;
-		curr->next=before->next;
-		before->next=curr;
-		before=curr;
-		currbefore=curr;
-		curr=curr->next;}
+		if(currbefore!=before||flag=1){
+			if(DEBUG==1){
+			printf("CURRB!=BEFORE,Switch\n");}
+			currbefore->next=curr->next;
+			curr->next=before->next;
+			before->next=curr;
+			before=curr;
+			currbefore=curr;
+			curr=curr->next;
+			flag=0;}
 		else
 		{
+			if(DEBUG==1){
+			printf("CONTINUE TO NEXT\n");}
 			before=curr;
 			currbefore=curr;
 			curr=curr->next;
@@ -147,39 +189,58 @@ void instrsort(instrblk *head,int valnums)
 			curr=curr->next;
 		}*/
 	}
+	printf("EXIT SORT\n");
 	return;
 }
 int NOT(int input)
 {
+	if(DEBUG==1){
+		printf("Not\n%d\n",input);}
 	return !input;
 }
 int AND(int input1,int input2)
 {
+	if(DEBUG==1){
+		printf("AND\n%d %d\n",input1,input2);}
 	return input1&&input2;
 }
 int OR(int input1,int input2)
 {
+	if(DEBUG==1){
+	printf("OR\n%d %d\n",input1,input2);}
 	return input1||input2;
 }
 int NAND(int input1,int input2)
 {
+	if(DEBUG==1){
+	printf("NAND\n%d %d\n",input1,input2);}
 	return !(input1&&input2);
 }
 int NOR(int input1,int input2)
 {
+	if(DEBUG==1){
+	printf("NOR\n%d %d\n",input1,input2);}
 	return !(input1||input2);
 }
 int XOR(int input1,int input2)
 {
+	if(DEBUG==1){
+	printf("XOR\n%d %d\n",input1,input2);}
 	if((input1||input2)==1&&!(input1&&input2)){return 1;}
 	else{return 0;}
 }
 int DECODER(int n, int* input1) //return the place of the digit with 1
 {
-	int miku,hatsune;
-	for(miku=0;miku<n;miku++)
+	int miku,hatsune=0;
+	int temp = n-2;
+	if(DEBUG==1){
+	printf("Decoder Block:\n");}
+	for(miku=1;miku<n;miku++)
 	{
-		hatsune=input1[miku]*powy(2,miku);
+		hatsune+=input1[miku]*powy(2,temp);
+		if(DEBUG==1){
+				printf("%d %d  %d  Curr Sum:%d\n",temp,input1[miku],powy(2,temp),hatsune);}
+		temp--;
 	}
 	return hatsune;
 }
@@ -187,60 +248,83 @@ int MUX(int n, int* input1)
 //input1 is the "selector"
 //input2 is to be selected
 {
-	int miku,hatsune;
-	for(miku=1;miku<powy(2,n);miku++)
+	int miku,hatsune=0;
+	int temp = n-1;
+	if(DEBUG==1){
+		printf("MUX:\n");}
+	for(miku= powy(2, n)+1;miku<powy(2, n)+n+1;miku++)
 	{
-		hatsune=input1[miku]*powy(2,miku);
+		if(DEBUG==1){
+				printf("Digit:%d,Place:%d,Datainarray:%d\n", temp, miku, input1[miku]);
+				printf("power of digit: %d\n", powy(2, temp));}
+		hatsune+=input1[miku]*powy(2,temp);
+		temp--;
+		
 	}
-	return input1[hatsune+powy(2,n)+1];
+	if(DEBUG==1){
+	printf("Adder:%d    THis should give the place of the output\n", hatsune);}
+	return input1[hatsune+1];
 }	
-void LOAD_EFFECTIVE_VALUE(int* vals, int* inputs, int* hatsune) //only the decoder and mux use thgis
+void LOAD_EFFECTIVE_VALUE(int* vals, instrblk *curr, int* hatsune,int size) //
 {
-	int miku = 1;
+	int miku = 0;
 	
 	
-	while(inputs[miku]!=-2)
+	for(;miku<size;miku++)
 	{
-		if(inputs[miku]==-1){hatsune[miku]=1;continue;}
-		if(inputs[miku]==0){hatsune[miku]=0;continue;}
-		hatsune[miku]=vals[inputs[miku]];
-		miku++;
+		if (curr->inputs[miku] <= 0) { hatsune[miku] = -curr->inputs[miku]; continue; }
+		hatsune[miku]=vals[curr->inputs[miku]];
+		
 	}
 	return;
 }
 int* operation(instrblk *curr, int* vals)
 {
 	int *hatsune,miku;
+	int temp = 0;
 	switch(curr->instr){
 		case 0: break;
 		case 1: //NOT
-			vals[curr->outputs[0]]=NOT(vals[curr->inputs[0]]);
+			hatsune = (int*)malloc(sizeof(int));
+			LOAD_EFFECTIVE_VALUE(vals, curr, hatsune, 1);
+			vals[curr->outputs[0]]=NOT(hatsune[0]);
 			break;
 		case 2: //AND
-			vals[curr->outputs[0]]=AND(vals[curr->inputs[0]],vals[curr->inputs[1]]);
+			hatsune = (int*)malloc(2 * sizeof(int));
+			LOAD_EFFECTIVE_VALUE(vals, curr, hatsune, 2);
+			vals[curr->outputs[0]]=AND(hatsune[0],hatsune[1]);
 			break;
 		case 3: //OR
-			vals[curr->outputs[0]]=OR(vals[curr->inputs[0]],vals[curr->inputs[1]]);
+			hatsune = (int*)malloc(2 * sizeof(int));
+			LOAD_EFFECTIVE_VALUE(vals, curr, hatsune, 2);
+			vals[curr->outputs[0]]=OR(hatsune[0],hatsune[1]);
 			break;
 		case 4: //NAND
-			vals[curr->outputs[0]]=NAND(vals[curr->inputs[0]],vals[curr->inputs[1]]);
+			hatsune = (int*)malloc(2 * sizeof(int));
+			LOAD_EFFECTIVE_VALUE(vals, curr, hatsune, 2);
+			vals[curr->outputs[0]]=NAND(hatsune[0],hatsune[1]);
 			break;
 		case 5: //NOR
-			vals[curr->outputs[0]]=NOR(vals[curr->inputs[0]],vals[curr->inputs[1]]);
+			hatsune = (int*)malloc(2 * sizeof(int));
+			LOAD_EFFECTIVE_VALUE(vals, curr, hatsune, 2);
+			vals[curr->outputs[0]]=NOR(hatsune[0],hatsune[1]);
 			break;
 		case 6: //XOR
-			vals[curr->outputs[0]]=XOR(vals[curr->inputs[0]],vals[curr->inputs[1]]);
+			hatsune = (int*)malloc(2 * sizeof(int));
+			LOAD_EFFECTIVE_VALUE(vals, curr, hatsune, 2);
+			vals[curr->outputs[0]]=XOR(hatsune[0],hatsune[1]);
 			break;
 		case 7: //DECODER
-			hatsune=(int*)malloc(sizeof(curr->inputs));
-			LOAD_EFFECTIVE_VALUE(vals,curr->inputs,hatsune);
-			vals[curr->outputs[0]]=DECODER(vals[curr->inputs[0]],hatsune);
+			hatsune=(int*)malloc((1-curr->inputs[0])*sizeof(int));
+			LOAD_EFFECTIVE_VALUE(vals,curr,hatsune,1-curr->inputs[0]);
+			temp = DECODER(1-curr->inputs[0], hatsune);
+			vals[curr->outputs[temp]]=1;
 			break;
 		case 8://MUX
-			hatsune=(int*)malloc(sizeof(curr->inputs));
-			LOAD_EFFECTIVE_VALUE(vals,curr->inputs,hatsune);
+			hatsune = (int*)malloc((1 - curr->inputs[0] + powy(2, -curr->inputs[0])) * sizeof(int));
+			LOAD_EFFECTIVE_VALUE(vals,curr,hatsune, 1 - curr->inputs[0] + powy(2, -curr->inputs[0]));
 			miku=hatsune[0];
-			vals[curr->outputs[0]]=hatsune[powy(2,miku)+MUX(miku,hatsune)];
+			vals[curr->outputs[0]]=MUX(miku,hatsune);
 			break;
 
 	}
@@ -250,10 +334,16 @@ int* operation(instrblk *curr, int* vals)
 
 void printTruth(instrblk *instr,int *outputs,int valnums){
 	int numinput=-instr->outputs[0],numoutput=-outputs[0],pos=0;
-	int *a;
+	int *a,*mask;
 	a=(int*)malloc(valnums*sizeof(int));
+	mask = (int*)malloc(valnums * sizeof(int));
+
 	int size=powy(2,numinput),tempvar,tempvar1,OF=0;
 	memset(a,0,sizeof(int)*valnums);
+	memset(mask, 0, sizeof(int)*valnums);
+	for (tempvar = 1; tempvar <= numinput; tempvar++) {
+		mask[instr->outputs[tempvar]] = 1;
+	}
 	for(tempvar1=1;tempvar1<=numinput;tempvar1++){
 	printf("%d ",a[instr->outputs[tempvar1]]);
 	}
@@ -282,7 +372,12 @@ void printTruth(instrblk *instr,int *outputs,int valnums){
 				}
 			}
 		}
+		//set all other values to zero
+		for (tempvar1 = 0; tempvar1 < valnums; tempvar1++)
+		{
+			a[tempvar1] *= mask[tempvar1];
 
+		}
 		for(tempvar1=1;tempvar1<=numinput;tempvar1++){
 			printf("%d ",a[instr->outputs[tempvar1]]);
 		}
@@ -293,7 +388,8 @@ void printTruth(instrblk *instr,int *outputs,int valnums){
 		}
 		printf("\n");
 	}
-	printf("%d %d",numoutput,valnums);
+	if(DEBUG==1){
+	printf("%d %d",numoutput,valnums);}
 	return;
 }
 
@@ -307,15 +403,19 @@ int* scanstring(strarr **vars)
 	output=(int*)malloc(sizeof(int));
 	tmp=(char*)malloc(sizeof(char));
 	while(1)
-	{
-		if(scanf("%c",&temp)==0){return output;}
+	{		
 		if(stop==1){
 			//printf("\n%d\n",(int)(sizeof(output)/sizeof(int)));
 			//printf("%d\n",(int)sizeof(output));
 			//printf("%d\n",output[nowint-1]);
 			return output;}
+		if(scanf("%c",&temp)==EOF){
+			stop = 1;
+
+		}
+
 		if(temp==':'){continue;}
-		if(temp==' '||temp=='\n'){
+		if(temp==' '||temp=='\n'||stop==1){
 			if(temp=='\n'){stop=1;}
 			if(last==0){if(temp=='\n'){return output;}continue;}
 			else{last=0;
@@ -327,9 +427,9 @@ int* scanstring(strarr **vars)
 				tmp=(char*)malloc(sizeof(char));if(temp=='\n'){return output;}
 				continue;}
 				else{
-				printf("%s:",tmp);
+				//printf("%s:",tmp);
 				tt=get_num(*vars,tmp);
-				printf("%d\n",tt);
+				//printf("%d\n",tt);
 				if(tt==-1){
 					if(*vars==NULL){
 						strarr *new=(strarr*)malloc(sizeof(strarr));
@@ -393,7 +493,29 @@ void print_instrblk(instrblk *instr){
 		case 4: printf("NAND Block\n Inputs:%d,%d\nOutputs:%d\n\n",instr->inputs[0],instr->inputs[1],instr->outputs[0]);break;
 		case 5: printf("NOR Block\n Inputs:%d,%d\nOutputs:%d\n\n",instr->inputs[0],instr->inputs[1],instr->outputs[0]);break;
 		case 6: printf("XOR Block\n Inputs:%d,%d\nOutputs:%d\n\n",instr->inputs[0],instr->inputs[1],instr->outputs[0]);break;
-		
+		case 7: printf("DECODER\n Numbers:%d\n", -instr->inputs[0]);
+			printf("Inputs:\n");
+			for (temp = 1; temp <= -instr->inputs[0]; temp++)
+			{
+				printf("%d ", instr->inputs[temp]);
+			}
+			printf("\nOutputs:\n");
+			for (temp = 0; temp <powy(2,-instr->inputs[0]); temp++)
+			{
+				printf("%d ", instr->outputs[temp]);
+			}
+			printf("\n");
+			break;
+		case 8: printf("MUX\n Numbers:%d\n", -instr->inputs[0]);
+			printf("Inputs:\n");
+			for (temp = 1; temp <powy(2, -instr->inputs[0])-instr->inputs[0]+1; temp++)
+			{
+				printf("%d ", instr->inputs[temp]);
+			}
+			printf("\nOutputs:\n");
+			printf("%d", instr->outputs[0]);
+			printf("\n");
+			break;
 	}
 	return;
 }
@@ -416,8 +538,10 @@ int* parse(strarr **vars, instrblk **instr)
 		if(strcmp(ins,"NAND")==0){tmp1->instr=4;tmp3=scanstring(vars);toinout(tmp3,tmp1,2,3);}
 		if(strcmp(ins,"NOR")==0){tmp1->instr=5;tmp3=scanstring(vars);toinout(tmp3,tmp1,2,3);}
 		if(strcmp(ins,"XOR")==0){tmp1->instr=6;tmp3=scanstring(vars);toinout(tmp3,tmp1,2,3);}
-		if(strcmp(ins,"DECODER")==0){tmp1->instr=7;tmp3=scanstring(vars);toinout(tmp3,tmp1,-tmp3[0]+2,1-tmp3[0]+powy(2,-tmp3[0]));}
-		if(strcmp(ins,"MULTIPLEXER")==0){tmp1->instr=8;tmp3=scanstring(vars);toinout(tmp3,tmp1,powy(2,-tmp3[0])+1,1-tmp3[0]+powy(2,-tmp3[0]));}
+		if(strcmp(ins,"DECODER")==0){tmp1->instr=7;
+		tmp3=scanstring(vars);
+		toinout(tmp3,tmp1,-tmp3[0]+1,1-tmp3[0]+powy(2,-tmp3[0]));}
+		if(strcmp(ins,"MULTIPLEXER")==0){tmp1->instr=8;tmp3=scanstring(vars);toinout(tmp3,tmp1,powy(2,-tmp3[0])+1-tmp3[0],2-tmp3[0]+powy(2,-tmp3[0]));}
 /* 		printf("%d\n",tmp1->instr);
 		printf("Inputs:\n");
 		if(tmp1->inputs==NULL){printf("No Inputs\n");}
@@ -436,12 +560,14 @@ int* parse(strarr **vars, instrblk **instr)
 			}
 		}
 		printf("\n\n"); */
-		print_instrblk(tmp1);
+		if(DEBUG==1){
+				print_instrblk(tmp1);}
 		tmp1->next=NULL;
 		if(*instr==NULL){*instr=tmp1;tmp2=tmp1;}
 		else{tmp2->next=tmp1;tmp2=tmp2->next;}
 
 	}	
+	
 	return output;
 }
 
@@ -459,8 +585,9 @@ int main(int argc,char* argv[])
 	output=parse(&vars,&a);
 	tempstrarr=vars;
 	while(tempstrarr!=NULL){cntarg++;tempstrarr=tempstrarr->next;}
-	printf("There are %d variables in the instruction",cntarg);
+	//printf("There are %d variables in the instruction",cntarg);
 	instrsort(a,cntarg+1);
+	print_instrblk(a);
 	printTruth(a,output,cntarg+1);
 	
 	return EXIT_SUCCESS;
