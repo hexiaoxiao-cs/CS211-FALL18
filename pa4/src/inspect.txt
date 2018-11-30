@@ -1,0 +1,3591 @@
+Input Block
+ Outputs:1 2 3 4 5 6 7 8 
+XOR Block
+ Inputs:10,11
+Outputs:12
+
+XOR Block
+ Inputs:13,14
+Outputs:15
+
+XOR Block
+ Inputs:1,2
+Outputs:10
+
+XOR Block
+ Inputs:3,4
+Outputs:11
+
+XOR Block
+ Inputs:12,15
+Outputs:9
+
+XOR Block
+ Inputs:5,6
+Outputs:14
+
+XOR Block
+ Inputs:7,8
+Outputs:13
+
+
+STARTSORT
+0
+1
+CHKDEP START
+Checking 0
+We need: 10, do we have?:-16 Block Not Pass, Continue to next block
+PRINT CURR ARR
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
+8:1
+9:-1
+10:-1
+11:-1
+12:-1
+13:-1
+14:-1
+15:-1
+
+2
+CHKDEP START
+Checking 0
+We need: 13, do we have?:-16 Block Not Pass, Continue to next block
+PRINT CURR ARR
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
+8:1
+9:-1
+10:-1
+11:-1
+12:-1
+13:-1
+14:-1
+15:-1
+
+3
+CHKDEP START
+Checking 0
+Checking 1
+CHKDEP STOPPED
+6 DEPENDENCE SATISFIED
+PRINT CURR ARR
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
+8:1
+9:-1
+10:-1
+11:-1
+12:-1
+13:-1
+14:-1
+15:-1
+
+We need to switch two block from: 6, to 6
+4
+CHKDEP START
+Checking 0
+Checking 1
+CHKDEP STOPPED
+6 DEPENDENCE SATISFIED
+PRINT CURR ARR
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
+8:1
+9:-1
+10:1
+11:-1
+12:-1
+13:-1
+14:-1
+15:-1
+
+CONTINUE TO NEXT
+5
+CHKDEP START
+Checking 0
+We need: 12, do we have?:-16 Block Not Pass, Continue to next block
+PRINT CURR ARR
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
+8:1
+9:-1
+10:1
+11:1
+12:-1
+13:-1
+14:-1
+15:-1
+
+6
+CHKDEP START
+Checking 0
+Checking 1
+CHKDEP STOPPED
+6 DEPENDENCE SATISFIED
+PRINT CURR ARR
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
+8:1
+9:-1
+10:1
+11:1
+12:-1
+13:-1
+14:-1
+15:-1
+
+We need to switch two block from: 6, to 6
+7
+CHKDEP START
+Checking 0
+We need: 12, do we have?:-16 Block Not Pass, Continue to next block
+PRINT CURR ARR
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
+8:1
+9:-1
+10:1
+11:1
+12:-1
+13:-1
+14:1
+15:-1
+
+8
+CHKDEP START
+Checking 0
+Checking 1
+CHKDEP STOPPED
+6 DEPENDENCE SATISFIED
+PRINT CURR ARR
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
+8:1
+9:-1
+10:1
+11:1
+12:-1
+13:-1
+14:1
+15:-1
+
+We need to switch two block from: 6, to 6
+9
+CHKDEP START
+Checking 0
+We need: 12, do we have?:-16 Block Not Pass, Continue to next block
+PRINT CURR ARR
+1:1
+2:1
+3:1
+4:1
+5:1
+6:1
+7:1
+8:1
+9:-1
+10:1
+11:1
+12:-1
+13:1
+14:1
+15:-1
+
+EXIT SORT
+Execute Print INSTRBLK After Sort
+Input Block
+ Outputs:1 2 3 4 5 6 7 8 
+XOR Block
+ Inputs:10,11
+Outputs:12
+
+XOR Block
+ Inputs:1,2
+Outputs:10
+
+XOR Block
+ Inputs:3,4
+Outputs:11
+
+XOR Block
+ Inputs:5,6
+Outputs:14
+
+XOR Block
+ Inputs:7,8
+Outputs:13
+
+XOR Block
+ Inputs:12,15
+Outputs:9
+
+0 0 0 0 0 0 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 0 0 0 0 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 0 0 0 0 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 0 0 0 0 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 0 0 0 1 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 0 0 0 1 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 0 0 0 1 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 0 0 0 1 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 0 0 1 0 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 0 0 1 0 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 0 0 1 0 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 0 0 1 0 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 0 0 1 1 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 0 0 1 1 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 0 0 1 1 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 0 0 1 1 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 0 1 0 0 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 0 1 0 0 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 0 1 0 0 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 0 1 0 0 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 0 1 0 1 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 0 1 0 1 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 0 1 0 1 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 0 1 0 1 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 0 1 1 0 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 0 1 1 0 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 0 1 1 0 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 0 1 1 0 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 0 1 1 1 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 0 1 1 1 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 0 1 1 1 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 0 1 1 1 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 1 0 0 0 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 1 0 0 0 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 1 0 0 0 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 1 0 0 0 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 1 0 0 1 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 1 0 0 1 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 1 0 0 1 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 1 0 0 1 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 1 0 1 0 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 1 0 1 0 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 1 0 1 0 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 1 0 1 0 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 1 0 1 1 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 1 0 1 1 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 1 0 1 1 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 1 0 1 1 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 1 1 0 0 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 1 1 0 0 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 1 1 0 0 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 1 1 0 0 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 1 1 0 1 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 1 1 0 1 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 1 1 0 1 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 1 1 0 1 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 1 1 1 0 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 1 1 1 0 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 1 1 1 0 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 1 1 1 0 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 0 1 1 1 1 0 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 0 1 1 1 1 0 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 0 1 1 1 1 1 0 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 0 1 1 1 1 1 1 XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 0 0 0 0 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 0 0 0 0 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 0 0 0 0 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 0 0 0 0 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 0 0 0 1 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 0 0 0 1 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 0 0 0 1 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 0 0 0 1 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 0 0 1 0 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 0 0 1 0 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 0 0 1 0 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 0 0 1 0 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 0 0 1 1 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 0 0 1 1 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 0 0 1 1 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 0 0 1 1 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 0 1 0 0 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 0 1 0 0 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 0 1 0 0 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 0 1 0 0 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 0 1 0 1 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 0 1 0 1 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 0 1 0 1 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 0 1 0 1 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 0 1 1 0 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 0 1 1 0 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 0 1 1 0 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 0 1 1 0 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 0 1 1 1 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 0 1 1 1 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 0 1 1 1 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 0 1 1 1 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 1 0 0 0 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 1 0 0 0 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 1 0 0 0 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 1 0 0 0 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 1 0 0 1 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 1 0 0 1 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 1 0 0 1 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 1 0 0 1 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 1 0 1 0 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 1 0 1 0 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 1 0 1 0 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 1 0 1 0 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 1 0 1 1 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 1 0 1 1 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 1 0 1 1 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 1 0 1 1 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 1 1 0 0 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 1 1 0 0 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 1 1 0 0 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 1 1 0 0 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 1 1 0 1 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 1 1 0 1 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 1 1 0 1 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 1 1 0 1 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 1 1 1 0 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 1 1 1 0 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 1 1 1 0 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 1 1 1 0 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+0 1 1 1 1 1 0 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+0 1 1 1 1 1 0 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+0 1 1 1 1 1 1 0 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+0 1 1 1 1 1 1 1 XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 0 0 0 0 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 0 0 0 0 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 0 0 0 0 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 0 0 0 0 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 0 0 0 1 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 0 0 0 1 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 0 0 0 1 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 0 0 0 1 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 0 0 1 0 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 0 0 1 0 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 0 0 1 0 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 0 0 1 0 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 0 0 1 1 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 0 0 1 1 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 0 0 1 1 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 0 0 1 1 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 0 1 0 0 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 0 1 0 0 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 0 1 0 0 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 0 1 0 0 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 0 1 0 1 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 0 1 0 1 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 0 1 0 1 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 0 1 0 1 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 0 1 1 0 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 0 1 1 0 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 0 1 1 0 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 0 1 1 0 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 0 1 1 1 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 0 1 1 1 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 0 1 1 1 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 0 1 1 1 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 1 0 0 0 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 1 0 0 0 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 1 0 0 0 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 1 0 0 0 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 1 0 0 1 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 1 0 0 1 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 1 0 0 1 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 1 0 0 1 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 1 0 1 0 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 1 0 1 0 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 1 0 1 0 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 1 0 1 0 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 1 0 1 1 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 1 0 1 1 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 1 0 1 1 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 1 0 1 1 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 1 1 0 0 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 1 1 0 0 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 1 1 0 0 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 1 1 0 0 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 1 1 0 1 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 1 1 0 1 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 1 1 0 1 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 1 1 0 1 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 1 1 1 0 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 1 1 1 0 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 1 1 1 0 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 1 1 1 0 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 0 1 1 1 1 0 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 0 1 1 1 1 0 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 0 1 1 1 1 1 0 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 0 1 1 1 1 1 1 XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 0 0 0 0 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 0 0 0 0 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 0 0 0 0 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 0 0 0 0 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 0 0 0 1 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 0 0 0 1 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 0 0 0 1 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 0 0 0 1 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 0 0 1 0 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 0 0 1 0 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 0 0 1 0 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 0 0 1 0 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 0 0 1 1 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 0 0 1 1 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 0 0 1 1 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 0 0 1 1 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 0 1 0 0 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 0 1 0 0 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 0 1 0 0 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 0 1 0 0 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 0 1 0 1 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 0 1 0 1 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 0 1 0 1 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 0 1 0 1 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 0 1 1 0 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 0 1 1 0 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 0 1 1 0 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 0 1 1 0 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 0 1 1 1 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 0 1 1 1 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 0 1 1 1 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 0 1 1 1 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+0 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 1 0 0 0 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 1 0 0 0 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 1 0 0 0 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 1 0 0 0 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 1 0 0 1 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 1 0 0 1 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 1 0 0 1 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 1 0 0 1 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 1 0 1 0 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 1 0 1 0 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 1 0 1 0 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 1 0 1 0 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 1 0 1 1 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 1 0 1 1 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 1 0 1 1 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 1 0 1 1 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 1 1 0 0 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 1 1 0 0 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 1 1 0 0 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 1 1 0 0 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 1 1 0 1 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 1 1 0 1 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 1 1 0 1 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 1 1 0 1 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+0 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 1 1 1 0 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 1 1 1 0 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 1 1 1 0 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 0
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 1 1 1 0 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 0
+XOR
+1 1
+XOR
+0 0
+| 0
+1 1 1 1 1 1 0 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+XOR
+0 0
+| 0
+1 1 1 1 1 1 0 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 1
+XOR
+0 0
+| 0
+1 1 1 1 1 1 1 0 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 1
+XOR
+1 0
+XOR
+0 0
+| 0
+1 1 1 1 1 1 1 1 XOR
+0 0
+XOR
+1 1
+XOR
+1 1
+XOR
+1 1
+XOR
+1 1
+XOR
+0 0
+| 0
+1 16

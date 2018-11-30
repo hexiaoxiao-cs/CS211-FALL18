@@ -87,6 +87,7 @@ int chkdep(instrblk *curr, int *varin)
 	if(curr->instr>=3&&curr->instr<=6){size=2;}
 	if(curr->instr==7){size=-(curr->inputs[0])+1;tempvar=1;}
 	if(curr->instr==8){tempvar=1;size=powy(2,-curr->inputs[0])+1-curr->inputs[0];}
+	if(curr->instr==9){size=1;}
 	if(DEBUG==1){printf("CHKDEP START\n");}
 	for(;tempvar<size;tempvar++)
 	{
@@ -122,7 +123,8 @@ void instrsort(instrblk *head,int valnums)
 	instrblk *curr=head,*before=head,*currbefore=head;
 	a=(int*)malloc(valnums*sizeof(int));
 	memset(a,-1,sizeof(int)*valnums);
-	printf("\nSTARTSORT\n");
+	if(DEBUG==1){
+		printf("\nSTARTSORT\n");}
 	while(curr!=NULL){
 		if(curr==NULL){break;}
 		if(DEBUG==1){
@@ -149,22 +151,23 @@ void instrsort(instrblk *head,int valnums)
 		//dependence satisfied
 		if(DEBUG==1){
 		printf("%d DEPENDENCE SATISFIED\n",curr->instr);
-		printf("We need to switch two block from: %d, to %d\n",curr->instr,before->instr);
+		
 		printarr(a,valnums);
 		}
 		if(curr->instr==2){tempvar=0;size=1;}
 		if(curr->instr>=3&&curr->instr<=6){tempvar=0;size=1;}
-		if(curr->instr==7){size=-(curr->inputs[0])+1;tempvar=1;}
+		if(curr->instr==7){size=powy(2,-(curr->inputs[0]));tempvar=0;}
 		if(curr->instr==8){tempvar=0;size=1;}
+		if(curr->instr==9){tempvar=0;size=1;}
 		for(;tempvar<size;tempvar++)
 		{
 			if (curr->outputs[tempvar] > 0) {
 				a[curr->outputs[tempvar]] = 1;
 			}
 		}
-		if(currbefore!=before||flag=1){
+		if(flag==1){
 			if(DEBUG==1){
-			printf("CURRB!=BEFORE,Switch\n");}
+				printf("We need to switch two block from: %d, to %d\n",curr->instr,before->instr);}	
 			currbefore->next=curr->next;
 			curr->next=before->next;
 			before->next=curr;
@@ -189,7 +192,8 @@ void instrsort(instrblk *head,int valnums)
 			curr=curr->next;
 		}*/
 	}
-	printf("EXIT SORT\n");
+	if(DEBUG==1){
+		printf("EXIT SORT\n");}
 	return;
 }
 int NOT(int input)
@@ -265,7 +269,7 @@ int MUX(int n, int* input1)
 	printf("Adder:%d    THis should give the place of the output\n", hatsune);}
 	return input1[hatsune+1];
 }	
-void LOAD_EFFECTIVE_VALUE(int* vals, instrblk *curr, int* hatsune,int size) //
+void LOAD_EFFECTIVE_VALUE(int* vals, instrblk *curr, int* hatsune,int size) //hatsune is the return array, size 
 {
 	int miku = 0;
 	
@@ -326,7 +330,12 @@ int* operation(instrblk *curr, int* vals)
 			miku=hatsune[0];
 			vals[curr->outputs[0]]=MUX(miku,hatsune);
 			break;
-
+		case 9://PASS
+			hatsune = (int*)malloc(sizeof(int));
+			LOAD_EFFECTIVE_VALUE(vals,curr,hatsune, 1);
+			if(DEBUG==1){printf("PASS BLOCK\nPassing from %d:%d to %d\n",curr->inputs[0],hatsune[0],curr->outputs[0]);}
+			vals[curr->outputs[0]]=hatsune[0];
+			break;
 	}
 	if(curr->next==NULL){return vals;}
 	else{return operation(curr->next,vals);}
@@ -516,6 +525,7 @@ void print_instrblk(instrblk *instr){
 			printf("%d", instr->outputs[0]);
 			printf("\n");
 			break;
+		case 9: printf("PASS BLOCK\n Passing %d to %d\n",instr->inputs[0],instr->outputs[0]);break;
 	}
 	return;
 }
@@ -542,6 +552,7 @@ int* parse(strarr **vars, instrblk **instr)
 		tmp3=scanstring(vars);
 		toinout(tmp3,tmp1,-tmp3[0]+1,1-tmp3[0]+powy(2,-tmp3[0]));}
 		if(strcmp(ins,"MULTIPLEXER")==0){tmp1->instr=8;tmp3=scanstring(vars);toinout(tmp3,tmp1,powy(2,-tmp3[0])+1-tmp3[0],2-tmp3[0]+powy(2,-tmp3[0]));}
+		if(strcmp(ins,"PASS")==0){tmp1->instr=9;tmp3=scanstring(vars);toinout(tmp3,tmp1,1,2);}
 /* 		printf("%d\n",tmp1->instr);
 		printf("Inputs:\n");
 		if(tmp1->inputs==NULL){printf("No Inputs\n");}
@@ -576,7 +587,7 @@ int* parse(strarr **vars, instrblk **instr)
 int main(int argc,char* argv[])
 {
 	strarr *vars=NULL,*tempstrarr;
-	instrblk *a=NULL;
+	instrblk *a=NULL,*b=NULL;
 	int cntarg=0,*output;
 	//
 	//initializing vals
@@ -587,7 +598,11 @@ int main(int argc,char* argv[])
 	while(tempstrarr!=NULL){cntarg++;tempstrarr=tempstrarr->next;}
 	//printf("There are %d variables in the instruction",cntarg);
 	instrsort(a,cntarg+1);
-	print_instrblk(a);
+	if(DEBUG==1){
+		printf("Execute Print INSTRBLK After Sort\n");
+		b=a;
+		while(b!=NULL){print_instrblk(b);b=b->next;}
+		}
 	printTruth(a,output,cntarg+1);
 	
 	return EXIT_SUCCESS;
