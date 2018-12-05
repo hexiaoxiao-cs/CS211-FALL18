@@ -4,7 +4,7 @@
 
 #include <ctype.h>
 
-int DEBUG=1;
+int DEBUG=0;
 int powy(int x,int y)
 {
 	int tmp=0,toret=x;
@@ -134,8 +134,8 @@ void instrsort(instrblk *head,int valnums)
 			for(tempvar=1;tempvar<=-(curr->outputs[0]);tempvar++){
 				a[curr->outputs[tempvar]]=1;
 			}
-			before=curr->next;
-			currbefore=curr->next;
+			before=curr;
+			currbefore=curr;
 			curr=curr->next;
 			continue;
 		}
@@ -154,6 +154,7 @@ void instrsort(instrblk *head,int valnums)
 		
 		printarr(a,valnums);
 		}
+		if(curr->instr==1){tempvar=0;size=1;}
 		if(curr->instr==2){tempvar=0;size=1;}
 		if(curr->instr>=3&&curr->instr<=6){tempvar=0;size=1;}
 		if(curr->instr==7){size=powy(2,-(curr->inputs[0]));tempvar=0;}
