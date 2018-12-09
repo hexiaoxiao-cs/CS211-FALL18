@@ -1,0 +1,4 @@
+Memory reads: 4
+Memory writes: 0
+Cache hits: 2
+Cache misses: 2

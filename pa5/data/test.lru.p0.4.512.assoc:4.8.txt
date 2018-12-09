@@ -1,0 +1,4 @@
+Memory reads: 1718073
+Memory writes: 611377
+Cache hits: 4099421
+Cache misses: 1718073

@@ -1,0 +1,4 @@
+Memory reads: 169
+Memory writes: 334
+Cache hits: 831
+Cache misses: 169
