@@ -338,8 +338,8 @@ int* operation(instrblk *curr, int* vals)
 			vals[curr->outputs[0]]=hatsune[0];
 			break;
 	}
-	if(curr->next==NULL){return vals;}
-	else{return operation(curr->next,vals);}
+	if(curr->next==NULL){if(curr->instr!=0){free(hatsune);}return vals;}
+	else{if(curr->instr!=0){free(hatsune);}return operation(curr->next,vals);}
 }
 
 void printTruth(instrblk *instr,int *outputs,int valnums){
