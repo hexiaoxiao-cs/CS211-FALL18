@@ -1,0 +1,7280 @@
+There are 16 sets, 4 lines, 32 block size
+prefetch: 0, assoc: 4 replacement: 1
+Bit Shifter Argument: 4 set shift, 5 block shift0x804ae19:
+W 9cb32e0
+Block Index: 0, Set Index: 7, Tag: 4e599
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 1
+Memory writes: 1
+Cache hits: 0
+Cache misses: 1
+0x804ae1c:
+R 9cb32e4
+Block Index: 4, Set Index: 7, Tag: 4e599
+Memory reads: 1
+Memory writes: 1
+Cache hits: 1
+Cache misses: 1
+0x804ae1c:
+W 9cb32e4
+Block Index: 4, Set Index: 7, Tag: 4e599
+Memory reads: 1
+Memory writes: 2
+Cache hits: 2
+Cache misses: 1
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 2
+Memory writes: 2
+Cache hits: 2
+Cache misses: 2
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 2
+Memory writes: 2
+Cache hits: 3
+Cache misses: 2
+0x804ae19:
+R 9cb32f0
+Block Index: 10, Set Index: 7, Tag: 4e599
+Memory reads: 2
+Memory writes: 2
+Cache hits: 4
+Cache misses: 2
+0x804ae19:
+W 9cb32f0
+Block Index: 10, Set Index: 7, Tag: 4e599
+Memory reads: 2
+Memory writes: 3
+Cache hits: 5
+Cache misses: 2
+0x804ae1c:
+R 9cb32f4
+Block Index: 14, Set Index: 7, Tag: 4e599
+Memory reads: 2
+Memory writes: 3
+Cache hits: 6
+Cache misses: 2
+0x804ae1c:
+W 9cb32f4
+Block Index: 14, Set Index: 7, Tag: 4e599
+Memory reads: 2
+Memory writes: 4
+Cache hits: 7
+Cache misses: 2
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 2
+Memory writes: 4
+Cache hits: 8
+Cache misses: 2
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 2
+Memory writes: 4
+Cache hits: 9
+Cache misses: 2
+0x804ae19:
+R 9cb3300
+Block Index: 0, Set Index: 8, Tag: 4e599
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 3
+Memory writes: 4
+Cache hits: 9
+Cache misses: 3
+0x804ae19:
+W 9cb3300
+Block Index: 0, Set Index: 8, Tag: 4e599
+Memory reads: 3
+Memory writes: 5
+Cache hits: 10
+Cache misses: 3
+0x804ae1c:
+R 9cb3304
+Block Index: 4, Set Index: 8, Tag: 4e599
+Memory reads: 3
+Memory writes: 5
+Cache hits: 11
+Cache misses: 3
+0x804ae1c:
+W 9cb3304
+Block Index: 4, Set Index: 8, Tag: 4e599
+Memory reads: 3
+Memory writes: 6
+Cache hits: 12
+Cache misses: 3
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 3
+Memory writes: 6
+Cache hits: 13
+Cache misses: 3
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 3
+Memory writes: 6
+Cache hits: 14
+Cache misses: 3
+0x804ae19:
+R 9cb3310
+Block Index: 10, Set Index: 8, Tag: 4e599
+Memory reads: 3
+Memory writes: 6
+Cache hits: 15
+Cache misses: 3
+0x804ae19:
+W 9cb3310
+Block Index: 10, Set Index: 8, Tag: 4e599
+Memory reads: 3
+Memory writes: 7
+Cache hits: 16
+Cache misses: 3
+0x804ae1c:
+R 9cb3314
+Block Index: 14, Set Index: 8, Tag: 4e599
+Memory reads: 3
+Memory writes: 7
+Cache hits: 17
+Cache misses: 3
+0x804ae1c:
+W 9cb3314
+Block Index: 14, Set Index: 8, Tag: 4e599
+Memory reads: 3
+Memory writes: 8
+Cache hits: 18
+Cache misses: 3
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 3
+Memory writes: 8
+Cache hits: 19
+Cache misses: 3
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 3
+Memory writes: 8
+Cache hits: 20
+Cache misses: 3
+0x804ae19:
+R 9cb3320
+Block Index: 0, Set Index: 9, Tag: 4e599
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 4
+Memory writes: 8
+Cache hits: 20
+Cache misses: 4
+0x804ae19:
+W 9cb3320
+Block Index: 0, Set Index: 9, Tag: 4e599
+Memory reads: 4
+Memory writes: 9
+Cache hits: 21
+Cache misses: 4
+0x804ae1c:
+R 9cb3324
+Block Index: 4, Set Index: 9, Tag: 4e599
+Memory reads: 4
+Memory writes: 9
+Cache hits: 22
+Cache misses: 4
+0x804ae1c:
+W 9cb3324
+Block Index: 4, Set Index: 9, Tag: 4e599
+Memory reads: 4
+Memory writes: 10
+Cache hits: 23
+Cache misses: 4
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 4
+Memory writes: 10
+Cache hits: 24
+Cache misses: 4
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 4
+Memory writes: 10
+Cache hits: 25
+Cache misses: 4
+0x804ae19:
+R 9cb3330
+Block Index: 10, Set Index: 9, Tag: 4e599
+Memory reads: 4
+Memory writes: 10
+Cache hits: 26
+Cache misses: 4
+0x804ae19:
+W 9cb3330
+Block Index: 10, Set Index: 9, Tag: 4e599
+Memory reads: 4
+Memory writes: 11
+Cache hits: 27
+Cache misses: 4
+0x804ae1c:
+R 9cb3334
+Block Index: 14, Set Index: 9, Tag: 4e599
+Memory reads: 4
+Memory writes: 11
+Cache hits: 28
+Cache misses: 4
+0x804ae1c:
+W 9cb3334
+Block Index: 14, Set Index: 9, Tag: 4e599
+Memory reads: 4
+Memory writes: 12
+Cache hits: 29
+Cache misses: 4
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 4
+Memory writes: 12
+Cache hits: 30
+Cache misses: 4
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 4
+Memory writes: 12
+Cache hits: 31
+Cache misses: 4
+0x804ae19:
+R 9cb3340
+Block Index: 0, Set Index: a, Tag: 4e599
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 5
+Memory writes: 12
+Cache hits: 31
+Cache misses: 5
+0x804ae19:
+W 9cb3340
+Block Index: 0, Set Index: a, Tag: 4e599
+Memory reads: 5
+Memory writes: 13
+Cache hits: 32
+Cache misses: 5
+0x804ae1c:
+R 9cb3344
+Block Index: 4, Set Index: a, Tag: 4e599
+Memory reads: 5
+Memory writes: 13
+Cache hits: 33
+Cache misses: 5
+0x804ae1c:
+W 9cb3344
+Block Index: 4, Set Index: a, Tag: 4e599
+Memory reads: 5
+Memory writes: 14
+Cache hits: 34
+Cache misses: 5
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 5
+Memory writes: 14
+Cache hits: 35
+Cache misses: 5
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 5
+Memory writes: 14
+Cache hits: 36
+Cache misses: 5
+0x804ae19:
+R 9cb3350
+Block Index: 10, Set Index: a, Tag: 4e599
+Memory reads: 5
+Memory writes: 14
+Cache hits: 37
+Cache misses: 5
+0x804ae19:
+W 9cb3350
+Block Index: 10, Set Index: a, Tag: 4e599
+Memory reads: 5
+Memory writes: 15
+Cache hits: 38
+Cache misses: 5
+0x804ae1c:
+R 9cb3354
+Block Index: 14, Set Index: a, Tag: 4e599
+Memory reads: 5
+Memory writes: 15
+Cache hits: 39
+Cache misses: 5
+0x804ae1c:
+W 9cb3354
+Block Index: 14, Set Index: a, Tag: 4e599
+Memory reads: 5
+Memory writes: 16
+Cache hits: 40
+Cache misses: 5
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 5
+Memory writes: 16
+Cache hits: 41
+Cache misses: 5
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 5
+Memory writes: 16
+Cache hits: 42
+Cache misses: 5
+0x804ae19:
+R 9cb3360
+Block Index: 0, Set Index: b, Tag: 4e599
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 6
+Memory writes: 16
+Cache hits: 42
+Cache misses: 6
+0x804ae19:
+W 9cb3360
+Block Index: 0, Set Index: b, Tag: 4e599
+Memory reads: 6
+Memory writes: 17
+Cache hits: 43
+Cache misses: 6
+0x804ae1c:
+R 9cb3364
+Block Index: 4, Set Index: b, Tag: 4e599
+Memory reads: 6
+Memory writes: 17
+Cache hits: 44
+Cache misses: 6
+0x804ae1c:
+W 9cb3364
+Block Index: 4, Set Index: b, Tag: 4e599
+Memory reads: 6
+Memory writes: 18
+Cache hits: 45
+Cache misses: 6
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 6
+Memory writes: 18
+Cache hits: 46
+Cache misses: 6
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 6
+Memory writes: 18
+Cache hits: 47
+Cache misses: 6
+0x804ae19:
+R 9cb3370
+Block Index: 10, Set Index: b, Tag: 4e599
+Memory reads: 6
+Memory writes: 18
+Cache hits: 48
+Cache misses: 6
+0x804ae19:
+W 9cb3370
+Block Index: 10, Set Index: b, Tag: 4e599
+Memory reads: 6
+Memory writes: 19
+Cache hits: 49
+Cache misses: 6
+0x804ae1c:
+R 9cb3374
+Block Index: 14, Set Index: b, Tag: 4e599
+Memory reads: 6
+Memory writes: 19
+Cache hits: 50
+Cache misses: 6
+0x804ae1c:
+W 9cb3374
+Block Index: 14, Set Index: b, Tag: 4e599
+Memory reads: 6
+Memory writes: 20
+Cache hits: 51
+Cache misses: 6
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 6
+Memory writes: 20
+Cache hits: 52
+Cache misses: 6
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 6
+Memory writes: 20
+Cache hits: 53
+Cache misses: 6
+0x804ae19:
+R 9cb3380
+Block Index: 0, Set Index: c, Tag: 4e599
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 7
+Memory writes: 20
+Cache hits: 53
+Cache misses: 7
+0x804ae19:
+W 9cb3380
+Block Index: 0, Set Index: c, Tag: 4e599
+Memory reads: 7
+Memory writes: 21
+Cache hits: 54
+Cache misses: 7
+0x804ae1c:
+R 9cb3384
+Block Index: 4, Set Index: c, Tag: 4e599
+Memory reads: 7
+Memory writes: 21
+Cache hits: 55
+Cache misses: 7
+0x804ae1c:
+W 9cb3384
+Block Index: 4, Set Index: c, Tag: 4e599
+Memory reads: 7
+Memory writes: 22
+Cache hits: 56
+Cache misses: 7
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 7
+Memory writes: 22
+Cache hits: 57
+Cache misses: 7
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 7
+Memory writes: 22
+Cache hits: 58
+Cache misses: 7
+0x804ae19:
+R 9cb3390
+Block Index: 10, Set Index: c, Tag: 4e599
+Memory reads: 7
+Memory writes: 22
+Cache hits: 59
+Cache misses: 7
+0x804ae19:
+W 9cb3390
+Block Index: 10, Set Index: c, Tag: 4e599
+Memory reads: 7
+Memory writes: 23
+Cache hits: 60
+Cache misses: 7
+0x804ae1c:
+R 9cb3394
+Block Index: 14, Set Index: c, Tag: 4e599
+Memory reads: 7
+Memory writes: 23
+Cache hits: 61
+Cache misses: 7
+0x804ae1c:
+W 9cb3394
+Block Index: 14, Set Index: c, Tag: 4e599
+Memory reads: 7
+Memory writes: 24
+Cache hits: 62
+Cache misses: 7
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 7
+Memory writes: 24
+Cache hits: 63
+Cache misses: 7
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 7
+Memory writes: 24
+Cache hits: 64
+Cache misses: 7
+0x804ae19:
+R 9cb33a0
+Block Index: 0, Set Index: d, Tag: 4e599
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 8
+Memory writes: 24
+Cache hits: 64
+Cache misses: 8
+0x804ae19:
+W 9cb33a0
+Block Index: 0, Set Index: d, Tag: 4e599
+Memory reads: 8
+Memory writes: 25
+Cache hits: 65
+Cache misses: 8
+0x804ae1c:
+R 9cb33a4
+Block Index: 4, Set Index: d, Tag: 4e599
+Memory reads: 8
+Memory writes: 25
+Cache hits: 66
+Cache misses: 8
+0x804ae1c:
+W 9cb33a4
+Block Index: 4, Set Index: d, Tag: 4e599
+Memory reads: 8
+Memory writes: 26
+Cache hits: 67
+Cache misses: 8
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 8
+Memory writes: 26
+Cache hits: 68
+Cache misses: 8
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 8
+Memory writes: 26
+Cache hits: 69
+Cache misses: 8
+0x804ae19:
+R 9cb33b0
+Block Index: 10, Set Index: d, Tag: 4e599
+Memory reads: 8
+Memory writes: 26
+Cache hits: 70
+Cache misses: 8
+0x804ae19:
+W 9cb33b0
+Block Index: 10, Set Index: d, Tag: 4e599
+Memory reads: 8
+Memory writes: 27
+Cache hits: 71
+Cache misses: 8
+0x804ae1c:
+R 9cb33b4
+Block Index: 14, Set Index: d, Tag: 4e599
+Memory reads: 8
+Memory writes: 27
+Cache hits: 72
+Cache misses: 8
+0x804ae1c:
+W 9cb33b4
+Block Index: 14, Set Index: d, Tag: 4e599
+Memory reads: 8
+Memory writes: 28
+Cache hits: 73
+Cache misses: 8
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 8
+Memory writes: 28
+Cache hits: 74
+Cache misses: 8
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 8
+Memory writes: 28
+Cache hits: 75
+Cache misses: 8
+0x804ae19:
+R 9cb33c0
+Block Index: 0, Set Index: e, Tag: 4e599
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 9
+Memory writes: 28
+Cache hits: 75
+Cache misses: 9
+0x804ae19:
+W 9cb33c0
+Block Index: 0, Set Index: e, Tag: 4e599
+Memory reads: 9
+Memory writes: 29
+Cache hits: 76
+Cache misses: 9
+0x804ae1c:
+R 9cb33c4
+Block Index: 4, Set Index: e, Tag: 4e599
+Memory reads: 9
+Memory writes: 29
+Cache hits: 77
+Cache misses: 9
+0x804ae1c:
+W 9cb33c4
+Block Index: 4, Set Index: e, Tag: 4e599
+Memory reads: 9
+Memory writes: 30
+Cache hits: 78
+Cache misses: 9
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 9
+Memory writes: 30
+Cache hits: 79
+Cache misses: 9
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 9
+Memory writes: 30
+Cache hits: 80
+Cache misses: 9
+0x804ae19:
+R 9cb33d0
+Block Index: 10, Set Index: e, Tag: 4e599
+Memory reads: 9
+Memory writes: 30
+Cache hits: 81
+Cache misses: 9
+0x804ae19:
+W 9cb33d0
+Block Index: 10, Set Index: e, Tag: 4e599
+Memory reads: 9
+Memory writes: 31
+Cache hits: 82
+Cache misses: 9
+0x804ae1c:
+R 9cb33d4
+Block Index: 14, Set Index: e, Tag: 4e599
+Memory reads: 9
+Memory writes: 31
+Cache hits: 83
+Cache misses: 9
+0x804ae1c:
+W 9cb33d4
+Block Index: 14, Set Index: e, Tag: 4e599
+Memory reads: 9
+Memory writes: 32
+Cache hits: 84
+Cache misses: 9
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 9
+Memory writes: 32
+Cache hits: 85
+Cache misses: 9
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 9
+Memory writes: 32
+Cache hits: 86
+Cache misses: 9
+0x804ae19:
+R 9cb33e0
+Block Index: 0, Set Index: f, Tag: 4e599
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 10
+Memory writes: 32
+Cache hits: 86
+Cache misses: 10
+0x804ae19:
+W 9cb33e0
+Block Index: 0, Set Index: f, Tag: 4e599
+Memory reads: 10
+Memory writes: 33
+Cache hits: 87
+Cache misses: 10
+0x804ae1c:
+R 9cb33e4
+Block Index: 4, Set Index: f, Tag: 4e599
+Memory reads: 10
+Memory writes: 33
+Cache hits: 88
+Cache misses: 10
+0x804ae1c:
+W 9cb33e4
+Block Index: 4, Set Index: f, Tag: 4e599
+Memory reads: 10
+Memory writes: 34
+Cache hits: 89
+Cache misses: 10
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 10
+Memory writes: 34
+Cache hits: 90
+Cache misses: 10
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 10
+Memory writes: 34
+Cache hits: 91
+Cache misses: 10
+0x804ae19:
+R 9cb33f0
+Block Index: 10, Set Index: f, Tag: 4e599
+Memory reads: 10
+Memory writes: 34
+Cache hits: 92
+Cache misses: 10
+0x804ae19:
+W 9cb33f0
+Block Index: 10, Set Index: f, Tag: 4e599
+Memory reads: 10
+Memory writes: 35
+Cache hits: 93
+Cache misses: 10
+0x804ae1c:
+R 9cb33f4
+Block Index: 14, Set Index: f, Tag: 4e599
+Memory reads: 10
+Memory writes: 35
+Cache hits: 94
+Cache misses: 10
+0x804ae1c:
+W 9cb33f4
+Block Index: 14, Set Index: f, Tag: 4e599
+Memory reads: 10
+Memory writes: 36
+Cache hits: 95
+Cache misses: 10
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 10
+Memory writes: 36
+Cache hits: 96
+Cache misses: 10
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 10
+Memory writes: 36
+Cache hits: 97
+Cache misses: 10
+0x804ae19:
+R 9cb3400
+Block Index: 0, Set Index: 0, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 11
+Memory writes: 36
+Cache hits: 97
+Cache misses: 11
+0x804ae19:
+W 9cb3400
+Block Index: 0, Set Index: 0, Tag: 4e59a
+Memory reads: 11
+Memory writes: 37
+Cache hits: 98
+Cache misses: 11
+0x804ae1c:
+R 9cb3404
+Block Index: 4, Set Index: 0, Tag: 4e59a
+Memory reads: 11
+Memory writes: 37
+Cache hits: 99
+Cache misses: 11
+0x804ae1c:
+W 9cb3404
+Block Index: 4, Set Index: 0, Tag: 4e59a
+Memory reads: 11
+Memory writes: 38
+Cache hits: 100
+Cache misses: 11
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 11
+Memory writes: 38
+Cache hits: 101
+Cache misses: 11
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 11
+Memory writes: 38
+Cache hits: 102
+Cache misses: 11
+0x804ae19:
+R 9cb3410
+Block Index: 10, Set Index: 0, Tag: 4e59a
+Memory reads: 11
+Memory writes: 38
+Cache hits: 103
+Cache misses: 11
+0x804ae19:
+W 9cb3410
+Block Index: 10, Set Index: 0, Tag: 4e59a
+Memory reads: 11
+Memory writes: 39
+Cache hits: 104
+Cache misses: 11
+0x804ae1c:
+R 9cb3414
+Block Index: 14, Set Index: 0, Tag: 4e59a
+Memory reads: 11
+Memory writes: 39
+Cache hits: 105
+Cache misses: 11
+0x804ae1c:
+W 9cb3414
+Block Index: 14, Set Index: 0, Tag: 4e59a
+Memory reads: 11
+Memory writes: 40
+Cache hits: 106
+Cache misses: 11
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 11
+Memory writes: 40
+Cache hits: 107
+Cache misses: 11
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 11
+Memory writes: 40
+Cache hits: 108
+Cache misses: 11
+0x804ae19:
+R 9cb3420
+Block Index: 0, Set Index: 1, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 12
+Memory writes: 40
+Cache hits: 108
+Cache misses: 12
+0x804ae19:
+W 9cb3420
+Block Index: 0, Set Index: 1, Tag: 4e59a
+Memory reads: 12
+Memory writes: 41
+Cache hits: 109
+Cache misses: 12
+0x804ae1c:
+R 9cb3424
+Block Index: 4, Set Index: 1, Tag: 4e59a
+Memory reads: 12
+Memory writes: 41
+Cache hits: 110
+Cache misses: 12
+0x804ae1c:
+W 9cb3424
+Block Index: 4, Set Index: 1, Tag: 4e59a
+Memory reads: 12
+Memory writes: 42
+Cache hits: 111
+Cache misses: 12
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 12
+Memory writes: 42
+Cache hits: 112
+Cache misses: 12
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 12
+Memory writes: 42
+Cache hits: 113
+Cache misses: 12
+0x804ae19:
+R 9cb3430
+Block Index: 10, Set Index: 1, Tag: 4e59a
+Memory reads: 12
+Memory writes: 42
+Cache hits: 114
+Cache misses: 12
+0x804ae19:
+W 9cb3430
+Block Index: 10, Set Index: 1, Tag: 4e59a
+Memory reads: 12
+Memory writes: 43
+Cache hits: 115
+Cache misses: 12
+0x804ae1c:
+R 9cb3434
+Block Index: 14, Set Index: 1, Tag: 4e59a
+Memory reads: 12
+Memory writes: 43
+Cache hits: 116
+Cache misses: 12
+0x804ae1c:
+W 9cb3434
+Block Index: 14, Set Index: 1, Tag: 4e59a
+Memory reads: 12
+Memory writes: 44
+Cache hits: 117
+Cache misses: 12
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 12
+Memory writes: 44
+Cache hits: 118
+Cache misses: 12
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 12
+Memory writes: 44
+Cache hits: 119
+Cache misses: 12
+0x804ae19:
+R 9cb3440
+Block Index: 0, Set Index: 2, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 13
+Memory writes: 44
+Cache hits: 119
+Cache misses: 13
+0x804ae19:
+W 9cb3440
+Block Index: 0, Set Index: 2, Tag: 4e59a
+Memory reads: 13
+Memory writes: 45
+Cache hits: 120
+Cache misses: 13
+0x804ae1c:
+R 9cb3444
+Block Index: 4, Set Index: 2, Tag: 4e59a
+Memory reads: 13
+Memory writes: 45
+Cache hits: 121
+Cache misses: 13
+0x804ae1c:
+W 9cb3444
+Block Index: 4, Set Index: 2, Tag: 4e59a
+Memory reads: 13
+Memory writes: 46
+Cache hits: 122
+Cache misses: 13
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 13
+Memory writes: 46
+Cache hits: 123
+Cache misses: 13
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 13
+Memory writes: 46
+Cache hits: 124
+Cache misses: 13
+0x804ae19:
+R 9cb3450
+Block Index: 10, Set Index: 2, Tag: 4e59a
+Memory reads: 13
+Memory writes: 46
+Cache hits: 125
+Cache misses: 13
+0x804ae19:
+W 9cb3450
+Block Index: 10, Set Index: 2, Tag: 4e59a
+Memory reads: 13
+Memory writes: 47
+Cache hits: 126
+Cache misses: 13
+0x804ae1c:
+R 9cb3454
+Block Index: 14, Set Index: 2, Tag: 4e59a
+Memory reads: 13
+Memory writes: 47
+Cache hits: 127
+Cache misses: 13
+0x804ae1c:
+W 9cb3454
+Block Index: 14, Set Index: 2, Tag: 4e59a
+Memory reads: 13
+Memory writes: 48
+Cache hits: 128
+Cache misses: 13
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 13
+Memory writes: 48
+Cache hits: 129
+Cache misses: 13
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 13
+Memory writes: 48
+Cache hits: 130
+Cache misses: 13
+0x804ae19:
+R 9cb3460
+Block Index: 0, Set Index: 3, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 14
+Memory writes: 48
+Cache hits: 130
+Cache misses: 14
+0x804ae19:
+W 9cb3460
+Block Index: 0, Set Index: 3, Tag: 4e59a
+Memory reads: 14
+Memory writes: 49
+Cache hits: 131
+Cache misses: 14
+0x804ae1c:
+R 9cb3464
+Block Index: 4, Set Index: 3, Tag: 4e59a
+Memory reads: 14
+Memory writes: 49
+Cache hits: 132
+Cache misses: 14
+0x804ae1c:
+W 9cb3464
+Block Index: 4, Set Index: 3, Tag: 4e59a
+Memory reads: 14
+Memory writes: 50
+Cache hits: 133
+Cache misses: 14
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 14
+Memory writes: 50
+Cache hits: 134
+Cache misses: 14
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 14
+Memory writes: 50
+Cache hits: 135
+Cache misses: 14
+0x804ae19:
+R 9cb3470
+Block Index: 10, Set Index: 3, Tag: 4e59a
+Memory reads: 14
+Memory writes: 50
+Cache hits: 136
+Cache misses: 14
+0x804ae19:
+W 9cb3470
+Block Index: 10, Set Index: 3, Tag: 4e59a
+Memory reads: 14
+Memory writes: 51
+Cache hits: 137
+Cache misses: 14
+0x804ae1c:
+R 9cb3474
+Block Index: 14, Set Index: 3, Tag: 4e59a
+Memory reads: 14
+Memory writes: 51
+Cache hits: 138
+Cache misses: 14
+0x804ae1c:
+W 9cb3474
+Block Index: 14, Set Index: 3, Tag: 4e59a
+Memory reads: 14
+Memory writes: 52
+Cache hits: 139
+Cache misses: 14
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 14
+Memory writes: 52
+Cache hits: 140
+Cache misses: 14
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 14
+Memory writes: 52
+Cache hits: 141
+Cache misses: 14
+0x804ae19:
+R 9cb3480
+Block Index: 0, Set Index: 4, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 53, Curr valid: 0, Curr tag: 0
+Memory reads: 15
+Memory writes: 52
+Cache hits: 141
+Cache misses: 15
+0x804ae19:
+W 9cb3480
+Block Index: 0, Set Index: 4, Tag: 4e59a
+Memory reads: 15
+Memory writes: 53
+Cache hits: 142
+Cache misses: 15
+0x804ae1c:
+R 9cb3484
+Block Index: 4, Set Index: 4, Tag: 4e59a
+Memory reads: 15
+Memory writes: 53
+Cache hits: 143
+Cache misses: 15
+0x804ae1c:
+W 9cb3484
+Block Index: 4, Set Index: 4, Tag: 4e59a
+Memory reads: 15
+Memory writes: 54
+Cache hits: 144
+Cache misses: 15
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 15
+Memory writes: 54
+Cache hits: 145
+Cache misses: 15
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 15
+Memory writes: 54
+Cache hits: 146
+Cache misses: 15
+0x804ae19:
+R 9cb3490
+Block Index: 10, Set Index: 4, Tag: 4e59a
+Memory reads: 15
+Memory writes: 54
+Cache hits: 147
+Cache misses: 15
+0x804ae19:
+W 9cb3490
+Block Index: 10, Set Index: 4, Tag: 4e59a
+Memory reads: 15
+Memory writes: 55
+Cache hits: 148
+Cache misses: 15
+0x804ae1c:
+R 9cb3494
+Block Index: 14, Set Index: 4, Tag: 4e59a
+Memory reads: 15
+Memory writes: 55
+Cache hits: 149
+Cache misses: 15
+0x804ae1c:
+W 9cb3494
+Block Index: 14, Set Index: 4, Tag: 4e59a
+Memory reads: 15
+Memory writes: 56
+Cache hits: 150
+Cache misses: 15
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 15
+Memory writes: 56
+Cache hits: 151
+Cache misses: 15
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 15
+Memory writes: 56
+Cache hits: 152
+Cache misses: 15
+0x804ae19:
+R 9cb34a0
+Block Index: 0, Set Index: 5, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 16
+Memory writes: 56
+Cache hits: 152
+Cache misses: 16
+0x804ae19:
+W 9cb34a0
+Block Index: 0, Set Index: 5, Tag: 4e59a
+Memory reads: 16
+Memory writes: 57
+Cache hits: 153
+Cache misses: 16
+0x804ae1c:
+R 9cb34a4
+Block Index: 4, Set Index: 5, Tag: 4e59a
+Memory reads: 16
+Memory writes: 57
+Cache hits: 154
+Cache misses: 16
+0x804ae1c:
+W 9cb34a4
+Block Index: 4, Set Index: 5, Tag: 4e59a
+Memory reads: 16
+Memory writes: 58
+Cache hits: 155
+Cache misses: 16
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 16
+Memory writes: 58
+Cache hits: 156
+Cache misses: 16
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 16
+Memory writes: 58
+Cache hits: 157
+Cache misses: 16
+0x804ae19:
+R 9cb34b0
+Block Index: 10, Set Index: 5, Tag: 4e59a
+Memory reads: 16
+Memory writes: 58
+Cache hits: 158
+Cache misses: 16
+0x804ae19:
+W 9cb34b0
+Block Index: 10, Set Index: 5, Tag: 4e59a
+Memory reads: 16
+Memory writes: 59
+Cache hits: 159
+Cache misses: 16
+0x804ae1c:
+R 9cb34b4
+Block Index: 14, Set Index: 5, Tag: 4e59a
+Memory reads: 16
+Memory writes: 59
+Cache hits: 160
+Cache misses: 16
+0x804ae1c:
+W 9cb34b4
+Block Index: 14, Set Index: 5, Tag: 4e59a
+Memory reads: 16
+Memory writes: 60
+Cache hits: 161
+Cache misses: 16
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 16
+Memory writes: 60
+Cache hits: 162
+Cache misses: 16
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 16
+Memory writes: 60
+Cache hits: 163
+Cache misses: 16
+0x804ae19:
+R 9cb34c0
+Block Index: 0, Set Index: 6, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 1, Curr valid: 0, Curr tag: 0
+Memory reads: 17
+Memory writes: 60
+Cache hits: 163
+Cache misses: 17
+0x804ae19:
+W 9cb34c0
+Block Index: 0, Set Index: 6, Tag: 4e59a
+Memory reads: 17
+Memory writes: 61
+Cache hits: 164
+Cache misses: 17
+0x804ae1c:
+R 9cb34c4
+Block Index: 4, Set Index: 6, Tag: 4e59a
+Memory reads: 17
+Memory writes: 61
+Cache hits: 165
+Cache misses: 17
+0x804ae1c:
+W 9cb34c4
+Block Index: 4, Set Index: 6, Tag: 4e59a
+Memory reads: 17
+Memory writes: 62
+Cache hits: 166
+Cache misses: 17
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 17
+Memory writes: 62
+Cache hits: 167
+Cache misses: 17
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 17
+Memory writes: 62
+Cache hits: 168
+Cache misses: 17
+0x804ae19:
+R 9cb34d0
+Block Index: 10, Set Index: 6, Tag: 4e59a
+Memory reads: 17
+Memory writes: 62
+Cache hits: 169
+Cache misses: 17
+0x804ae19:
+W 9cb34d0
+Block Index: 10, Set Index: 6, Tag: 4e59a
+Memory reads: 17
+Memory writes: 63
+Cache hits: 170
+Cache misses: 17
+0x804ae1c:
+R 9cb34d4
+Block Index: 14, Set Index: 6, Tag: 4e59a
+Memory reads: 17
+Memory writes: 63
+Cache hits: 171
+Cache misses: 17
+0x804ae1c:
+W 9cb34d4
+Block Index: 14, Set Index: 6, Tag: 4e59a
+Memory reads: 17
+Memory writes: 64
+Cache hits: 172
+Cache misses: 17
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 17
+Memory writes: 64
+Cache hits: 173
+Cache misses: 17
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 17
+Memory writes: 64
+Cache hits: 174
+Cache misses: 17
+0x804ae19:
+R 9cb34e0
+Block Index: 0, Set Index: 7, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 8, Curr valid: 0, Curr tag: 0
+Memory reads: 18
+Memory writes: 64
+Cache hits: 174
+Cache misses: 18
+0x804ae19:
+W 9cb34e0
+Block Index: 0, Set Index: 7, Tag: 4e59a
+Memory reads: 18
+Memory writes: 65
+Cache hits: 175
+Cache misses: 18
+0x804ae1c:
+R 9cb34e4
+Block Index: 4, Set Index: 7, Tag: 4e59a
+Memory reads: 18
+Memory writes: 65
+Cache hits: 176
+Cache misses: 18
+0x804ae1c:
+W 9cb34e4
+Block Index: 4, Set Index: 7, Tag: 4e59a
+Memory reads: 18
+Memory writes: 66
+Cache hits: 177
+Cache misses: 18
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 18
+Memory writes: 66
+Cache hits: 178
+Cache misses: 18
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 18
+Memory writes: 66
+Cache hits: 179
+Cache misses: 18
+0x804ae19:
+R 9cb34f0
+Block Index: 10, Set Index: 7, Tag: 4e59a
+Memory reads: 18
+Memory writes: 66
+Cache hits: 180
+Cache misses: 18
+0x804ae19:
+W 9cb34f0
+Block Index: 10, Set Index: 7, Tag: 4e59a
+Memory reads: 18
+Memory writes: 67
+Cache hits: 181
+Cache misses: 18
+0x804ae1c:
+R 9cb34f4
+Block Index: 14, Set Index: 7, Tag: 4e59a
+Memory reads: 18
+Memory writes: 67
+Cache hits: 182
+Cache misses: 18
+0x804ae1c:
+W 9cb34f4
+Block Index: 14, Set Index: 7, Tag: 4e59a
+Memory reads: 18
+Memory writes: 68
+Cache hits: 183
+Cache misses: 18
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 18
+Memory writes: 68
+Cache hits: 184
+Cache misses: 18
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 18
+Memory writes: 68
+Cache hits: 185
+Cache misses: 18
+0x804ae19:
+R 9cb3500
+Block Index: 0, Set Index: 8, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 19
+Memory writes: 68
+Cache hits: 185
+Cache misses: 19
+0x804ae19:
+W 9cb3500
+Block Index: 0, Set Index: 8, Tag: 4e59a
+Memory reads: 19
+Memory writes: 69
+Cache hits: 186
+Cache misses: 19
+0x804ae1c:
+R 9cb3504
+Block Index: 4, Set Index: 8, Tag: 4e59a
+Memory reads: 19
+Memory writes: 69
+Cache hits: 187
+Cache misses: 19
+0x804ae1c:
+W 9cb3504
+Block Index: 4, Set Index: 8, Tag: 4e59a
+Memory reads: 19
+Memory writes: 70
+Cache hits: 188
+Cache misses: 19
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 19
+Memory writes: 70
+Cache hits: 189
+Cache misses: 19
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 19
+Memory writes: 70
+Cache hits: 190
+Cache misses: 19
+0x804ae19:
+R 9cb3510
+Block Index: 10, Set Index: 8, Tag: 4e59a
+Memory reads: 19
+Memory writes: 70
+Cache hits: 191
+Cache misses: 19
+0x804ae19:
+W 9cb3510
+Block Index: 10, Set Index: 8, Tag: 4e59a
+Memory reads: 19
+Memory writes: 71
+Cache hits: 192
+Cache misses: 19
+0x804ae1c:
+R 9cb3514
+Block Index: 14, Set Index: 8, Tag: 4e59a
+Memory reads: 19
+Memory writes: 71
+Cache hits: 193
+Cache misses: 19
+0x804ae1c:
+W 9cb3514
+Block Index: 14, Set Index: 8, Tag: 4e59a
+Memory reads: 19
+Memory writes: 72
+Cache hits: 194
+Cache misses: 19
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 19
+Memory writes: 72
+Cache hits: 195
+Cache misses: 19
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 19
+Memory writes: 72
+Cache hits: 196
+Cache misses: 19
+0x804ae19:
+R 9cb3520
+Block Index: 0, Set Index: 9, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 20
+Memory writes: 72
+Cache hits: 196
+Cache misses: 20
+0x804ae19:
+W 9cb3520
+Block Index: 0, Set Index: 9, Tag: 4e59a
+Memory reads: 20
+Memory writes: 73
+Cache hits: 197
+Cache misses: 20
+0x804ae1c:
+R 9cb3524
+Block Index: 4, Set Index: 9, Tag: 4e59a
+Memory reads: 20
+Memory writes: 73
+Cache hits: 198
+Cache misses: 20
+0x804ae1c:
+W 9cb3524
+Block Index: 4, Set Index: 9, Tag: 4e59a
+Memory reads: 20
+Memory writes: 74
+Cache hits: 199
+Cache misses: 20
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 20
+Memory writes: 74
+Cache hits: 200
+Cache misses: 20
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 20
+Memory writes: 74
+Cache hits: 201
+Cache misses: 20
+0x804ae19:
+R 9cb3530
+Block Index: 10, Set Index: 9, Tag: 4e59a
+Memory reads: 20
+Memory writes: 74
+Cache hits: 202
+Cache misses: 20
+0x804ae19:
+W 9cb3530
+Block Index: 10, Set Index: 9, Tag: 4e59a
+Memory reads: 20
+Memory writes: 75
+Cache hits: 203
+Cache misses: 20
+0x804ae1c:
+R 9cb3534
+Block Index: 14, Set Index: 9, Tag: 4e59a
+Memory reads: 20
+Memory writes: 75
+Cache hits: 204
+Cache misses: 20
+0x804ae1c:
+W 9cb3534
+Block Index: 14, Set Index: 9, Tag: 4e59a
+Memory reads: 20
+Memory writes: 76
+Cache hits: 205
+Cache misses: 20
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 20
+Memory writes: 76
+Cache hits: 206
+Cache misses: 20
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 20
+Memory writes: 76
+Cache hits: 207
+Cache misses: 20
+0x804ae19:
+R 9cb3540
+Block Index: 0, Set Index: a, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 21
+Memory writes: 76
+Cache hits: 207
+Cache misses: 21
+0x804ae19:
+W 9cb3540
+Block Index: 0, Set Index: a, Tag: 4e59a
+Memory reads: 21
+Memory writes: 77
+Cache hits: 208
+Cache misses: 21
+0x804ae1c:
+R 9cb3544
+Block Index: 4, Set Index: a, Tag: 4e59a
+Memory reads: 21
+Memory writes: 77
+Cache hits: 209
+Cache misses: 21
+0x804ae1c:
+W 9cb3544
+Block Index: 4, Set Index: a, Tag: 4e59a
+Memory reads: 21
+Memory writes: 78
+Cache hits: 210
+Cache misses: 21
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 21
+Memory writes: 78
+Cache hits: 211
+Cache misses: 21
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 21
+Memory writes: 78
+Cache hits: 212
+Cache misses: 21
+0x804ae19:
+R 9cb3550
+Block Index: 10, Set Index: a, Tag: 4e59a
+Memory reads: 21
+Memory writes: 78
+Cache hits: 213
+Cache misses: 21
+0x804ae19:
+W 9cb3550
+Block Index: 10, Set Index: a, Tag: 4e59a
+Memory reads: 21
+Memory writes: 79
+Cache hits: 214
+Cache misses: 21
+0x804ae1c:
+R 9cb3554
+Block Index: 14, Set Index: a, Tag: 4e59a
+Memory reads: 21
+Memory writes: 79
+Cache hits: 215
+Cache misses: 21
+0x804ae1c:
+W 9cb3554
+Block Index: 14, Set Index: a, Tag: 4e59a
+Memory reads: 21
+Memory writes: 80
+Cache hits: 216
+Cache misses: 21
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 21
+Memory writes: 80
+Cache hits: 217
+Cache misses: 21
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 21
+Memory writes: 80
+Cache hits: 218
+Cache misses: 21
+0x804ae19:
+R 9cb3560
+Block Index: 0, Set Index: b, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 22
+Memory writes: 80
+Cache hits: 218
+Cache misses: 22
+0x804ae19:
+W 9cb3560
+Block Index: 0, Set Index: b, Tag: 4e59a
+Memory reads: 22
+Memory writes: 81
+Cache hits: 219
+Cache misses: 22
+0x804ae1c:
+R 9cb3564
+Block Index: 4, Set Index: b, Tag: 4e59a
+Memory reads: 22
+Memory writes: 81
+Cache hits: 220
+Cache misses: 22
+0x804ae1c:
+W 9cb3564
+Block Index: 4, Set Index: b, Tag: 4e59a
+Memory reads: 22
+Memory writes: 82
+Cache hits: 221
+Cache misses: 22
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 22
+Memory writes: 82
+Cache hits: 222
+Cache misses: 22
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 22
+Memory writes: 82
+Cache hits: 223
+Cache misses: 22
+0x804ae19:
+R 9cb3570
+Block Index: 10, Set Index: b, Tag: 4e59a
+Memory reads: 22
+Memory writes: 82
+Cache hits: 224
+Cache misses: 22
+0x804ae19:
+W 9cb3570
+Block Index: 10, Set Index: b, Tag: 4e59a
+Memory reads: 22
+Memory writes: 83
+Cache hits: 225
+Cache misses: 22
+0x804ae1c:
+R 9cb3574
+Block Index: 14, Set Index: b, Tag: 4e59a
+Memory reads: 22
+Memory writes: 83
+Cache hits: 226
+Cache misses: 22
+0x804ae1c:
+W 9cb3574
+Block Index: 14, Set Index: b, Tag: 4e59a
+Memory reads: 22
+Memory writes: 84
+Cache hits: 227
+Cache misses: 22
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 22
+Memory writes: 84
+Cache hits: 228
+Cache misses: 22
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 22
+Memory writes: 84
+Cache hits: 229
+Cache misses: 22
+0x804ae19:
+R 9cb3580
+Block Index: 0, Set Index: c, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 23
+Memory writes: 84
+Cache hits: 229
+Cache misses: 23
+0x804ae19:
+W 9cb3580
+Block Index: 0, Set Index: c, Tag: 4e59a
+Memory reads: 23
+Memory writes: 85
+Cache hits: 230
+Cache misses: 23
+0x804ae1c:
+R 9cb3584
+Block Index: 4, Set Index: c, Tag: 4e59a
+Memory reads: 23
+Memory writes: 85
+Cache hits: 231
+Cache misses: 23
+0x804ae1c:
+W 9cb3584
+Block Index: 4, Set Index: c, Tag: 4e59a
+Memory reads: 23
+Memory writes: 86
+Cache hits: 232
+Cache misses: 23
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 23
+Memory writes: 86
+Cache hits: 233
+Cache misses: 23
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 23
+Memory writes: 86
+Cache hits: 234
+Cache misses: 23
+0x804ae19:
+R 9cb3590
+Block Index: 10, Set Index: c, Tag: 4e59a
+Memory reads: 23
+Memory writes: 86
+Cache hits: 235
+Cache misses: 23
+0x804ae19:
+W 9cb3590
+Block Index: 10, Set Index: c, Tag: 4e59a
+Memory reads: 23
+Memory writes: 87
+Cache hits: 236
+Cache misses: 23
+0x804ae1c:
+R 9cb3594
+Block Index: 14, Set Index: c, Tag: 4e59a
+Memory reads: 23
+Memory writes: 87
+Cache hits: 237
+Cache misses: 23
+0x804ae1c:
+W 9cb3594
+Block Index: 14, Set Index: c, Tag: 4e59a
+Memory reads: 23
+Memory writes: 88
+Cache hits: 238
+Cache misses: 23
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 23
+Memory writes: 88
+Cache hits: 239
+Cache misses: 23
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 23
+Memory writes: 88
+Cache hits: 240
+Cache misses: 23
+0x804ae19:
+R 9cb35a0
+Block Index: 0, Set Index: d, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 24
+Memory writes: 88
+Cache hits: 240
+Cache misses: 24
+0x804ae19:
+W 9cb35a0
+Block Index: 0, Set Index: d, Tag: 4e59a
+Memory reads: 24
+Memory writes: 89
+Cache hits: 241
+Cache misses: 24
+0x804ae1c:
+R 9cb35a4
+Block Index: 4, Set Index: d, Tag: 4e59a
+Memory reads: 24
+Memory writes: 89
+Cache hits: 242
+Cache misses: 24
+0x804ae1c:
+W 9cb35a4
+Block Index: 4, Set Index: d, Tag: 4e59a
+Memory reads: 24
+Memory writes: 90
+Cache hits: 243
+Cache misses: 24
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 24
+Memory writes: 90
+Cache hits: 244
+Cache misses: 24
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 24
+Memory writes: 90
+Cache hits: 245
+Cache misses: 24
+0x804ae19:
+R 9cb35b0
+Block Index: 10, Set Index: d, Tag: 4e59a
+Memory reads: 24
+Memory writes: 90
+Cache hits: 246
+Cache misses: 24
+0x804ae19:
+W 9cb35b0
+Block Index: 10, Set Index: d, Tag: 4e59a
+Memory reads: 24
+Memory writes: 91
+Cache hits: 247
+Cache misses: 24
+0x804ae1c:
+R 9cb35b4
+Block Index: 14, Set Index: d, Tag: 4e59a
+Memory reads: 24
+Memory writes: 91
+Cache hits: 248
+Cache misses: 24
+0x804ae1c:
+W 9cb35b4
+Block Index: 14, Set Index: d, Tag: 4e59a
+Memory reads: 24
+Memory writes: 92
+Cache hits: 249
+Cache misses: 24
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 24
+Memory writes: 92
+Cache hits: 250
+Cache misses: 24
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 24
+Memory writes: 92
+Cache hits: 251
+Cache misses: 24
+0x804ae19:
+R 9cb35c0
+Block Index: 0, Set Index: e, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 25
+Memory writes: 92
+Cache hits: 251
+Cache misses: 25
+0x804ae19:
+W 9cb35c0
+Block Index: 0, Set Index: e, Tag: 4e59a
+Memory reads: 25
+Memory writes: 93
+Cache hits: 252
+Cache misses: 25
+0x804ae1c:
+R 9cb35c4
+Block Index: 4, Set Index: e, Tag: 4e59a
+Memory reads: 25
+Memory writes: 93
+Cache hits: 253
+Cache misses: 25
+0x804ae1c:
+W 9cb35c4
+Block Index: 4, Set Index: e, Tag: 4e59a
+Memory reads: 25
+Memory writes: 94
+Cache hits: 254
+Cache misses: 25
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 25
+Memory writes: 94
+Cache hits: 255
+Cache misses: 25
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 25
+Memory writes: 94
+Cache hits: 256
+Cache misses: 25
+0x804ae19:
+R 9cb35d0
+Block Index: 10, Set Index: e, Tag: 4e59a
+Memory reads: 25
+Memory writes: 94
+Cache hits: 257
+Cache misses: 25
+0x804ae19:
+W 9cb35d0
+Block Index: 10, Set Index: e, Tag: 4e59a
+Memory reads: 25
+Memory writes: 95
+Cache hits: 258
+Cache misses: 25
+0x804ae1c:
+R 9cb35d4
+Block Index: 14, Set Index: e, Tag: 4e59a
+Memory reads: 25
+Memory writes: 95
+Cache hits: 259
+Cache misses: 25
+0x804ae1c:
+W 9cb35d4
+Block Index: 14, Set Index: e, Tag: 4e59a
+Memory reads: 25
+Memory writes: 96
+Cache hits: 260
+Cache misses: 25
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 25
+Memory writes: 96
+Cache hits: 261
+Cache misses: 25
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 25
+Memory writes: 96
+Cache hits: 262
+Cache misses: 25
+0x804ae19:
+R 9cb35e0
+Block Index: 0, Set Index: f, Tag: 4e59a
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 26
+Memory writes: 96
+Cache hits: 262
+Cache misses: 26
+0x804ae19:
+W 9cb35e0
+Block Index: 0, Set Index: f, Tag: 4e59a
+Memory reads: 26
+Memory writes: 97
+Cache hits: 263
+Cache misses: 26
+0x804ae1c:
+R 9cb35e4
+Block Index: 4, Set Index: f, Tag: 4e59a
+Memory reads: 26
+Memory writes: 97
+Cache hits: 264
+Cache misses: 26
+0x804ae1c:
+W 9cb35e4
+Block Index: 4, Set Index: f, Tag: 4e59a
+Memory reads: 26
+Memory writes: 98
+Cache hits: 265
+Cache misses: 26
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 26
+Memory writes: 98
+Cache hits: 266
+Cache misses: 26
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 26
+Memory writes: 98
+Cache hits: 267
+Cache misses: 26
+0x804ae19:
+R 9cb35f0
+Block Index: 10, Set Index: f, Tag: 4e59a
+Memory reads: 26
+Memory writes: 98
+Cache hits: 268
+Cache misses: 26
+0x804ae19:
+W 9cb35f0
+Block Index: 10, Set Index: f, Tag: 4e59a
+Memory reads: 26
+Memory writes: 99
+Cache hits: 269
+Cache misses: 26
+0x804ae1c:
+R 9cb35f4
+Block Index: 14, Set Index: f, Tag: 4e59a
+Memory reads: 26
+Memory writes: 99
+Cache hits: 270
+Cache misses: 26
+0x804ae1c:
+W 9cb35f4
+Block Index: 14, Set Index: f, Tag: 4e59a
+Memory reads: 26
+Memory writes: 100
+Cache hits: 271
+Cache misses: 26
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 26
+Memory writes: 100
+Cache hits: 272
+Cache misses: 26
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 26
+Memory writes: 100
+Cache hits: 273
+Cache misses: 26
+0x804ae19:
+R 9cb3600
+Block Index: 0, Set Index: 0, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 27
+Memory writes: 100
+Cache hits: 273
+Cache misses: 27
+0x804ae19:
+W 9cb3600
+Block Index: 0, Set Index: 0, Tag: 4e59b
+Memory reads: 27
+Memory writes: 101
+Cache hits: 274
+Cache misses: 27
+0x804ae1c:
+R 9cb3604
+Block Index: 4, Set Index: 0, Tag: 4e59b
+Memory reads: 27
+Memory writes: 101
+Cache hits: 275
+Cache misses: 27
+0x804ae1c:
+W 9cb3604
+Block Index: 4, Set Index: 0, Tag: 4e59b
+Memory reads: 27
+Memory writes: 102
+Cache hits: 276
+Cache misses: 27
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 27
+Memory writes: 102
+Cache hits: 277
+Cache misses: 27
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 27
+Memory writes: 102
+Cache hits: 278
+Cache misses: 27
+0x804ae19:
+R 9cb3610
+Block Index: 10, Set Index: 0, Tag: 4e59b
+Memory reads: 27
+Memory writes: 102
+Cache hits: 279
+Cache misses: 27
+0x804ae19:
+W 9cb3610
+Block Index: 10, Set Index: 0, Tag: 4e59b
+Memory reads: 27
+Memory writes: 103
+Cache hits: 280
+Cache misses: 27
+0x804ae1c:
+R 9cb3614
+Block Index: 14, Set Index: 0, Tag: 4e59b
+Memory reads: 27
+Memory writes: 103
+Cache hits: 281
+Cache misses: 27
+0x804ae1c:
+W 9cb3614
+Block Index: 14, Set Index: 0, Tag: 4e59b
+Memory reads: 27
+Memory writes: 104
+Cache hits: 282
+Cache misses: 27
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 27
+Memory writes: 104
+Cache hits: 283
+Cache misses: 27
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 27
+Memory writes: 104
+Cache hits: 284
+Cache misses: 27
+0x804ae19:
+R 9cb3620
+Block Index: 0, Set Index: 1, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 28
+Memory writes: 104
+Cache hits: 284
+Cache misses: 28
+0x804ae19:
+W 9cb3620
+Block Index: 0, Set Index: 1, Tag: 4e59b
+Memory reads: 28
+Memory writes: 105
+Cache hits: 285
+Cache misses: 28
+0x804ae1c:
+R 9cb3624
+Block Index: 4, Set Index: 1, Tag: 4e59b
+Memory reads: 28
+Memory writes: 105
+Cache hits: 286
+Cache misses: 28
+0x804ae1c:
+W 9cb3624
+Block Index: 4, Set Index: 1, Tag: 4e59b
+Memory reads: 28
+Memory writes: 106
+Cache hits: 287
+Cache misses: 28
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 28
+Memory writes: 106
+Cache hits: 288
+Cache misses: 28
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 28
+Memory writes: 106
+Cache hits: 289
+Cache misses: 28
+0x804ae19:
+R 9cb3630
+Block Index: 10, Set Index: 1, Tag: 4e59b
+Memory reads: 28
+Memory writes: 106
+Cache hits: 290
+Cache misses: 28
+0x804ae19:
+W 9cb3630
+Block Index: 10, Set Index: 1, Tag: 4e59b
+Memory reads: 28
+Memory writes: 107
+Cache hits: 291
+Cache misses: 28
+0x804ae1c:
+R 9cb3634
+Block Index: 14, Set Index: 1, Tag: 4e59b
+Memory reads: 28
+Memory writes: 107
+Cache hits: 292
+Cache misses: 28
+0x804ae1c:
+W 9cb3634
+Block Index: 14, Set Index: 1, Tag: 4e59b
+Memory reads: 28
+Memory writes: 108
+Cache hits: 293
+Cache misses: 28
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 28
+Memory writes: 108
+Cache hits: 294
+Cache misses: 28
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 28
+Memory writes: 108
+Cache hits: 295
+Cache misses: 28
+0x804ae19:
+R 9cb3640
+Block Index: 0, Set Index: 2, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 29
+Memory writes: 108
+Cache hits: 295
+Cache misses: 29
+0x804ae19:
+W 9cb3640
+Block Index: 0, Set Index: 2, Tag: 4e59b
+Memory reads: 29
+Memory writes: 109
+Cache hits: 296
+Cache misses: 29
+0x804ae1c:
+R 9cb3644
+Block Index: 4, Set Index: 2, Tag: 4e59b
+Memory reads: 29
+Memory writes: 109
+Cache hits: 297
+Cache misses: 29
+0x804ae1c:
+W 9cb3644
+Block Index: 4, Set Index: 2, Tag: 4e59b
+Memory reads: 29
+Memory writes: 110
+Cache hits: 298
+Cache misses: 29
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 29
+Memory writes: 110
+Cache hits: 299
+Cache misses: 29
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 29
+Memory writes: 110
+Cache hits: 300
+Cache misses: 29
+0x804ae19:
+R 9cb3650
+Block Index: 10, Set Index: 2, Tag: 4e59b
+Memory reads: 29
+Memory writes: 110
+Cache hits: 301
+Cache misses: 29
+0x804ae19:
+W 9cb3650
+Block Index: 10, Set Index: 2, Tag: 4e59b
+Memory reads: 29
+Memory writes: 111
+Cache hits: 302
+Cache misses: 29
+0x804ae1c:
+R 9cb3654
+Block Index: 14, Set Index: 2, Tag: 4e59b
+Memory reads: 29
+Memory writes: 111
+Cache hits: 303
+Cache misses: 29
+0x804ae1c:
+W 9cb3654
+Block Index: 14, Set Index: 2, Tag: 4e59b
+Memory reads: 29
+Memory writes: 112
+Cache hits: 304
+Cache misses: 29
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 29
+Memory writes: 112
+Cache hits: 305
+Cache misses: 29
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 29
+Memory writes: 112
+Cache hits: 306
+Cache misses: 29
+0x804ae19:
+R 9cb3660
+Block Index: 0, Set Index: 3, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 30
+Memory writes: 112
+Cache hits: 306
+Cache misses: 30
+0x804ae19:
+W 9cb3660
+Block Index: 0, Set Index: 3, Tag: 4e59b
+Memory reads: 30
+Memory writes: 113
+Cache hits: 307
+Cache misses: 30
+0x804ae1c:
+R 9cb3664
+Block Index: 4, Set Index: 3, Tag: 4e59b
+Memory reads: 30
+Memory writes: 113
+Cache hits: 308
+Cache misses: 30
+0x804ae1c:
+W 9cb3664
+Block Index: 4, Set Index: 3, Tag: 4e59b
+Memory reads: 30
+Memory writes: 114
+Cache hits: 309
+Cache misses: 30
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 30
+Memory writes: 114
+Cache hits: 310
+Cache misses: 30
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 30
+Memory writes: 114
+Cache hits: 311
+Cache misses: 30
+0x804ae19:
+R 9cb3670
+Block Index: 10, Set Index: 3, Tag: 4e59b
+Memory reads: 30
+Memory writes: 114
+Cache hits: 312
+Cache misses: 30
+0x804ae19:
+W 9cb3670
+Block Index: 10, Set Index: 3, Tag: 4e59b
+Memory reads: 30
+Memory writes: 115
+Cache hits: 313
+Cache misses: 30
+0x804ae1c:
+R 9cb3674
+Block Index: 14, Set Index: 3, Tag: 4e59b
+Memory reads: 30
+Memory writes: 115
+Cache hits: 314
+Cache misses: 30
+0x804ae1c:
+W 9cb3674
+Block Index: 14, Set Index: 3, Tag: 4e59b
+Memory reads: 30
+Memory writes: 116
+Cache hits: 315
+Cache misses: 30
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 30
+Memory writes: 116
+Cache hits: 316
+Cache misses: 30
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 30
+Memory writes: 116
+Cache hits: 317
+Cache misses: 30
+0x804ae19:
+R 9cb3680
+Block Index: 0, Set Index: 4, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 125, Curr valid: 0, Curr tag: 0
+Memory reads: 31
+Memory writes: 116
+Cache hits: 317
+Cache misses: 31
+0x804ae19:
+W 9cb3680
+Block Index: 0, Set Index: 4, Tag: 4e59b
+Memory reads: 31
+Memory writes: 117
+Cache hits: 318
+Cache misses: 31
+0x804ae1c:
+R 9cb3684
+Block Index: 4, Set Index: 4, Tag: 4e59b
+Memory reads: 31
+Memory writes: 117
+Cache hits: 319
+Cache misses: 31
+0x804ae1c:
+W 9cb3684
+Block Index: 4, Set Index: 4, Tag: 4e59b
+Memory reads: 31
+Memory writes: 118
+Cache hits: 320
+Cache misses: 31
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 31
+Memory writes: 118
+Cache hits: 321
+Cache misses: 31
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 31
+Memory writes: 118
+Cache hits: 322
+Cache misses: 31
+0x804ae19:
+R 9cb3690
+Block Index: 10, Set Index: 4, Tag: 4e59b
+Memory reads: 31
+Memory writes: 118
+Cache hits: 323
+Cache misses: 31
+0x804ae19:
+W 9cb3690
+Block Index: 10, Set Index: 4, Tag: 4e59b
+Memory reads: 31
+Memory writes: 119
+Cache hits: 324
+Cache misses: 31
+0x804ae1c:
+R 9cb3694
+Block Index: 14, Set Index: 4, Tag: 4e59b
+Memory reads: 31
+Memory writes: 119
+Cache hits: 325
+Cache misses: 31
+0x804ae1c:
+W 9cb3694
+Block Index: 14, Set Index: 4, Tag: 4e59b
+Memory reads: 31
+Memory writes: 120
+Cache hits: 326
+Cache misses: 31
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 31
+Memory writes: 120
+Cache hits: 327
+Cache misses: 31
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 31
+Memory writes: 120
+Cache hits: 328
+Cache misses: 31
+0x804ae19:
+R 9cb36a0
+Block Index: 0, Set Index: 5, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 32
+Memory writes: 120
+Cache hits: 328
+Cache misses: 32
+0x804ae19:
+W 9cb36a0
+Block Index: 0, Set Index: 5, Tag: 4e59b
+Memory reads: 32
+Memory writes: 121
+Cache hits: 329
+Cache misses: 32
+0x804ae1c:
+R 9cb36a4
+Block Index: 4, Set Index: 5, Tag: 4e59b
+Memory reads: 32
+Memory writes: 121
+Cache hits: 330
+Cache misses: 32
+0x804ae1c:
+W 9cb36a4
+Block Index: 4, Set Index: 5, Tag: 4e59b
+Memory reads: 32
+Memory writes: 122
+Cache hits: 331
+Cache misses: 32
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 32
+Memory writes: 122
+Cache hits: 332
+Cache misses: 32
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 32
+Memory writes: 122
+Cache hits: 333
+Cache misses: 32
+0x804ae19:
+R 9cb36b0
+Block Index: 10, Set Index: 5, Tag: 4e59b
+Memory reads: 32
+Memory writes: 122
+Cache hits: 334
+Cache misses: 32
+0x804ae19:
+W 9cb36b0
+Block Index: 10, Set Index: 5, Tag: 4e59b
+Memory reads: 32
+Memory writes: 123
+Cache hits: 335
+Cache misses: 32
+0x804ae1c:
+R 9cb36b4
+Block Index: 14, Set Index: 5, Tag: 4e59b
+Memory reads: 32
+Memory writes: 123
+Cache hits: 336
+Cache misses: 32
+0x804ae1c:
+W 9cb36b4
+Block Index: 14, Set Index: 5, Tag: 4e59b
+Memory reads: 32
+Memory writes: 124
+Cache hits: 337
+Cache misses: 32
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 32
+Memory writes: 124
+Cache hits: 338
+Cache misses: 32
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 32
+Memory writes: 124
+Cache hits: 339
+Cache misses: 32
+0x804ae19:
+R 9cb36c0
+Block Index: 0, Set Index: 6, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 1
+Curr Priority: 9, Curr valid: 0, Curr tag: 0
+Memory reads: 33
+Memory writes: 124
+Cache hits: 339
+Cache misses: 33
+0x804ae19:
+W 9cb36c0
+Block Index: 0, Set Index: 6, Tag: 4e59b
+Memory reads: 33
+Memory writes: 125
+Cache hits: 340
+Cache misses: 33
+0x804ae1c:
+R 9cb36c4
+Block Index: 4, Set Index: 6, Tag: 4e59b
+Memory reads: 33
+Memory writes: 125
+Cache hits: 341
+Cache misses: 33
+0x804ae1c:
+W 9cb36c4
+Block Index: 4, Set Index: 6, Tag: 4e59b
+Memory reads: 33
+Memory writes: 126
+Cache hits: 342
+Cache misses: 33
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 33
+Memory writes: 126
+Cache hits: 343
+Cache misses: 33
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 33
+Memory writes: 126
+Cache hits: 344
+Cache misses: 33
+0x804ae19:
+R 9cb36d0
+Block Index: 10, Set Index: 6, Tag: 4e59b
+Memory reads: 33
+Memory writes: 126
+Cache hits: 345
+Cache misses: 33
+0x804ae19:
+W 9cb36d0
+Block Index: 10, Set Index: 6, Tag: 4e59b
+Memory reads: 33
+Memory writes: 127
+Cache hits: 346
+Cache misses: 33
+0x804ae1c:
+R 9cb36d4
+Block Index: 14, Set Index: 6, Tag: 4e59b
+Memory reads: 33
+Memory writes: 127
+Cache hits: 347
+Cache misses: 33
+0x804ae1c:
+W 9cb36d4
+Block Index: 14, Set Index: 6, Tag: 4e59b
+Memory reads: 33
+Memory writes: 128
+Cache hits: 348
+Cache misses: 33
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 33
+Memory writes: 128
+Cache hits: 349
+Cache misses: 33
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 33
+Memory writes: 128
+Cache hits: 350
+Cache misses: 33
+0x804ae19:
+R 9cb36e0
+Block Index: 0, Set Index: 7, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 16, Curr valid: 0, Curr tag: 0
+Memory reads: 34
+Memory writes: 128
+Cache hits: 350
+Cache misses: 34
+0x804ae19:
+W 9cb36e0
+Block Index: 0, Set Index: 7, Tag: 4e59b
+Memory reads: 34
+Memory writes: 129
+Cache hits: 351
+Cache misses: 34
+0x804ae1c:
+R 9cb36e4
+Block Index: 4, Set Index: 7, Tag: 4e59b
+Memory reads: 34
+Memory writes: 129
+Cache hits: 352
+Cache misses: 34
+0x804ae1c:
+W 9cb36e4
+Block Index: 4, Set Index: 7, Tag: 4e59b
+Memory reads: 34
+Memory writes: 130
+Cache hits: 353
+Cache misses: 34
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 34
+Memory writes: 130
+Cache hits: 354
+Cache misses: 34
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 34
+Memory writes: 130
+Cache hits: 355
+Cache misses: 34
+0x804ae19:
+R 9cb36f0
+Block Index: 10, Set Index: 7, Tag: 4e59b
+Memory reads: 34
+Memory writes: 130
+Cache hits: 356
+Cache misses: 34
+0x804ae19:
+W 9cb36f0
+Block Index: 10, Set Index: 7, Tag: 4e59b
+Memory reads: 34
+Memory writes: 131
+Cache hits: 357
+Cache misses: 34
+0x804ae1c:
+R 9cb36f4
+Block Index: 14, Set Index: 7, Tag: 4e59b
+Memory reads: 34
+Memory writes: 131
+Cache hits: 358
+Cache misses: 34
+0x804ae1c:
+W 9cb36f4
+Block Index: 14, Set Index: 7, Tag: 4e59b
+Memory reads: 34
+Memory writes: 132
+Cache hits: 359
+Cache misses: 34
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 34
+Memory writes: 132
+Cache hits: 360
+Cache misses: 34
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 34
+Memory writes: 132
+Cache hits: 361
+Cache misses: 34
+0x804ae19:
+R 9cb3700
+Block Index: 0, Set Index: 8, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 35
+Memory writes: 132
+Cache hits: 361
+Cache misses: 35
+0x804ae19:
+W 9cb3700
+Block Index: 0, Set Index: 8, Tag: 4e59b
+Memory reads: 35
+Memory writes: 133
+Cache hits: 362
+Cache misses: 35
+0x804ae1c:
+R 9cb3704
+Block Index: 4, Set Index: 8, Tag: 4e59b
+Memory reads: 35
+Memory writes: 133
+Cache hits: 363
+Cache misses: 35
+0x804ae1c:
+W 9cb3704
+Block Index: 4, Set Index: 8, Tag: 4e59b
+Memory reads: 35
+Memory writes: 134
+Cache hits: 364
+Cache misses: 35
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 35
+Memory writes: 134
+Cache hits: 365
+Cache misses: 35
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 35
+Memory writes: 134
+Cache hits: 366
+Cache misses: 35
+0x804ae19:
+R 9cb3710
+Block Index: 10, Set Index: 8, Tag: 4e59b
+Memory reads: 35
+Memory writes: 134
+Cache hits: 367
+Cache misses: 35
+0x804ae19:
+W 9cb3710
+Block Index: 10, Set Index: 8, Tag: 4e59b
+Memory reads: 35
+Memory writes: 135
+Cache hits: 368
+Cache misses: 35
+0x804ae1c:
+R 9cb3714
+Block Index: 14, Set Index: 8, Tag: 4e59b
+Memory reads: 35
+Memory writes: 135
+Cache hits: 369
+Cache misses: 35
+0x804ae1c:
+W 9cb3714
+Block Index: 14, Set Index: 8, Tag: 4e59b
+Memory reads: 35
+Memory writes: 136
+Cache hits: 370
+Cache misses: 35
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 35
+Memory writes: 136
+Cache hits: 371
+Cache misses: 35
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 35
+Memory writes: 136
+Cache hits: 372
+Cache misses: 35
+0x804ae19:
+R 9cb3720
+Block Index: 0, Set Index: 9, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 36
+Memory writes: 136
+Cache hits: 372
+Cache misses: 36
+0x804ae19:
+W 9cb3720
+Block Index: 0, Set Index: 9, Tag: 4e59b
+Memory reads: 36
+Memory writes: 137
+Cache hits: 373
+Cache misses: 36
+0x804ae1c:
+R 9cb3724
+Block Index: 4, Set Index: 9, Tag: 4e59b
+Memory reads: 36
+Memory writes: 137
+Cache hits: 374
+Cache misses: 36
+0x804ae1c:
+W 9cb3724
+Block Index: 4, Set Index: 9, Tag: 4e59b
+Memory reads: 36
+Memory writes: 138
+Cache hits: 375
+Cache misses: 36
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 36
+Memory writes: 138
+Cache hits: 376
+Cache misses: 36
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 36
+Memory writes: 138
+Cache hits: 377
+Cache misses: 36
+0x804ae19:
+R 9cb3730
+Block Index: 10, Set Index: 9, Tag: 4e59b
+Memory reads: 36
+Memory writes: 138
+Cache hits: 378
+Cache misses: 36
+0x804ae19:
+W 9cb3730
+Block Index: 10, Set Index: 9, Tag: 4e59b
+Memory reads: 36
+Memory writes: 139
+Cache hits: 379
+Cache misses: 36
+0x804ae1c:
+R 9cb3734
+Block Index: 14, Set Index: 9, Tag: 4e59b
+Memory reads: 36
+Memory writes: 139
+Cache hits: 380
+Cache misses: 36
+0x804ae1c:
+W 9cb3734
+Block Index: 14, Set Index: 9, Tag: 4e59b
+Memory reads: 36
+Memory writes: 140
+Cache hits: 381
+Cache misses: 36
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 36
+Memory writes: 140
+Cache hits: 382
+Cache misses: 36
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 36
+Memory writes: 140
+Cache hits: 383
+Cache misses: 36
+0x804ae19:
+R 9cb3740
+Block Index: 0, Set Index: a, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 37
+Memory writes: 140
+Cache hits: 383
+Cache misses: 37
+0x804ae19:
+W 9cb3740
+Block Index: 0, Set Index: a, Tag: 4e59b
+Memory reads: 37
+Memory writes: 141
+Cache hits: 384
+Cache misses: 37
+0x804ae1c:
+R 9cb3744
+Block Index: 4, Set Index: a, Tag: 4e59b
+Memory reads: 37
+Memory writes: 141
+Cache hits: 385
+Cache misses: 37
+0x804ae1c:
+W 9cb3744
+Block Index: 4, Set Index: a, Tag: 4e59b
+Memory reads: 37
+Memory writes: 142
+Cache hits: 386
+Cache misses: 37
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 37
+Memory writes: 142
+Cache hits: 387
+Cache misses: 37
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 37
+Memory writes: 142
+Cache hits: 388
+Cache misses: 37
+0x804ae19:
+R 9cb3750
+Block Index: 10, Set Index: a, Tag: 4e59b
+Memory reads: 37
+Memory writes: 142
+Cache hits: 389
+Cache misses: 37
+0x804ae19:
+W 9cb3750
+Block Index: 10, Set Index: a, Tag: 4e59b
+Memory reads: 37
+Memory writes: 143
+Cache hits: 390
+Cache misses: 37
+0x804ae1c:
+R 9cb3754
+Block Index: 14, Set Index: a, Tag: 4e59b
+Memory reads: 37
+Memory writes: 143
+Cache hits: 391
+Cache misses: 37
+0x804ae1c:
+W 9cb3754
+Block Index: 14, Set Index: a, Tag: 4e59b
+Memory reads: 37
+Memory writes: 144
+Cache hits: 392
+Cache misses: 37
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 37
+Memory writes: 144
+Cache hits: 393
+Cache misses: 37
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 37
+Memory writes: 144
+Cache hits: 394
+Cache misses: 37
+0x804ae19:
+R 9cb3760
+Block Index: 0, Set Index: b, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 38
+Memory writes: 144
+Cache hits: 394
+Cache misses: 38
+0x804ae19:
+W 9cb3760
+Block Index: 0, Set Index: b, Tag: 4e59b
+Memory reads: 38
+Memory writes: 145
+Cache hits: 395
+Cache misses: 38
+0x804ae1c:
+R 9cb3764
+Block Index: 4, Set Index: b, Tag: 4e59b
+Memory reads: 38
+Memory writes: 145
+Cache hits: 396
+Cache misses: 38
+0x804ae1c:
+W 9cb3764
+Block Index: 4, Set Index: b, Tag: 4e59b
+Memory reads: 38
+Memory writes: 146
+Cache hits: 397
+Cache misses: 38
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 38
+Memory writes: 146
+Cache hits: 398
+Cache misses: 38
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 38
+Memory writes: 146
+Cache hits: 399
+Cache misses: 38
+0x804ae19:
+R 9cb3770
+Block Index: 10, Set Index: b, Tag: 4e59b
+Memory reads: 38
+Memory writes: 146
+Cache hits: 400
+Cache misses: 38
+0x804ae19:
+W 9cb3770
+Block Index: 10, Set Index: b, Tag: 4e59b
+Memory reads: 38
+Memory writes: 147
+Cache hits: 401
+Cache misses: 38
+0x804ae1c:
+R 9cb3774
+Block Index: 14, Set Index: b, Tag: 4e59b
+Memory reads: 38
+Memory writes: 147
+Cache hits: 402
+Cache misses: 38
+0x804ae1c:
+W 9cb3774
+Block Index: 14, Set Index: b, Tag: 4e59b
+Memory reads: 38
+Memory writes: 148
+Cache hits: 403
+Cache misses: 38
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 38
+Memory writes: 148
+Cache hits: 404
+Cache misses: 38
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 38
+Memory writes: 148
+Cache hits: 405
+Cache misses: 38
+0x804ae19:
+R 9cb3780
+Block Index: 0, Set Index: c, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 39
+Memory writes: 148
+Cache hits: 405
+Cache misses: 39
+0x804ae19:
+W 9cb3780
+Block Index: 0, Set Index: c, Tag: 4e59b
+Memory reads: 39
+Memory writes: 149
+Cache hits: 406
+Cache misses: 39
+0x804ae1c:
+R 9cb3784
+Block Index: 4, Set Index: c, Tag: 4e59b
+Memory reads: 39
+Memory writes: 149
+Cache hits: 407
+Cache misses: 39
+0x804ae1c:
+W 9cb3784
+Block Index: 4, Set Index: c, Tag: 4e59b
+Memory reads: 39
+Memory writes: 150
+Cache hits: 408
+Cache misses: 39
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 39
+Memory writes: 150
+Cache hits: 409
+Cache misses: 39
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 39
+Memory writes: 150
+Cache hits: 410
+Cache misses: 39
+0x804ae19:
+R 9cb3790
+Block Index: 10, Set Index: c, Tag: 4e59b
+Memory reads: 39
+Memory writes: 150
+Cache hits: 411
+Cache misses: 39
+0x804ae19:
+W 9cb3790
+Block Index: 10, Set Index: c, Tag: 4e59b
+Memory reads: 39
+Memory writes: 151
+Cache hits: 412
+Cache misses: 39
+0x804ae1c:
+R 9cb3794
+Block Index: 14, Set Index: c, Tag: 4e59b
+Memory reads: 39
+Memory writes: 151
+Cache hits: 413
+Cache misses: 39
+0x804ae1c:
+W 9cb3794
+Block Index: 14, Set Index: c, Tag: 4e59b
+Memory reads: 39
+Memory writes: 152
+Cache hits: 414
+Cache misses: 39
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 39
+Memory writes: 152
+Cache hits: 415
+Cache misses: 39
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 39
+Memory writes: 152
+Cache hits: 416
+Cache misses: 39
+0x804ae19:
+R 9cb37a0
+Block Index: 0, Set Index: d, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 40
+Memory writes: 152
+Cache hits: 416
+Cache misses: 40
+0x804ae19:
+W 9cb37a0
+Block Index: 0, Set Index: d, Tag: 4e59b
+Memory reads: 40
+Memory writes: 153
+Cache hits: 417
+Cache misses: 40
+0x804ae1c:
+R 9cb37a4
+Block Index: 4, Set Index: d, Tag: 4e59b
+Memory reads: 40
+Memory writes: 153
+Cache hits: 418
+Cache misses: 40
+0x804ae1c:
+W 9cb37a4
+Block Index: 4, Set Index: d, Tag: 4e59b
+Memory reads: 40
+Memory writes: 154
+Cache hits: 419
+Cache misses: 40
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 40
+Memory writes: 154
+Cache hits: 420
+Cache misses: 40
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 40
+Memory writes: 154
+Cache hits: 421
+Cache misses: 40
+0x804ae19:
+R 9cb37b0
+Block Index: 10, Set Index: d, Tag: 4e59b
+Memory reads: 40
+Memory writes: 154
+Cache hits: 422
+Cache misses: 40
+0x804ae19:
+W 9cb37b0
+Block Index: 10, Set Index: d, Tag: 4e59b
+Memory reads: 40
+Memory writes: 155
+Cache hits: 423
+Cache misses: 40
+0x804ae1c:
+R 9cb37b4
+Block Index: 14, Set Index: d, Tag: 4e59b
+Memory reads: 40
+Memory writes: 155
+Cache hits: 424
+Cache misses: 40
+0x804ae1c:
+W 9cb37b4
+Block Index: 14, Set Index: d, Tag: 4e59b
+Memory reads: 40
+Memory writes: 156
+Cache hits: 425
+Cache misses: 40
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 40
+Memory writes: 156
+Cache hits: 426
+Cache misses: 40
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 40
+Memory writes: 156
+Cache hits: 427
+Cache misses: 40
+0x804ae19:
+R 9cb37c0
+Block Index: 0, Set Index: e, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 41
+Memory writes: 156
+Cache hits: 427
+Cache misses: 41
+0x804ae19:
+W 9cb37c0
+Block Index: 0, Set Index: e, Tag: 4e59b
+Memory reads: 41
+Memory writes: 157
+Cache hits: 428
+Cache misses: 41
+0x804ae1c:
+R 9cb37c4
+Block Index: 4, Set Index: e, Tag: 4e59b
+Memory reads: 41
+Memory writes: 157
+Cache hits: 429
+Cache misses: 41
+0x804ae1c:
+W 9cb37c4
+Block Index: 4, Set Index: e, Tag: 4e59b
+Memory reads: 41
+Memory writes: 158
+Cache hits: 430
+Cache misses: 41
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 41
+Memory writes: 158
+Cache hits: 431
+Cache misses: 41
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 41
+Memory writes: 158
+Cache hits: 432
+Cache misses: 41
+0x804ae19:
+R 9cb37d0
+Block Index: 10, Set Index: e, Tag: 4e59b
+Memory reads: 41
+Memory writes: 158
+Cache hits: 433
+Cache misses: 41
+0x804ae19:
+W 9cb37d0
+Block Index: 10, Set Index: e, Tag: 4e59b
+Memory reads: 41
+Memory writes: 159
+Cache hits: 434
+Cache misses: 41
+0x804ae1c:
+R 9cb37d4
+Block Index: 14, Set Index: e, Tag: 4e59b
+Memory reads: 41
+Memory writes: 159
+Cache hits: 435
+Cache misses: 41
+0x804ae1c:
+W 9cb37d4
+Block Index: 14, Set Index: e, Tag: 4e59b
+Memory reads: 41
+Memory writes: 160
+Cache hits: 436
+Cache misses: 41
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 41
+Memory writes: 160
+Cache hits: 437
+Cache misses: 41
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 41
+Memory writes: 160
+Cache hits: 438
+Cache misses: 41
+0x804ae19:
+R 9cb37e0
+Block Index: 0, Set Index: f, Tag: 4e59b
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 42
+Memory writes: 160
+Cache hits: 438
+Cache misses: 42
+0x804ae19:
+W 9cb37e0
+Block Index: 0, Set Index: f, Tag: 4e59b
+Memory reads: 42
+Memory writes: 161
+Cache hits: 439
+Cache misses: 42
+0x804ae1c:
+R 9cb37e4
+Block Index: 4, Set Index: f, Tag: 4e59b
+Memory reads: 42
+Memory writes: 161
+Cache hits: 440
+Cache misses: 42
+0x804ae1c:
+W 9cb37e4
+Block Index: 4, Set Index: f, Tag: 4e59b
+Memory reads: 42
+Memory writes: 162
+Cache hits: 441
+Cache misses: 42
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 42
+Memory writes: 162
+Cache hits: 442
+Cache misses: 42
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 42
+Memory writes: 162
+Cache hits: 443
+Cache misses: 42
+0x804ae19:
+R 9cb37f0
+Block Index: 10, Set Index: f, Tag: 4e59b
+Memory reads: 42
+Memory writes: 162
+Cache hits: 444
+Cache misses: 42
+0x804ae19:
+W 9cb37f0
+Block Index: 10, Set Index: f, Tag: 4e59b
+Memory reads: 42
+Memory writes: 163
+Cache hits: 445
+Cache misses: 42
+0x804ae1c:
+R 9cb37f4
+Block Index: 14, Set Index: f, Tag: 4e59b
+Memory reads: 42
+Memory writes: 163
+Cache hits: 446
+Cache misses: 42
+0x804ae1c:
+W 9cb37f4
+Block Index: 14, Set Index: f, Tag: 4e59b
+Memory reads: 42
+Memory writes: 164
+Cache hits: 447
+Cache misses: 42
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 42
+Memory writes: 164
+Cache hits: 448
+Cache misses: 42
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 42
+Memory writes: 164
+Cache hits: 449
+Cache misses: 42
+0x804ae19:
+R 9cb3800
+Block Index: 0, Set Index: 0, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 43
+Memory writes: 164
+Cache hits: 449
+Cache misses: 43
+0x804ae19:
+W 9cb3800
+Block Index: 0, Set Index: 0, Tag: 4e59c
+Memory reads: 43
+Memory writes: 165
+Cache hits: 450
+Cache misses: 43
+0x804ae1c:
+R 9cb3804
+Block Index: 4, Set Index: 0, Tag: 4e59c
+Memory reads: 43
+Memory writes: 165
+Cache hits: 451
+Cache misses: 43
+0x804ae1c:
+W 9cb3804
+Block Index: 4, Set Index: 0, Tag: 4e59c
+Memory reads: 43
+Memory writes: 166
+Cache hits: 452
+Cache misses: 43
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 43
+Memory writes: 166
+Cache hits: 453
+Cache misses: 43
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 43
+Memory writes: 166
+Cache hits: 454
+Cache misses: 43
+0x804ae19:
+R 9cb3810
+Block Index: 10, Set Index: 0, Tag: 4e59c
+Memory reads: 43
+Memory writes: 166
+Cache hits: 455
+Cache misses: 43
+0x804ae19:
+W 9cb3810
+Block Index: 10, Set Index: 0, Tag: 4e59c
+Memory reads: 43
+Memory writes: 167
+Cache hits: 456
+Cache misses: 43
+0x804ae1c:
+R 9cb3814
+Block Index: 14, Set Index: 0, Tag: 4e59c
+Memory reads: 43
+Memory writes: 167
+Cache hits: 457
+Cache misses: 43
+0x804ae1c:
+W 9cb3814
+Block Index: 14, Set Index: 0, Tag: 4e59c
+Memory reads: 43
+Memory writes: 168
+Cache hits: 458
+Cache misses: 43
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 43
+Memory writes: 168
+Cache hits: 459
+Cache misses: 43
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 43
+Memory writes: 168
+Cache hits: 460
+Cache misses: 43
+0x804ae19:
+R 9cb3820
+Block Index: 0, Set Index: 1, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 44
+Memory writes: 168
+Cache hits: 460
+Cache misses: 44
+0x804ae19:
+W 9cb3820
+Block Index: 0, Set Index: 1, Tag: 4e59c
+Memory reads: 44
+Memory writes: 169
+Cache hits: 461
+Cache misses: 44
+0x804ae1c:
+R 9cb3824
+Block Index: 4, Set Index: 1, Tag: 4e59c
+Memory reads: 44
+Memory writes: 169
+Cache hits: 462
+Cache misses: 44
+0x804ae1c:
+W 9cb3824
+Block Index: 4, Set Index: 1, Tag: 4e59c
+Memory reads: 44
+Memory writes: 170
+Cache hits: 463
+Cache misses: 44
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 44
+Memory writes: 170
+Cache hits: 464
+Cache misses: 44
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 44
+Memory writes: 170
+Cache hits: 465
+Cache misses: 44
+0x804ae19:
+R 9cb3830
+Block Index: 10, Set Index: 1, Tag: 4e59c
+Memory reads: 44
+Memory writes: 170
+Cache hits: 466
+Cache misses: 44
+0x804ae19:
+W 9cb3830
+Block Index: 10, Set Index: 1, Tag: 4e59c
+Memory reads: 44
+Memory writes: 171
+Cache hits: 467
+Cache misses: 44
+0x804ae1c:
+R 9cb3834
+Block Index: 14, Set Index: 1, Tag: 4e59c
+Memory reads: 44
+Memory writes: 171
+Cache hits: 468
+Cache misses: 44
+0x804ae1c:
+W 9cb3834
+Block Index: 14, Set Index: 1, Tag: 4e59c
+Memory reads: 44
+Memory writes: 172
+Cache hits: 469
+Cache misses: 44
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 44
+Memory writes: 172
+Cache hits: 470
+Cache misses: 44
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 44
+Memory writes: 172
+Cache hits: 471
+Cache misses: 44
+0x804ae19:
+R 9cb3840
+Block Index: 0, Set Index: 2, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 45
+Memory writes: 172
+Cache hits: 471
+Cache misses: 45
+0x804ae19:
+W 9cb3840
+Block Index: 0, Set Index: 2, Tag: 4e59c
+Memory reads: 45
+Memory writes: 173
+Cache hits: 472
+Cache misses: 45
+0x804ae1c:
+R 9cb3844
+Block Index: 4, Set Index: 2, Tag: 4e59c
+Memory reads: 45
+Memory writes: 173
+Cache hits: 473
+Cache misses: 45
+0x804ae1c:
+W 9cb3844
+Block Index: 4, Set Index: 2, Tag: 4e59c
+Memory reads: 45
+Memory writes: 174
+Cache hits: 474
+Cache misses: 45
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 45
+Memory writes: 174
+Cache hits: 475
+Cache misses: 45
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 45
+Memory writes: 174
+Cache hits: 476
+Cache misses: 45
+0x804ae19:
+R 9cb3850
+Block Index: 10, Set Index: 2, Tag: 4e59c
+Memory reads: 45
+Memory writes: 174
+Cache hits: 477
+Cache misses: 45
+0x804ae19:
+W 9cb3850
+Block Index: 10, Set Index: 2, Tag: 4e59c
+Memory reads: 45
+Memory writes: 175
+Cache hits: 478
+Cache misses: 45
+0x804ae1c:
+R 9cb3854
+Block Index: 14, Set Index: 2, Tag: 4e59c
+Memory reads: 45
+Memory writes: 175
+Cache hits: 479
+Cache misses: 45
+0x804ae1c:
+W 9cb3854
+Block Index: 14, Set Index: 2, Tag: 4e59c
+Memory reads: 45
+Memory writes: 176
+Cache hits: 480
+Cache misses: 45
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 45
+Memory writes: 176
+Cache hits: 481
+Cache misses: 45
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 45
+Memory writes: 176
+Cache hits: 482
+Cache misses: 45
+0x804ae19:
+R 9cb3860
+Block Index: 0, Set Index: 3, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 46
+Memory writes: 176
+Cache hits: 482
+Cache misses: 46
+0x804ae19:
+W 9cb3860
+Block Index: 0, Set Index: 3, Tag: 4e59c
+Memory reads: 46
+Memory writes: 177
+Cache hits: 483
+Cache misses: 46
+0x804ae1c:
+R 9cb3864
+Block Index: 4, Set Index: 3, Tag: 4e59c
+Memory reads: 46
+Memory writes: 177
+Cache hits: 484
+Cache misses: 46
+0x804ae1c:
+W 9cb3864
+Block Index: 4, Set Index: 3, Tag: 4e59c
+Memory reads: 46
+Memory writes: 178
+Cache hits: 485
+Cache misses: 46
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 46
+Memory writes: 178
+Cache hits: 486
+Cache misses: 46
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 46
+Memory writes: 178
+Cache hits: 487
+Cache misses: 46
+0x804ae19:
+R 9cb3870
+Block Index: 10, Set Index: 3, Tag: 4e59c
+Memory reads: 46
+Memory writes: 178
+Cache hits: 488
+Cache misses: 46
+0x804ae19:
+W 9cb3870
+Block Index: 10, Set Index: 3, Tag: 4e59c
+Memory reads: 46
+Memory writes: 179
+Cache hits: 489
+Cache misses: 46
+0x804ae1c:
+R 9cb3874
+Block Index: 14, Set Index: 3, Tag: 4e59c
+Memory reads: 46
+Memory writes: 179
+Cache hits: 490
+Cache misses: 46
+0x804ae1c:
+W 9cb3874
+Block Index: 14, Set Index: 3, Tag: 4e59c
+Memory reads: 46
+Memory writes: 180
+Cache hits: 491
+Cache misses: 46
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 46
+Memory writes: 180
+Cache hits: 492
+Cache misses: 46
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 46
+Memory writes: 180
+Cache hits: 493
+Cache misses: 46
+0x804ae19:
+R 9cb3880
+Block Index: 0, Set Index: 4, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 197, Curr valid: 0, Curr tag: 0
+Memory reads: 47
+Memory writes: 180
+Cache hits: 493
+Cache misses: 47
+0x804ae19:
+W 9cb3880
+Block Index: 0, Set Index: 4, Tag: 4e59c
+Memory reads: 47
+Memory writes: 181
+Cache hits: 494
+Cache misses: 47
+0x804ae1c:
+R 9cb3884
+Block Index: 4, Set Index: 4, Tag: 4e59c
+Memory reads: 47
+Memory writes: 181
+Cache hits: 495
+Cache misses: 47
+0x804ae1c:
+W 9cb3884
+Block Index: 4, Set Index: 4, Tag: 4e59c
+Memory reads: 47
+Memory writes: 182
+Cache hits: 496
+Cache misses: 47
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 47
+Memory writes: 182
+Cache hits: 497
+Cache misses: 47
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 47
+Memory writes: 182
+Cache hits: 498
+Cache misses: 47
+0x804ae19:
+R 9cb3890
+Block Index: 10, Set Index: 4, Tag: 4e59c
+Memory reads: 47
+Memory writes: 182
+Cache hits: 499
+Cache misses: 47
+0x804ae19:
+W 9cb3890
+Block Index: 10, Set Index: 4, Tag: 4e59c
+Memory reads: 47
+Memory writes: 183
+Cache hits: 500
+Cache misses: 47
+0x804ae1c:
+R 9cb3894
+Block Index: 14, Set Index: 4, Tag: 4e59c
+Memory reads: 47
+Memory writes: 183
+Cache hits: 501
+Cache misses: 47
+0x804ae1c:
+W 9cb3894
+Block Index: 14, Set Index: 4, Tag: 4e59c
+Memory reads: 47
+Memory writes: 184
+Cache hits: 502
+Cache misses: 47
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 47
+Memory writes: 184
+Cache hits: 503
+Cache misses: 47
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 47
+Memory writes: 184
+Cache hits: 504
+Cache misses: 47
+0x804ae19:
+R 9cb38a0
+Block Index: 0, Set Index: 5, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 48
+Memory writes: 184
+Cache hits: 504
+Cache misses: 48
+0x804ae19:
+W 9cb38a0
+Block Index: 0, Set Index: 5, Tag: 4e59c
+Memory reads: 48
+Memory writes: 185
+Cache hits: 505
+Cache misses: 48
+0x804ae1c:
+R 9cb38a4
+Block Index: 4, Set Index: 5, Tag: 4e59c
+Memory reads: 48
+Memory writes: 185
+Cache hits: 506
+Cache misses: 48
+0x804ae1c:
+W 9cb38a4
+Block Index: 4, Set Index: 5, Tag: 4e59c
+Memory reads: 48
+Memory writes: 186
+Cache hits: 507
+Cache misses: 48
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 48
+Memory writes: 186
+Cache hits: 508
+Cache misses: 48
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 48
+Memory writes: 186
+Cache hits: 509
+Cache misses: 48
+0x804ae19:
+R 9cb38b0
+Block Index: 10, Set Index: 5, Tag: 4e59c
+Memory reads: 48
+Memory writes: 186
+Cache hits: 510
+Cache misses: 48
+0x804ae19:
+W 9cb38b0
+Block Index: 10, Set Index: 5, Tag: 4e59c
+Memory reads: 48
+Memory writes: 187
+Cache hits: 511
+Cache misses: 48
+0x804ae1c:
+R 9cb38b4
+Block Index: 14, Set Index: 5, Tag: 4e59c
+Memory reads: 48
+Memory writes: 187
+Cache hits: 512
+Cache misses: 48
+0x804ae1c:
+W 9cb38b4
+Block Index: 14, Set Index: 5, Tag: 4e59c
+Memory reads: 48
+Memory writes: 188
+Cache hits: 513
+Cache misses: 48
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 48
+Memory writes: 188
+Cache hits: 514
+Cache misses: 48
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 48
+Memory writes: 188
+Cache hits: 515
+Cache misses: 48
+0x804ae19:
+R 9cb38c0
+Block Index: 0, Set Index: 6, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 2
+Curr Priority: 17, Curr valid: 0, Curr tag: 0
+Memory reads: 49
+Memory writes: 188
+Cache hits: 515
+Cache misses: 49
+0x804ae19:
+W 9cb38c0
+Block Index: 0, Set Index: 6, Tag: 4e59c
+Memory reads: 49
+Memory writes: 189
+Cache hits: 516
+Cache misses: 49
+0x804ae1c:
+R 9cb38c4
+Block Index: 4, Set Index: 6, Tag: 4e59c
+Memory reads: 49
+Memory writes: 189
+Cache hits: 517
+Cache misses: 49
+0x804ae1c:
+W 9cb38c4
+Block Index: 4, Set Index: 6, Tag: 4e59c
+Memory reads: 49
+Memory writes: 190
+Cache hits: 518
+Cache misses: 49
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 49
+Memory writes: 190
+Cache hits: 519
+Cache misses: 49
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 49
+Memory writes: 190
+Cache hits: 520
+Cache misses: 49
+0x804ae19:
+R 9cb38d0
+Block Index: 10, Set Index: 6, Tag: 4e59c
+Memory reads: 49
+Memory writes: 190
+Cache hits: 521
+Cache misses: 49
+0x804ae19:
+W 9cb38d0
+Block Index: 10, Set Index: 6, Tag: 4e59c
+Memory reads: 49
+Memory writes: 191
+Cache hits: 522
+Cache misses: 49
+0x804ae1c:
+R 9cb38d4
+Block Index: 14, Set Index: 6, Tag: 4e59c
+Memory reads: 49
+Memory writes: 191
+Cache hits: 523
+Cache misses: 49
+0x804ae1c:
+W 9cb38d4
+Block Index: 14, Set Index: 6, Tag: 4e59c
+Memory reads: 49
+Memory writes: 192
+Cache hits: 524
+Cache misses: 49
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 49
+Memory writes: 192
+Cache hits: 525
+Cache misses: 49
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 49
+Memory writes: 192
+Cache hits: 526
+Cache misses: 49
+0x804ae19:
+R 9cb38e0
+Block Index: 0, Set Index: 7, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 24, Curr valid: 0, Curr tag: 0
+Memory reads: 50
+Memory writes: 192
+Cache hits: 526
+Cache misses: 50
+0x804ae19:
+W 9cb38e0
+Block Index: 0, Set Index: 7, Tag: 4e59c
+Memory reads: 50
+Memory writes: 193
+Cache hits: 527
+Cache misses: 50
+0x804ae1c:
+R 9cb38e4
+Block Index: 4, Set Index: 7, Tag: 4e59c
+Memory reads: 50
+Memory writes: 193
+Cache hits: 528
+Cache misses: 50
+0x804ae1c:
+W 9cb38e4
+Block Index: 4, Set Index: 7, Tag: 4e59c
+Memory reads: 50
+Memory writes: 194
+Cache hits: 529
+Cache misses: 50
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 50
+Memory writes: 194
+Cache hits: 530
+Cache misses: 50
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 50
+Memory writes: 194
+Cache hits: 531
+Cache misses: 50
+0x804ae19:
+R 9cb38f0
+Block Index: 10, Set Index: 7, Tag: 4e59c
+Memory reads: 50
+Memory writes: 194
+Cache hits: 532
+Cache misses: 50
+0x804ae19:
+W 9cb38f0
+Block Index: 10, Set Index: 7, Tag: 4e59c
+Memory reads: 50
+Memory writes: 195
+Cache hits: 533
+Cache misses: 50
+0x804ae1c:
+R 9cb38f4
+Block Index: 14, Set Index: 7, Tag: 4e59c
+Memory reads: 50
+Memory writes: 195
+Cache hits: 534
+Cache misses: 50
+0x804ae1c:
+W 9cb38f4
+Block Index: 14, Set Index: 7, Tag: 4e59c
+Memory reads: 50
+Memory writes: 196
+Cache hits: 535
+Cache misses: 50
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 50
+Memory writes: 196
+Cache hits: 536
+Cache misses: 50
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 50
+Memory writes: 196
+Cache hits: 537
+Cache misses: 50
+0x804ae19:
+R 9cb3900
+Block Index: 0, Set Index: 8, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 51
+Memory writes: 196
+Cache hits: 537
+Cache misses: 51
+0x804ae19:
+W 9cb3900
+Block Index: 0, Set Index: 8, Tag: 4e59c
+Memory reads: 51
+Memory writes: 197
+Cache hits: 538
+Cache misses: 51
+0x804ae1c:
+R 9cb3904
+Block Index: 4, Set Index: 8, Tag: 4e59c
+Memory reads: 51
+Memory writes: 197
+Cache hits: 539
+Cache misses: 51
+0x804ae1c:
+W 9cb3904
+Block Index: 4, Set Index: 8, Tag: 4e59c
+Memory reads: 51
+Memory writes: 198
+Cache hits: 540
+Cache misses: 51
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 51
+Memory writes: 198
+Cache hits: 541
+Cache misses: 51
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 51
+Memory writes: 198
+Cache hits: 542
+Cache misses: 51
+0x804ae19:
+R 9cb3910
+Block Index: 10, Set Index: 8, Tag: 4e59c
+Memory reads: 51
+Memory writes: 198
+Cache hits: 543
+Cache misses: 51
+0x804ae19:
+W 9cb3910
+Block Index: 10, Set Index: 8, Tag: 4e59c
+Memory reads: 51
+Memory writes: 199
+Cache hits: 544
+Cache misses: 51
+0x804ae1c:
+R 9cb3914
+Block Index: 14, Set Index: 8, Tag: 4e59c
+Memory reads: 51
+Memory writes: 199
+Cache hits: 545
+Cache misses: 51
+0x804ae1c:
+W 9cb3914
+Block Index: 14, Set Index: 8, Tag: 4e59c
+Memory reads: 51
+Memory writes: 200
+Cache hits: 546
+Cache misses: 51
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 51
+Memory writes: 200
+Cache hits: 547
+Cache misses: 51
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 51
+Memory writes: 200
+Cache hits: 548
+Cache misses: 51
+0x804ae19:
+R 9cb3920
+Block Index: 0, Set Index: 9, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 52
+Memory writes: 200
+Cache hits: 548
+Cache misses: 52
+0x804ae19:
+W 9cb3920
+Block Index: 0, Set Index: 9, Tag: 4e59c
+Memory reads: 52
+Memory writes: 201
+Cache hits: 549
+Cache misses: 52
+0x804ae1c:
+R 9cb3924
+Block Index: 4, Set Index: 9, Tag: 4e59c
+Memory reads: 52
+Memory writes: 201
+Cache hits: 550
+Cache misses: 52
+0x804ae1c:
+W 9cb3924
+Block Index: 4, Set Index: 9, Tag: 4e59c
+Memory reads: 52
+Memory writes: 202
+Cache hits: 551
+Cache misses: 52
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 52
+Memory writes: 202
+Cache hits: 552
+Cache misses: 52
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 52
+Memory writes: 202
+Cache hits: 553
+Cache misses: 52
+0x804ae19:
+R 9cb3930
+Block Index: 10, Set Index: 9, Tag: 4e59c
+Memory reads: 52
+Memory writes: 202
+Cache hits: 554
+Cache misses: 52
+0x804ae19:
+W 9cb3930
+Block Index: 10, Set Index: 9, Tag: 4e59c
+Memory reads: 52
+Memory writes: 203
+Cache hits: 555
+Cache misses: 52
+0x804ae1c:
+R 9cb3934
+Block Index: 14, Set Index: 9, Tag: 4e59c
+Memory reads: 52
+Memory writes: 203
+Cache hits: 556
+Cache misses: 52
+0x804ae1c:
+W 9cb3934
+Block Index: 14, Set Index: 9, Tag: 4e59c
+Memory reads: 52
+Memory writes: 204
+Cache hits: 557
+Cache misses: 52
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 52
+Memory writes: 204
+Cache hits: 558
+Cache misses: 52
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 52
+Memory writes: 204
+Cache hits: 559
+Cache misses: 52
+0x804ae19:
+R 9cb3940
+Block Index: 0, Set Index: a, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 53
+Memory writes: 204
+Cache hits: 559
+Cache misses: 53
+0x804ae19:
+W 9cb3940
+Block Index: 0, Set Index: a, Tag: 4e59c
+Memory reads: 53
+Memory writes: 205
+Cache hits: 560
+Cache misses: 53
+0x804ae1c:
+R 9cb3944
+Block Index: 4, Set Index: a, Tag: 4e59c
+Memory reads: 53
+Memory writes: 205
+Cache hits: 561
+Cache misses: 53
+0x804ae1c:
+W 9cb3944
+Block Index: 4, Set Index: a, Tag: 4e59c
+Memory reads: 53
+Memory writes: 206
+Cache hits: 562
+Cache misses: 53
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 53
+Memory writes: 206
+Cache hits: 563
+Cache misses: 53
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 53
+Memory writes: 206
+Cache hits: 564
+Cache misses: 53
+0x804ae19:
+R 9cb3950
+Block Index: 10, Set Index: a, Tag: 4e59c
+Memory reads: 53
+Memory writes: 206
+Cache hits: 565
+Cache misses: 53
+0x804ae19:
+W 9cb3950
+Block Index: 10, Set Index: a, Tag: 4e59c
+Memory reads: 53
+Memory writes: 207
+Cache hits: 566
+Cache misses: 53
+0x804ae1c:
+R 9cb3954
+Block Index: 14, Set Index: a, Tag: 4e59c
+Memory reads: 53
+Memory writes: 207
+Cache hits: 567
+Cache misses: 53
+0x804ae1c:
+W 9cb3954
+Block Index: 14, Set Index: a, Tag: 4e59c
+Memory reads: 53
+Memory writes: 208
+Cache hits: 568
+Cache misses: 53
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 53
+Memory writes: 208
+Cache hits: 569
+Cache misses: 53
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 53
+Memory writes: 208
+Cache hits: 570
+Cache misses: 53
+0x804ae19:
+R 9cb3960
+Block Index: 0, Set Index: b, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 54
+Memory writes: 208
+Cache hits: 570
+Cache misses: 54
+0x804ae19:
+W 9cb3960
+Block Index: 0, Set Index: b, Tag: 4e59c
+Memory reads: 54
+Memory writes: 209
+Cache hits: 571
+Cache misses: 54
+0x804ae1c:
+R 9cb3964
+Block Index: 4, Set Index: b, Tag: 4e59c
+Memory reads: 54
+Memory writes: 209
+Cache hits: 572
+Cache misses: 54
+0x804ae1c:
+W 9cb3964
+Block Index: 4, Set Index: b, Tag: 4e59c
+Memory reads: 54
+Memory writes: 210
+Cache hits: 573
+Cache misses: 54
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 54
+Memory writes: 210
+Cache hits: 574
+Cache misses: 54
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 54
+Memory writes: 210
+Cache hits: 575
+Cache misses: 54
+0x804ae19:
+R 9cb3970
+Block Index: 10, Set Index: b, Tag: 4e59c
+Memory reads: 54
+Memory writes: 210
+Cache hits: 576
+Cache misses: 54
+0x804ae19:
+W 9cb3970
+Block Index: 10, Set Index: b, Tag: 4e59c
+Memory reads: 54
+Memory writes: 211
+Cache hits: 577
+Cache misses: 54
+0x804ae1c:
+R 9cb3974
+Block Index: 14, Set Index: b, Tag: 4e59c
+Memory reads: 54
+Memory writes: 211
+Cache hits: 578
+Cache misses: 54
+0x804ae1c:
+W 9cb3974
+Block Index: 14, Set Index: b, Tag: 4e59c
+Memory reads: 54
+Memory writes: 212
+Cache hits: 579
+Cache misses: 54
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 54
+Memory writes: 212
+Cache hits: 580
+Cache misses: 54
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 54
+Memory writes: 212
+Cache hits: 581
+Cache misses: 54
+0x804ae19:
+R 9cb3980
+Block Index: 0, Set Index: c, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 55
+Memory writes: 212
+Cache hits: 581
+Cache misses: 55
+0x804ae19:
+W 9cb3980
+Block Index: 0, Set Index: c, Tag: 4e59c
+Memory reads: 55
+Memory writes: 213
+Cache hits: 582
+Cache misses: 55
+0x804ae1c:
+R 9cb3984
+Block Index: 4, Set Index: c, Tag: 4e59c
+Memory reads: 55
+Memory writes: 213
+Cache hits: 583
+Cache misses: 55
+0x804ae1c:
+W 9cb3984
+Block Index: 4, Set Index: c, Tag: 4e59c
+Memory reads: 55
+Memory writes: 214
+Cache hits: 584
+Cache misses: 55
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 55
+Memory writes: 214
+Cache hits: 585
+Cache misses: 55
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 55
+Memory writes: 214
+Cache hits: 586
+Cache misses: 55
+0x804ae19:
+R 9cb3990
+Block Index: 10, Set Index: c, Tag: 4e59c
+Memory reads: 55
+Memory writes: 214
+Cache hits: 587
+Cache misses: 55
+0x804ae19:
+W 9cb3990
+Block Index: 10, Set Index: c, Tag: 4e59c
+Memory reads: 55
+Memory writes: 215
+Cache hits: 588
+Cache misses: 55
+0x804ae1c:
+R 9cb3994
+Block Index: 14, Set Index: c, Tag: 4e59c
+Memory reads: 55
+Memory writes: 215
+Cache hits: 589
+Cache misses: 55
+0x804ae1c:
+W 9cb3994
+Block Index: 14, Set Index: c, Tag: 4e59c
+Memory reads: 55
+Memory writes: 216
+Cache hits: 590
+Cache misses: 55
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 55
+Memory writes: 216
+Cache hits: 591
+Cache misses: 55
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 55
+Memory writes: 216
+Cache hits: 592
+Cache misses: 55
+0x804ae19:
+R 9cb39a0
+Block Index: 0, Set Index: d, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 56
+Memory writes: 216
+Cache hits: 592
+Cache misses: 56
+0x804ae19:
+W 9cb39a0
+Block Index: 0, Set Index: d, Tag: 4e59c
+Memory reads: 56
+Memory writes: 217
+Cache hits: 593
+Cache misses: 56
+0x804ae1c:
+R 9cb39a4
+Block Index: 4, Set Index: d, Tag: 4e59c
+Memory reads: 56
+Memory writes: 217
+Cache hits: 594
+Cache misses: 56
+0x804ae1c:
+W 9cb39a4
+Block Index: 4, Set Index: d, Tag: 4e59c
+Memory reads: 56
+Memory writes: 218
+Cache hits: 595
+Cache misses: 56
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 56
+Memory writes: 218
+Cache hits: 596
+Cache misses: 56
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 56
+Memory writes: 218
+Cache hits: 597
+Cache misses: 56
+0x804ae19:
+R 9cb39b0
+Block Index: 10, Set Index: d, Tag: 4e59c
+Memory reads: 56
+Memory writes: 218
+Cache hits: 598
+Cache misses: 56
+0x804ae19:
+W 9cb39b0
+Block Index: 10, Set Index: d, Tag: 4e59c
+Memory reads: 56
+Memory writes: 219
+Cache hits: 599
+Cache misses: 56
+0x804ae1c:
+R 9cb39b4
+Block Index: 14, Set Index: d, Tag: 4e59c
+Memory reads: 56
+Memory writes: 219
+Cache hits: 600
+Cache misses: 56
+0x804ae1c:
+W 9cb39b4
+Block Index: 14, Set Index: d, Tag: 4e59c
+Memory reads: 56
+Memory writes: 220
+Cache hits: 601
+Cache misses: 56
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 56
+Memory writes: 220
+Cache hits: 602
+Cache misses: 56
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 56
+Memory writes: 220
+Cache hits: 603
+Cache misses: 56
+0x804ae19:
+R 9cb39c0
+Block Index: 0, Set Index: e, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 57
+Memory writes: 220
+Cache hits: 603
+Cache misses: 57
+0x804ae19:
+W 9cb39c0
+Block Index: 0, Set Index: e, Tag: 4e59c
+Memory reads: 57
+Memory writes: 221
+Cache hits: 604
+Cache misses: 57
+0x804ae1c:
+R 9cb39c4
+Block Index: 4, Set Index: e, Tag: 4e59c
+Memory reads: 57
+Memory writes: 221
+Cache hits: 605
+Cache misses: 57
+0x804ae1c:
+W 9cb39c4
+Block Index: 4, Set Index: e, Tag: 4e59c
+Memory reads: 57
+Memory writes: 222
+Cache hits: 606
+Cache misses: 57
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 57
+Memory writes: 222
+Cache hits: 607
+Cache misses: 57
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 57
+Memory writes: 222
+Cache hits: 608
+Cache misses: 57
+0x804ae19:
+R 9cb39d0
+Block Index: 10, Set Index: e, Tag: 4e59c
+Memory reads: 57
+Memory writes: 222
+Cache hits: 609
+Cache misses: 57
+0x804ae19:
+W 9cb39d0
+Block Index: 10, Set Index: e, Tag: 4e59c
+Memory reads: 57
+Memory writes: 223
+Cache hits: 610
+Cache misses: 57
+0x804ae1c:
+R 9cb39d4
+Block Index: 14, Set Index: e, Tag: 4e59c
+Memory reads: 57
+Memory writes: 223
+Cache hits: 611
+Cache misses: 57
+0x804ae1c:
+W 9cb39d4
+Block Index: 14, Set Index: e, Tag: 4e59c
+Memory reads: 57
+Memory writes: 224
+Cache hits: 612
+Cache misses: 57
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 57
+Memory writes: 224
+Cache hits: 613
+Cache misses: 57
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 57
+Memory writes: 224
+Cache hits: 614
+Cache misses: 57
+0x804ae19:
+R 9cb39e0
+Block Index: 0, Set Index: f, Tag: 4e59c
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 58
+Memory writes: 224
+Cache hits: 614
+Cache misses: 58
+0x804ae19:
+W 9cb39e0
+Block Index: 0, Set Index: f, Tag: 4e59c
+Memory reads: 58
+Memory writes: 225
+Cache hits: 615
+Cache misses: 58
+0x804ae1c:
+R 9cb39e4
+Block Index: 4, Set Index: f, Tag: 4e59c
+Memory reads: 58
+Memory writes: 225
+Cache hits: 616
+Cache misses: 58
+0x804ae1c:
+W 9cb39e4
+Block Index: 4, Set Index: f, Tag: 4e59c
+Memory reads: 58
+Memory writes: 226
+Cache hits: 617
+Cache misses: 58
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 58
+Memory writes: 226
+Cache hits: 618
+Cache misses: 58
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 58
+Memory writes: 226
+Cache hits: 619
+Cache misses: 58
+0x804ae19:
+R 9cb39f0
+Block Index: 10, Set Index: f, Tag: 4e59c
+Memory reads: 58
+Memory writes: 226
+Cache hits: 620
+Cache misses: 58
+0x804ae19:
+W 9cb39f0
+Block Index: 10, Set Index: f, Tag: 4e59c
+Memory reads: 58
+Memory writes: 227
+Cache hits: 621
+Cache misses: 58
+0x804ae1c:
+R 9cb39f4
+Block Index: 14, Set Index: f, Tag: 4e59c
+Memory reads: 58
+Memory writes: 227
+Cache hits: 622
+Cache misses: 58
+0x804ae1c:
+W 9cb39f4
+Block Index: 14, Set Index: f, Tag: 4e59c
+Memory reads: 58
+Memory writes: 228
+Cache hits: 623
+Cache misses: 58
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 58
+Memory writes: 228
+Cache hits: 624
+Cache misses: 58
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 58
+Memory writes: 228
+Cache hits: 625
+Cache misses: 58
+0x804ae19:
+R 9cb3a00
+Block Index: 0, Set Index: 0, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 59
+Memory writes: 228
+Cache hits: 625
+Cache misses: 59
+0x804ae19:
+W 9cb3a00
+Block Index: 0, Set Index: 0, Tag: 4e59d
+Memory reads: 59
+Memory writes: 229
+Cache hits: 626
+Cache misses: 59
+0x804ae1c:
+R 9cb3a04
+Block Index: 4, Set Index: 0, Tag: 4e59d
+Memory reads: 59
+Memory writes: 229
+Cache hits: 627
+Cache misses: 59
+0x804ae1c:
+W 9cb3a04
+Block Index: 4, Set Index: 0, Tag: 4e59d
+Memory reads: 59
+Memory writes: 230
+Cache hits: 628
+Cache misses: 59
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 59
+Memory writes: 230
+Cache hits: 629
+Cache misses: 59
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 59
+Memory writes: 230
+Cache hits: 630
+Cache misses: 59
+0x804ae19:
+R 9cb3a10
+Block Index: 10, Set Index: 0, Tag: 4e59d
+Memory reads: 59
+Memory writes: 230
+Cache hits: 631
+Cache misses: 59
+0x804ae19:
+W 9cb3a10
+Block Index: 10, Set Index: 0, Tag: 4e59d
+Memory reads: 59
+Memory writes: 231
+Cache hits: 632
+Cache misses: 59
+0x804ae1c:
+R 9cb3a14
+Block Index: 14, Set Index: 0, Tag: 4e59d
+Memory reads: 59
+Memory writes: 231
+Cache hits: 633
+Cache misses: 59
+0x804ae1c:
+W 9cb3a14
+Block Index: 14, Set Index: 0, Tag: 4e59d
+Memory reads: 59
+Memory writes: 232
+Cache hits: 634
+Cache misses: 59
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 59
+Memory writes: 232
+Cache hits: 635
+Cache misses: 59
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 59
+Memory writes: 232
+Cache hits: 636
+Cache misses: 59
+0x804ae19:
+R 9cb3a20
+Block Index: 0, Set Index: 1, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 60
+Memory writes: 232
+Cache hits: 636
+Cache misses: 60
+0x804ae19:
+W 9cb3a20
+Block Index: 0, Set Index: 1, Tag: 4e59d
+Memory reads: 60
+Memory writes: 233
+Cache hits: 637
+Cache misses: 60
+0x804ae1c:
+R 9cb3a24
+Block Index: 4, Set Index: 1, Tag: 4e59d
+Memory reads: 60
+Memory writes: 233
+Cache hits: 638
+Cache misses: 60
+0x804ae1c:
+W 9cb3a24
+Block Index: 4, Set Index: 1, Tag: 4e59d
+Memory reads: 60
+Memory writes: 234
+Cache hits: 639
+Cache misses: 60
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 60
+Memory writes: 234
+Cache hits: 640
+Cache misses: 60
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 60
+Memory writes: 234
+Cache hits: 641
+Cache misses: 60
+0x804ae19:
+R 9cb3a30
+Block Index: 10, Set Index: 1, Tag: 4e59d
+Memory reads: 60
+Memory writes: 234
+Cache hits: 642
+Cache misses: 60
+0x804ae19:
+W 9cb3a30
+Block Index: 10, Set Index: 1, Tag: 4e59d
+Memory reads: 60
+Memory writes: 235
+Cache hits: 643
+Cache misses: 60
+0x804ae1c:
+R 9cb3a34
+Block Index: 14, Set Index: 1, Tag: 4e59d
+Memory reads: 60
+Memory writes: 235
+Cache hits: 644
+Cache misses: 60
+0x804ae1c:
+W 9cb3a34
+Block Index: 14, Set Index: 1, Tag: 4e59d
+Memory reads: 60
+Memory writes: 236
+Cache hits: 645
+Cache misses: 60
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 60
+Memory writes: 236
+Cache hits: 646
+Cache misses: 60
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 60
+Memory writes: 236
+Cache hits: 647
+Cache misses: 60
+0x804ae19:
+R 9cb3a40
+Block Index: 0, Set Index: 2, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 61
+Memory writes: 236
+Cache hits: 647
+Cache misses: 61
+0x804ae19:
+W 9cb3a40
+Block Index: 0, Set Index: 2, Tag: 4e59d
+Memory reads: 61
+Memory writes: 237
+Cache hits: 648
+Cache misses: 61
+0x804ae1c:
+R 9cb3a44
+Block Index: 4, Set Index: 2, Tag: 4e59d
+Memory reads: 61
+Memory writes: 237
+Cache hits: 649
+Cache misses: 61
+0x804ae1c:
+W 9cb3a44
+Block Index: 4, Set Index: 2, Tag: 4e59d
+Memory reads: 61
+Memory writes: 238
+Cache hits: 650
+Cache misses: 61
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 61
+Memory writes: 238
+Cache hits: 651
+Cache misses: 61
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 61
+Memory writes: 238
+Cache hits: 652
+Cache misses: 61
+0x804ae19:
+R 9cb3a50
+Block Index: 10, Set Index: 2, Tag: 4e59d
+Memory reads: 61
+Memory writes: 238
+Cache hits: 653
+Cache misses: 61
+0x804ae19:
+W 9cb3a50
+Block Index: 10, Set Index: 2, Tag: 4e59d
+Memory reads: 61
+Memory writes: 239
+Cache hits: 654
+Cache misses: 61
+0x804ae1c:
+R 9cb3a54
+Block Index: 14, Set Index: 2, Tag: 4e59d
+Memory reads: 61
+Memory writes: 239
+Cache hits: 655
+Cache misses: 61
+0x804ae1c:
+W 9cb3a54
+Block Index: 14, Set Index: 2, Tag: 4e59d
+Memory reads: 61
+Memory writes: 240
+Cache hits: 656
+Cache misses: 61
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 61
+Memory writes: 240
+Cache hits: 657
+Cache misses: 61
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 61
+Memory writes: 240
+Cache hits: 658
+Cache misses: 61
+0x804ae19:
+R 9cb3a60
+Block Index: 0, Set Index: 3, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 62
+Memory writes: 240
+Cache hits: 658
+Cache misses: 62
+0x804ae19:
+W 9cb3a60
+Block Index: 0, Set Index: 3, Tag: 4e59d
+Memory reads: 62
+Memory writes: 241
+Cache hits: 659
+Cache misses: 62
+0x804ae1c:
+R 9cb3a64
+Block Index: 4, Set Index: 3, Tag: 4e59d
+Memory reads: 62
+Memory writes: 241
+Cache hits: 660
+Cache misses: 62
+0x804ae1c:
+W 9cb3a64
+Block Index: 4, Set Index: 3, Tag: 4e59d
+Memory reads: 62
+Memory writes: 242
+Cache hits: 661
+Cache misses: 62
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 62
+Memory writes: 242
+Cache hits: 662
+Cache misses: 62
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 62
+Memory writes: 242
+Cache hits: 663
+Cache misses: 62
+0x804ae19:
+R 9cb3a70
+Block Index: 10, Set Index: 3, Tag: 4e59d
+Memory reads: 62
+Memory writes: 242
+Cache hits: 664
+Cache misses: 62
+0x804ae19:
+W 9cb3a70
+Block Index: 10, Set Index: 3, Tag: 4e59d
+Memory reads: 62
+Memory writes: 243
+Cache hits: 665
+Cache misses: 62
+0x804ae1c:
+R 9cb3a74
+Block Index: 14, Set Index: 3, Tag: 4e59d
+Memory reads: 62
+Memory writes: 243
+Cache hits: 666
+Cache misses: 62
+0x804ae1c:
+W 9cb3a74
+Block Index: 14, Set Index: 3, Tag: 4e59d
+Memory reads: 62
+Memory writes: 244
+Cache hits: 667
+Cache misses: 62
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 62
+Memory writes: 244
+Cache hits: 668
+Cache misses: 62
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 62
+Memory writes: 244
+Cache hits: 669
+Cache misses: 62
+0x804ae19:
+R 9cb3a80
+Block Index: 0, Set Index: 4, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 268, Curr valid: 1, Curr tag: 5fc77a
+Memory reads: 63
+Memory writes: 244
+Cache hits: 669
+Cache misses: 63
+0x804ae19:
+W 9cb3a80
+Block Index: 0, Set Index: 4, Tag: 4e59d
+Memory reads: 63
+Memory writes: 245
+Cache hits: 670
+Cache misses: 63
+0x804ae1c:
+R 9cb3a84
+Block Index: 4, Set Index: 4, Tag: 4e59d
+Memory reads: 63
+Memory writes: 245
+Cache hits: 671
+Cache misses: 63
+0x804ae1c:
+W 9cb3a84
+Block Index: 4, Set Index: 4, Tag: 4e59d
+Memory reads: 63
+Memory writes: 246
+Cache hits: 672
+Cache misses: 63
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 271, Curr valid: 1, Curr tag: 4e59d
+Memory reads: 64
+Memory writes: 246
+Cache hits: 672
+Cache misses: 64
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 64
+Memory writes: 246
+Cache hits: 673
+Cache misses: 64
+0x804ae19:
+R 9cb3a90
+Block Index: 10, Set Index: 4, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 272, Curr valid: 1, Curr tag: 5fc77a
+Memory reads: 65
+Memory writes: 246
+Cache hits: 673
+Cache misses: 65
+0x804ae19:
+W 9cb3a90
+Block Index: 10, Set Index: 4, Tag: 4e59d
+Memory reads: 65
+Memory writes: 247
+Cache hits: 674
+Cache misses: 65
+0x804ae1c:
+R 9cb3a94
+Block Index: 14, Set Index: 4, Tag: 4e59d
+Memory reads: 65
+Memory writes: 247
+Cache hits: 675
+Cache misses: 65
+0x804ae1c:
+W 9cb3a94
+Block Index: 14, Set Index: 4, Tag: 4e59d
+Memory reads: 65
+Memory writes: 248
+Cache hits: 676
+Cache misses: 65
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 275, Curr valid: 1, Curr tag: 4e59d
+Memory reads: 66
+Memory writes: 248
+Cache hits: 676
+Cache misses: 66
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 66
+Memory writes: 248
+Cache hits: 677
+Cache misses: 66
+0x804ae19:
+R 9cb3aa0
+Block Index: 0, Set Index: 5, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 67
+Memory writes: 248
+Cache hits: 677
+Cache misses: 67
+0x804ae19:
+W 9cb3aa0
+Block Index: 0, Set Index: 5, Tag: 4e59d
+Memory reads: 67
+Memory writes: 249
+Cache hits: 678
+Cache misses: 67
+0x804ae1c:
+R 9cb3aa4
+Block Index: 4, Set Index: 5, Tag: 4e59d
+Memory reads: 67
+Memory writes: 249
+Cache hits: 679
+Cache misses: 67
+0x804ae1c:
+W 9cb3aa4
+Block Index: 4, Set Index: 5, Tag: 4e59d
+Memory reads: 67
+Memory writes: 250
+Cache hits: 680
+Cache misses: 67
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 67
+Memory writes: 250
+Cache hits: 681
+Cache misses: 67
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 67
+Memory writes: 250
+Cache hits: 682
+Cache misses: 67
+0x804ae19:
+R 9cb3ab0
+Block Index: 10, Set Index: 5, Tag: 4e59d
+Memory reads: 67
+Memory writes: 250
+Cache hits: 683
+Cache misses: 67
+0x804ae19:
+W 9cb3ab0
+Block Index: 10, Set Index: 5, Tag: 4e59d
+Memory reads: 67
+Memory writes: 251
+Cache hits: 684
+Cache misses: 67
+0x804ae1c:
+R 9cb3ab4
+Block Index: 14, Set Index: 5, Tag: 4e59d
+Memory reads: 67
+Memory writes: 251
+Cache hits: 685
+Cache misses: 67
+0x804ae1c:
+W 9cb3ab4
+Block Index: 14, Set Index: 5, Tag: 4e59d
+Memory reads: 67
+Memory writes: 252
+Cache hits: 686
+Cache misses: 67
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 67
+Memory writes: 252
+Cache hits: 687
+Cache misses: 67
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 67
+Memory writes: 252
+Cache hits: 688
+Cache misses: 67
+0x804ae19:
+R 9cb3ac0
+Block Index: 0, Set Index: 6, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 3
+Curr Priority: 25, Curr valid: 0, Curr tag: 0
+Memory reads: 68
+Memory writes: 252
+Cache hits: 688
+Cache misses: 68
+0x804ae19:
+W 9cb3ac0
+Block Index: 0, Set Index: 6, Tag: 4e59d
+Memory reads: 68
+Memory writes: 253
+Cache hits: 689
+Cache misses: 68
+0x804ae1c:
+R 9cb3ac4
+Block Index: 4, Set Index: 6, Tag: 4e59d
+Memory reads: 68
+Memory writes: 253
+Cache hits: 690
+Cache misses: 68
+0x804ae1c:
+W 9cb3ac4
+Block Index: 4, Set Index: 6, Tag: 4e59d
+Memory reads: 68
+Memory writes: 254
+Cache hits: 691
+Cache misses: 68
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 68
+Memory writes: 254
+Cache hits: 692
+Cache misses: 68
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 68
+Memory writes: 254
+Cache hits: 693
+Cache misses: 68
+0x804ae19:
+R 9cb3ad0
+Block Index: 10, Set Index: 6, Tag: 4e59d
+Memory reads: 68
+Memory writes: 254
+Cache hits: 694
+Cache misses: 68
+0x804ae19:
+W 9cb3ad0
+Block Index: 10, Set Index: 6, Tag: 4e59d
+Memory reads: 68
+Memory writes: 255
+Cache hits: 695
+Cache misses: 68
+0x804ae1c:
+R 9cb3ad4
+Block Index: 14, Set Index: 6, Tag: 4e59d
+Memory reads: 68
+Memory writes: 255
+Cache hits: 696
+Cache misses: 68
+0x804ae1c:
+W 9cb3ad4
+Block Index: 14, Set Index: 6, Tag: 4e59d
+Memory reads: 68
+Memory writes: 256
+Cache hits: 697
+Cache misses: 68
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 68
+Memory writes: 256
+Cache hits: 698
+Cache misses: 68
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 68
+Memory writes: 256
+Cache hits: 699
+Cache misses: 68
+0x804ae19:
+R 9cb3ae0
+Block Index: 0, Set Index: 7, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 31, Curr valid: 1, Curr tag: 4e599
+Memory reads: 69
+Memory writes: 256
+Cache hits: 699
+Cache misses: 69
+0x804ae19:
+W 9cb3ae0
+Block Index: 0, Set Index: 7, Tag: 4e59d
+Memory reads: 69
+Memory writes: 257
+Cache hits: 700
+Cache misses: 69
+0x804ae1c:
+R 9cb3ae4
+Block Index: 4, Set Index: 7, Tag: 4e59d
+Memory reads: 69
+Memory writes: 257
+Cache hits: 701
+Cache misses: 69
+0x804ae1c:
+W 9cb3ae4
+Block Index: 4, Set Index: 7, Tag: 4e59d
+Memory reads: 69
+Memory writes: 258
+Cache hits: 702
+Cache misses: 69
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 69
+Memory writes: 258
+Cache hits: 703
+Cache misses: 69
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 69
+Memory writes: 258
+Cache hits: 704
+Cache misses: 69
+0x804ae19:
+R 9cb3af0
+Block Index: 10, Set Index: 7, Tag: 4e59d
+Memory reads: 69
+Memory writes: 258
+Cache hits: 705
+Cache misses: 69
+0x804ae19:
+W 9cb3af0
+Block Index: 10, Set Index: 7, Tag: 4e59d
+Memory reads: 69
+Memory writes: 259
+Cache hits: 706
+Cache misses: 69
+0x804ae1c:
+R 9cb3af4
+Block Index: 14, Set Index: 7, Tag: 4e59d
+Memory reads: 69
+Memory writes: 259
+Cache hits: 707
+Cache misses: 69
+0x804ae1c:
+W 9cb3af4
+Block Index: 14, Set Index: 7, Tag: 4e59d
+Memory reads: 69
+Memory writes: 260
+Cache hits: 708
+Cache misses: 69
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 69
+Memory writes: 260
+Cache hits: 709
+Cache misses: 69
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 69
+Memory writes: 260
+Cache hits: 710
+Cache misses: 69
+0x804ae19:
+R 9cb3b00
+Block Index: 0, Set Index: 8, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e599
+Memory reads: 70
+Memory writes: 260
+Cache hits: 710
+Cache misses: 70
+0x804ae19:
+W 9cb3b00
+Block Index: 0, Set Index: 8, Tag: 4e59d
+Memory reads: 70
+Memory writes: 261
+Cache hits: 711
+Cache misses: 70
+0x804ae1c:
+R 9cb3b04
+Block Index: 4, Set Index: 8, Tag: 4e59d
+Memory reads: 70
+Memory writes: 261
+Cache hits: 712
+Cache misses: 70
+0x804ae1c:
+W 9cb3b04
+Block Index: 4, Set Index: 8, Tag: 4e59d
+Memory reads: 70
+Memory writes: 262
+Cache hits: 713
+Cache misses: 70
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 70
+Memory writes: 262
+Cache hits: 714
+Cache misses: 70
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 70
+Memory writes: 262
+Cache hits: 715
+Cache misses: 70
+0x804ae19:
+R 9cb3b10
+Block Index: 10, Set Index: 8, Tag: 4e59d
+Memory reads: 70
+Memory writes: 262
+Cache hits: 716
+Cache misses: 70
+0x804ae19:
+W 9cb3b10
+Block Index: 10, Set Index: 8, Tag: 4e59d
+Memory reads: 70
+Memory writes: 263
+Cache hits: 717
+Cache misses: 70
+0x804ae1c:
+R 9cb3b14
+Block Index: 14, Set Index: 8, Tag: 4e59d
+Memory reads: 70
+Memory writes: 263
+Cache hits: 718
+Cache misses: 70
+0x804ae1c:
+W 9cb3b14
+Block Index: 14, Set Index: 8, Tag: 4e59d
+Memory reads: 70
+Memory writes: 264
+Cache hits: 719
+Cache misses: 70
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 70
+Memory writes: 264
+Cache hits: 720
+Cache misses: 70
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 70
+Memory writes: 264
+Cache hits: 721
+Cache misses: 70
+0x804ae19:
+R 9cb3b20
+Block Index: 0, Set Index: 9, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e599
+Memory reads: 71
+Memory writes: 264
+Cache hits: 721
+Cache misses: 71
+0x804ae19:
+W 9cb3b20
+Block Index: 0, Set Index: 9, Tag: 4e59d
+Memory reads: 71
+Memory writes: 265
+Cache hits: 722
+Cache misses: 71
+0x804ae1c:
+R 9cb3b24
+Block Index: 4, Set Index: 9, Tag: 4e59d
+Memory reads: 71
+Memory writes: 265
+Cache hits: 723
+Cache misses: 71
+0x804ae1c:
+W 9cb3b24
+Block Index: 4, Set Index: 9, Tag: 4e59d
+Memory reads: 71
+Memory writes: 266
+Cache hits: 724
+Cache misses: 71
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 71
+Memory writes: 266
+Cache hits: 725
+Cache misses: 71
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 71
+Memory writes: 266
+Cache hits: 726
+Cache misses: 71
+0x804ae19:
+R 9cb3b30
+Block Index: 10, Set Index: 9, Tag: 4e59d
+Memory reads: 71
+Memory writes: 266
+Cache hits: 727
+Cache misses: 71
+0x804ae19:
+W 9cb3b30
+Block Index: 10, Set Index: 9, Tag: 4e59d
+Memory reads: 71
+Memory writes: 267
+Cache hits: 728
+Cache misses: 71
+0x804ae1c:
+R 9cb3b34
+Block Index: 14, Set Index: 9, Tag: 4e59d
+Memory reads: 71
+Memory writes: 267
+Cache hits: 729
+Cache misses: 71
+0x804ae1c:
+W 9cb3b34
+Block Index: 14, Set Index: 9, Tag: 4e59d
+Memory reads: 71
+Memory writes: 268
+Cache hits: 730
+Cache misses: 71
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 71
+Memory writes: 268
+Cache hits: 731
+Cache misses: 71
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 71
+Memory writes: 268
+Cache hits: 732
+Cache misses: 71
+0x804ae19:
+R 9cb3b40
+Block Index: 0, Set Index: a, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e599
+Memory reads: 72
+Memory writes: 268
+Cache hits: 732
+Cache misses: 72
+0x804ae19:
+W 9cb3b40
+Block Index: 0, Set Index: a, Tag: 4e59d
+Memory reads: 72
+Memory writes: 269
+Cache hits: 733
+Cache misses: 72
+0x804ae1c:
+R 9cb3b44
+Block Index: 4, Set Index: a, Tag: 4e59d
+Memory reads: 72
+Memory writes: 269
+Cache hits: 734
+Cache misses: 72
+0x804ae1c:
+W 9cb3b44
+Block Index: 4, Set Index: a, Tag: 4e59d
+Memory reads: 72
+Memory writes: 270
+Cache hits: 735
+Cache misses: 72
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 72
+Memory writes: 270
+Cache hits: 736
+Cache misses: 72
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 72
+Memory writes: 270
+Cache hits: 737
+Cache misses: 72
+0x804ae19:
+R 9cb3b50
+Block Index: 10, Set Index: a, Tag: 4e59d
+Memory reads: 72
+Memory writes: 270
+Cache hits: 738
+Cache misses: 72
+0x804ae19:
+W 9cb3b50
+Block Index: 10, Set Index: a, Tag: 4e59d
+Memory reads: 72
+Memory writes: 271
+Cache hits: 739
+Cache misses: 72
+0x804ae1c:
+R 9cb3b54
+Block Index: 14, Set Index: a, Tag: 4e59d
+Memory reads: 72
+Memory writes: 271
+Cache hits: 740
+Cache misses: 72
+0x804ae1c:
+W 9cb3b54
+Block Index: 14, Set Index: a, Tag: 4e59d
+Memory reads: 72
+Memory writes: 272
+Cache hits: 741
+Cache misses: 72
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 72
+Memory writes: 272
+Cache hits: 742
+Cache misses: 72
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 72
+Memory writes: 272
+Cache hits: 743
+Cache misses: 72
+0x804ae19:
+R 9cb3b60
+Block Index: 0, Set Index: b, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e599
+Memory reads: 73
+Memory writes: 272
+Cache hits: 743
+Cache misses: 73
+0x804ae19:
+W 9cb3b60
+Block Index: 0, Set Index: b, Tag: 4e59d
+Memory reads: 73
+Memory writes: 273
+Cache hits: 744
+Cache misses: 73
+0x804ae1c:
+R 9cb3b64
+Block Index: 4, Set Index: b, Tag: 4e59d
+Memory reads: 73
+Memory writes: 273
+Cache hits: 745
+Cache misses: 73
+0x804ae1c:
+W 9cb3b64
+Block Index: 4, Set Index: b, Tag: 4e59d
+Memory reads: 73
+Memory writes: 274
+Cache hits: 746
+Cache misses: 73
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 73
+Memory writes: 274
+Cache hits: 747
+Cache misses: 73
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 73
+Memory writes: 274
+Cache hits: 748
+Cache misses: 73
+0x804ae19:
+R 9cb3b70
+Block Index: 10, Set Index: b, Tag: 4e59d
+Memory reads: 73
+Memory writes: 274
+Cache hits: 749
+Cache misses: 73
+0x804ae19:
+W 9cb3b70
+Block Index: 10, Set Index: b, Tag: 4e59d
+Memory reads: 73
+Memory writes: 275
+Cache hits: 750
+Cache misses: 73
+0x804ae1c:
+R 9cb3b74
+Block Index: 14, Set Index: b, Tag: 4e59d
+Memory reads: 73
+Memory writes: 275
+Cache hits: 751
+Cache misses: 73
+0x804ae1c:
+W 9cb3b74
+Block Index: 14, Set Index: b, Tag: 4e59d
+Memory reads: 73
+Memory writes: 276
+Cache hits: 752
+Cache misses: 73
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 73
+Memory writes: 276
+Cache hits: 753
+Cache misses: 73
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 73
+Memory writes: 276
+Cache hits: 754
+Cache misses: 73
+0x804ae19:
+R 9cb3b80
+Block Index: 0, Set Index: c, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e599
+Memory reads: 74
+Memory writes: 276
+Cache hits: 754
+Cache misses: 74
+0x804ae19:
+W 9cb3b80
+Block Index: 0, Set Index: c, Tag: 4e59d
+Memory reads: 74
+Memory writes: 277
+Cache hits: 755
+Cache misses: 74
+0x804ae1c:
+R 9cb3b84
+Block Index: 4, Set Index: c, Tag: 4e59d
+Memory reads: 74
+Memory writes: 277
+Cache hits: 756
+Cache misses: 74
+0x804ae1c:
+W 9cb3b84
+Block Index: 4, Set Index: c, Tag: 4e59d
+Memory reads: 74
+Memory writes: 278
+Cache hits: 757
+Cache misses: 74
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 74
+Memory writes: 278
+Cache hits: 758
+Cache misses: 74
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 74
+Memory writes: 278
+Cache hits: 759
+Cache misses: 74
+0x804ae19:
+R 9cb3b90
+Block Index: 10, Set Index: c, Tag: 4e59d
+Memory reads: 74
+Memory writes: 278
+Cache hits: 760
+Cache misses: 74
+0x804ae19:
+W 9cb3b90
+Block Index: 10, Set Index: c, Tag: 4e59d
+Memory reads: 74
+Memory writes: 279
+Cache hits: 761
+Cache misses: 74
+0x804ae1c:
+R 9cb3b94
+Block Index: 14, Set Index: c, Tag: 4e59d
+Memory reads: 74
+Memory writes: 279
+Cache hits: 762
+Cache misses: 74
+0x804ae1c:
+W 9cb3b94
+Block Index: 14, Set Index: c, Tag: 4e59d
+Memory reads: 74
+Memory writes: 280
+Cache hits: 763
+Cache misses: 74
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 74
+Memory writes: 280
+Cache hits: 764
+Cache misses: 74
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 74
+Memory writes: 280
+Cache hits: 765
+Cache misses: 74
+0x804ae19:
+R 9cb3ba0
+Block Index: 0, Set Index: d, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e599
+Memory reads: 75
+Memory writes: 280
+Cache hits: 765
+Cache misses: 75
+0x804ae19:
+W 9cb3ba0
+Block Index: 0, Set Index: d, Tag: 4e59d
+Memory reads: 75
+Memory writes: 281
+Cache hits: 766
+Cache misses: 75
+0x804ae1c:
+R 9cb3ba4
+Block Index: 4, Set Index: d, Tag: 4e59d
+Memory reads: 75
+Memory writes: 281
+Cache hits: 767
+Cache misses: 75
+0x804ae1c:
+W 9cb3ba4
+Block Index: 4, Set Index: d, Tag: 4e59d
+Memory reads: 75
+Memory writes: 282
+Cache hits: 768
+Cache misses: 75
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 75
+Memory writes: 282
+Cache hits: 769
+Cache misses: 75
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 75
+Memory writes: 282
+Cache hits: 770
+Cache misses: 75
+0x804ae19:
+R 9cb3bb0
+Block Index: 10, Set Index: d, Tag: 4e59d
+Memory reads: 75
+Memory writes: 282
+Cache hits: 771
+Cache misses: 75
+0x804ae19:
+W 9cb3bb0
+Block Index: 10, Set Index: d, Tag: 4e59d
+Memory reads: 75
+Memory writes: 283
+Cache hits: 772
+Cache misses: 75
+0x804ae1c:
+R 9cb3bb4
+Block Index: 14, Set Index: d, Tag: 4e59d
+Memory reads: 75
+Memory writes: 283
+Cache hits: 773
+Cache misses: 75
+0x804ae1c:
+W 9cb3bb4
+Block Index: 14, Set Index: d, Tag: 4e59d
+Memory reads: 75
+Memory writes: 284
+Cache hits: 774
+Cache misses: 75
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 75
+Memory writes: 284
+Cache hits: 775
+Cache misses: 75
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 75
+Memory writes: 284
+Cache hits: 776
+Cache misses: 75
+0x804ae19:
+R 9cb3bc0
+Block Index: 0, Set Index: e, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e599
+Memory reads: 76
+Memory writes: 284
+Cache hits: 776
+Cache misses: 76
+0x804ae19:
+W 9cb3bc0
+Block Index: 0, Set Index: e, Tag: 4e59d
+Memory reads: 76
+Memory writes: 285
+Cache hits: 777
+Cache misses: 76
+0x804ae1c:
+R 9cb3bc4
+Block Index: 4, Set Index: e, Tag: 4e59d
+Memory reads: 76
+Memory writes: 285
+Cache hits: 778
+Cache misses: 76
+0x804ae1c:
+W 9cb3bc4
+Block Index: 4, Set Index: e, Tag: 4e59d
+Memory reads: 76
+Memory writes: 286
+Cache hits: 779
+Cache misses: 76
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 76
+Memory writes: 286
+Cache hits: 780
+Cache misses: 76
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 76
+Memory writes: 286
+Cache hits: 781
+Cache misses: 76
+0x804ae19:
+R 9cb3bd0
+Block Index: 10, Set Index: e, Tag: 4e59d
+Memory reads: 76
+Memory writes: 286
+Cache hits: 782
+Cache misses: 76
+0x804ae19:
+W 9cb3bd0
+Block Index: 10, Set Index: e, Tag: 4e59d
+Memory reads: 76
+Memory writes: 287
+Cache hits: 783
+Cache misses: 76
+0x804ae1c:
+R 9cb3bd4
+Block Index: 14, Set Index: e, Tag: 4e59d
+Memory reads: 76
+Memory writes: 287
+Cache hits: 784
+Cache misses: 76
+0x804ae1c:
+W 9cb3bd4
+Block Index: 14, Set Index: e, Tag: 4e59d
+Memory reads: 76
+Memory writes: 288
+Cache hits: 785
+Cache misses: 76
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 76
+Memory writes: 288
+Cache hits: 786
+Cache misses: 76
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 76
+Memory writes: 288
+Cache hits: 787
+Cache misses: 76
+0x804ae19:
+R 9cb3be0
+Block Index: 0, Set Index: f, Tag: 4e59d
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e599
+Memory reads: 77
+Memory writes: 288
+Cache hits: 787
+Cache misses: 77
+0x804ae19:
+W 9cb3be0
+Block Index: 0, Set Index: f, Tag: 4e59d
+Memory reads: 77
+Memory writes: 289
+Cache hits: 788
+Cache misses: 77
+0x804ae1c:
+R 9cb3be4
+Block Index: 4, Set Index: f, Tag: 4e59d
+Memory reads: 77
+Memory writes: 289
+Cache hits: 789
+Cache misses: 77
+0x804ae1c:
+W 9cb3be4
+Block Index: 4, Set Index: f, Tag: 4e59d
+Memory reads: 77
+Memory writes: 290
+Cache hits: 790
+Cache misses: 77
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 77
+Memory writes: 290
+Cache hits: 791
+Cache misses: 77
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 77
+Memory writes: 290
+Cache hits: 792
+Cache misses: 77
+0x804ae19:
+R 9cb3bf0
+Block Index: 10, Set Index: f, Tag: 4e59d
+Memory reads: 77
+Memory writes: 290
+Cache hits: 793
+Cache misses: 77
+0x804ae19:
+W 9cb3bf0
+Block Index: 10, Set Index: f, Tag: 4e59d
+Memory reads: 77
+Memory writes: 291
+Cache hits: 794
+Cache misses: 77
+0x804ae1c:
+R 9cb3bf4
+Block Index: 14, Set Index: f, Tag: 4e59d
+Memory reads: 77
+Memory writes: 291
+Cache hits: 795
+Cache misses: 77
+0x804ae1c:
+W 9cb3bf4
+Block Index: 14, Set Index: f, Tag: 4e59d
+Memory reads: 77
+Memory writes: 292
+Cache hits: 796
+Cache misses: 77
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 77
+Memory writes: 292
+Cache hits: 797
+Cache misses: 77
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 77
+Memory writes: 292
+Cache hits: 798
+Cache misses: 77
+0x804ae19:
+R 9cb3c00
+Block Index: 0, Set Index: 0, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e59a
+Memory reads: 78
+Memory writes: 292
+Cache hits: 798
+Cache misses: 78
+0x804ae19:
+W 9cb3c00
+Block Index: 0, Set Index: 0, Tag: 4e59e
+Memory reads: 78
+Memory writes: 293
+Cache hits: 799
+Cache misses: 78
+0x804ae1c:
+R 9cb3c04
+Block Index: 4, Set Index: 0, Tag: 4e59e
+Memory reads: 78
+Memory writes: 293
+Cache hits: 800
+Cache misses: 78
+0x804ae1c:
+W 9cb3c04
+Block Index: 4, Set Index: 0, Tag: 4e59e
+Memory reads: 78
+Memory writes: 294
+Cache hits: 801
+Cache misses: 78
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 78
+Memory writes: 294
+Cache hits: 802
+Cache misses: 78
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 78
+Memory writes: 294
+Cache hits: 803
+Cache misses: 78
+0x804ae19:
+R 9cb3c10
+Block Index: 10, Set Index: 0, Tag: 4e59e
+Memory reads: 78
+Memory writes: 294
+Cache hits: 804
+Cache misses: 78
+0x804ae19:
+W 9cb3c10
+Block Index: 10, Set Index: 0, Tag: 4e59e
+Memory reads: 78
+Memory writes: 295
+Cache hits: 805
+Cache misses: 78
+0x804ae1c:
+R 9cb3c14
+Block Index: 14, Set Index: 0, Tag: 4e59e
+Memory reads: 78
+Memory writes: 295
+Cache hits: 806
+Cache misses: 78
+0x804ae1c:
+W 9cb3c14
+Block Index: 14, Set Index: 0, Tag: 4e59e
+Memory reads: 78
+Memory writes: 296
+Cache hits: 807
+Cache misses: 78
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 78
+Memory writes: 296
+Cache hits: 808
+Cache misses: 78
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 78
+Memory writes: 296
+Cache hits: 809
+Cache misses: 78
+0x804ae19:
+R 9cb3c20
+Block Index: 0, Set Index: 1, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e59a
+Memory reads: 79
+Memory writes: 296
+Cache hits: 809
+Cache misses: 79
+0x804ae19:
+W 9cb3c20
+Block Index: 0, Set Index: 1, Tag: 4e59e
+Memory reads: 79
+Memory writes: 297
+Cache hits: 810
+Cache misses: 79
+0x804ae1c:
+R 9cb3c24
+Block Index: 4, Set Index: 1, Tag: 4e59e
+Memory reads: 79
+Memory writes: 297
+Cache hits: 811
+Cache misses: 79
+0x804ae1c:
+W 9cb3c24
+Block Index: 4, Set Index: 1, Tag: 4e59e
+Memory reads: 79
+Memory writes: 298
+Cache hits: 812
+Cache misses: 79
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 79
+Memory writes: 298
+Cache hits: 813
+Cache misses: 79
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 79
+Memory writes: 298
+Cache hits: 814
+Cache misses: 79
+0x804ae19:
+R 9cb3c30
+Block Index: 10, Set Index: 1, Tag: 4e59e
+Memory reads: 79
+Memory writes: 298
+Cache hits: 815
+Cache misses: 79
+0x804ae19:
+W 9cb3c30
+Block Index: 10, Set Index: 1, Tag: 4e59e
+Memory reads: 79
+Memory writes: 299
+Cache hits: 816
+Cache misses: 79
+0x804ae1c:
+R 9cb3c34
+Block Index: 14, Set Index: 1, Tag: 4e59e
+Memory reads: 79
+Memory writes: 299
+Cache hits: 817
+Cache misses: 79
+0x804ae1c:
+W 9cb3c34
+Block Index: 14, Set Index: 1, Tag: 4e59e
+Memory reads: 79
+Memory writes: 300
+Cache hits: 818
+Cache misses: 79
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 79
+Memory writes: 300
+Cache hits: 819
+Cache misses: 79
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 79
+Memory writes: 300
+Cache hits: 820
+Cache misses: 79
+0x804ae19:
+R 9cb3c40
+Block Index: 0, Set Index: 2, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e59a
+Memory reads: 80
+Memory writes: 300
+Cache hits: 820
+Cache misses: 80
+0x804ae19:
+W 9cb3c40
+Block Index: 0, Set Index: 2, Tag: 4e59e
+Memory reads: 80
+Memory writes: 301
+Cache hits: 821
+Cache misses: 80
+0x804ae1c:
+R 9cb3c44
+Block Index: 4, Set Index: 2, Tag: 4e59e
+Memory reads: 80
+Memory writes: 301
+Cache hits: 822
+Cache misses: 80
+0x804ae1c:
+W 9cb3c44
+Block Index: 4, Set Index: 2, Tag: 4e59e
+Memory reads: 80
+Memory writes: 302
+Cache hits: 823
+Cache misses: 80
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 80
+Memory writes: 302
+Cache hits: 824
+Cache misses: 80
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 80
+Memory writes: 302
+Cache hits: 825
+Cache misses: 80
+0x804ae19:
+R 9cb3c50
+Block Index: 10, Set Index: 2, Tag: 4e59e
+Memory reads: 80
+Memory writes: 302
+Cache hits: 826
+Cache misses: 80
+0x804ae19:
+W 9cb3c50
+Block Index: 10, Set Index: 2, Tag: 4e59e
+Memory reads: 80
+Memory writes: 303
+Cache hits: 827
+Cache misses: 80
+0x804ae1c:
+R 9cb3c54
+Block Index: 14, Set Index: 2, Tag: 4e59e
+Memory reads: 80
+Memory writes: 303
+Cache hits: 828
+Cache misses: 80
+0x804ae1c:
+W 9cb3c54
+Block Index: 14, Set Index: 2, Tag: 4e59e
+Memory reads: 80
+Memory writes: 304
+Cache hits: 829
+Cache misses: 80
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 80
+Memory writes: 304
+Cache hits: 830
+Cache misses: 80
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 80
+Memory writes: 304
+Cache hits: 831
+Cache misses: 80
+0x804ae19:
+R 9cb3c60
+Block Index: 0, Set Index: 3, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e59a
+Memory reads: 81
+Memory writes: 304
+Cache hits: 831
+Cache misses: 81
+0x804ae19:
+W 9cb3c60
+Block Index: 0, Set Index: 3, Tag: 4e59e
+Memory reads: 81
+Memory writes: 305
+Cache hits: 832
+Cache misses: 81
+0x804ae1c:
+R 9cb3c64
+Block Index: 4, Set Index: 3, Tag: 4e59e
+Memory reads: 81
+Memory writes: 305
+Cache hits: 833
+Cache misses: 81
+0x804ae1c:
+W 9cb3c64
+Block Index: 4, Set Index: 3, Tag: 4e59e
+Memory reads: 81
+Memory writes: 306
+Cache hits: 834
+Cache misses: 81
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 81
+Memory writes: 306
+Cache hits: 835
+Cache misses: 81
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 81
+Memory writes: 306
+Cache hits: 836
+Cache misses: 81
+0x804ae19:
+R 9cb3c70
+Block Index: 10, Set Index: 3, Tag: 4e59e
+Memory reads: 81
+Memory writes: 306
+Cache hits: 837
+Cache misses: 81
+0x804ae19:
+W 9cb3c70
+Block Index: 10, Set Index: 3, Tag: 4e59e
+Memory reads: 81
+Memory writes: 307
+Cache hits: 838
+Cache misses: 81
+0x804ae1c:
+R 9cb3c74
+Block Index: 14, Set Index: 3, Tag: 4e59e
+Memory reads: 81
+Memory writes: 307
+Cache hits: 839
+Cache misses: 81
+0x804ae1c:
+W 9cb3c74
+Block Index: 14, Set Index: 3, Tag: 4e59e
+Memory reads: 81
+Memory writes: 308
+Cache hits: 840
+Cache misses: 81
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 81
+Memory writes: 308
+Cache hits: 841
+Cache misses: 81
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 81
+Memory writes: 308
+Cache hits: 842
+Cache misses: 81
+0x804ae19:
+R 9cb3c80
+Block Index: 0, Set Index: 4, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 336, Curr valid: 1, Curr tag: 5fc77a
+Memory reads: 82
+Memory writes: 308
+Cache hits: 842
+Cache misses: 82
+0x804ae19:
+W 9cb3c80
+Block Index: 0, Set Index: 4, Tag: 4e59e
+Memory reads: 82
+Memory writes: 309
+Cache hits: 843
+Cache misses: 82
+0x804ae1c:
+R 9cb3c84
+Block Index: 4, Set Index: 4, Tag: 4e59e
+Memory reads: 82
+Memory writes: 309
+Cache hits: 844
+Cache misses: 82
+0x804ae1c:
+W 9cb3c84
+Block Index: 4, Set Index: 4, Tag: 4e59e
+Memory reads: 82
+Memory writes: 310
+Cache hits: 845
+Cache misses: 82
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 339, Curr valid: 1, Curr tag: 4e59e
+Memory reads: 83
+Memory writes: 310
+Cache hits: 845
+Cache misses: 83
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 83
+Memory writes: 310
+Cache hits: 846
+Cache misses: 83
+0x804ae19:
+R 9cb3c90
+Block Index: 10, Set Index: 4, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 340, Curr valid: 1, Curr tag: 5fc77a
+Memory reads: 84
+Memory writes: 310
+Cache hits: 846
+Cache misses: 84
+0x804ae19:
+W 9cb3c90
+Block Index: 10, Set Index: 4, Tag: 4e59e
+Memory reads: 84
+Memory writes: 311
+Cache hits: 847
+Cache misses: 84
+0x804ae1c:
+R 9cb3c94
+Block Index: 14, Set Index: 4, Tag: 4e59e
+Memory reads: 84
+Memory writes: 311
+Cache hits: 848
+Cache misses: 84
+0x804ae1c:
+W 9cb3c94
+Block Index: 14, Set Index: 4, Tag: 4e59e
+Memory reads: 84
+Memory writes: 312
+Cache hits: 849
+Cache misses: 84
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 343, Curr valid: 1, Curr tag: 4e59e
+Memory reads: 85
+Memory writes: 312
+Cache hits: 849
+Cache misses: 85
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 85
+Memory writes: 312
+Cache hits: 850
+Cache misses: 85
+0x804ae19:
+R 9cb3ca0
+Block Index: 0, Set Index: 5, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e59a
+Memory reads: 86
+Memory writes: 312
+Cache hits: 850
+Cache misses: 86
+0x804ae19:
+W 9cb3ca0
+Block Index: 0, Set Index: 5, Tag: 4e59e
+Memory reads: 86
+Memory writes: 313
+Cache hits: 851
+Cache misses: 86
+0x804ae1c:
+R 9cb3ca4
+Block Index: 4, Set Index: 5, Tag: 4e59e
+Memory reads: 86
+Memory writes: 313
+Cache hits: 852
+Cache misses: 86
+0x804ae1c:
+W 9cb3ca4
+Block Index: 4, Set Index: 5, Tag: 4e59e
+Memory reads: 86
+Memory writes: 314
+Cache hits: 853
+Cache misses: 86
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 86
+Memory writes: 314
+Cache hits: 854
+Cache misses: 86
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 86
+Memory writes: 314
+Cache hits: 855
+Cache misses: 86
+0x804ae19:
+R 9cb3cb0
+Block Index: 10, Set Index: 5, Tag: 4e59e
+Memory reads: 86
+Memory writes: 314
+Cache hits: 856
+Cache misses: 86
+0x804ae19:
+W 9cb3cb0
+Block Index: 10, Set Index: 5, Tag: 4e59e
+Memory reads: 86
+Memory writes: 315
+Cache hits: 857
+Cache misses: 86
+0x804ae1c:
+R 9cb3cb4
+Block Index: 14, Set Index: 5, Tag: 4e59e
+Memory reads: 86
+Memory writes: 315
+Cache hits: 858
+Cache misses: 86
+0x804ae1c:
+W 9cb3cb4
+Block Index: 14, Set Index: 5, Tag: 4e59e
+Memory reads: 86
+Memory writes: 316
+Cache hits: 859
+Cache misses: 86
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 86
+Memory writes: 316
+Cache hits: 860
+Cache misses: 86
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 86
+Memory writes: 316
+Cache hits: 861
+Cache misses: 86
+0x804ae19:
+R 9cb3cc0
+Block Index: 0, Set Index: 6, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 32, Curr valid: 1, Curr tag: 4e59a
+Memory reads: 87
+Memory writes: 316
+Cache hits: 861
+Cache misses: 87
+0x804ae19:
+W 9cb3cc0
+Block Index: 0, Set Index: 6, Tag: 4e59e
+Memory reads: 87
+Memory writes: 317
+Cache hits: 862
+Cache misses: 87
+0x804ae1c:
+R 9cb3cc4
+Block Index: 4, Set Index: 6, Tag: 4e59e
+Memory reads: 87
+Memory writes: 317
+Cache hits: 863
+Cache misses: 87
+0x804ae1c:
+W 9cb3cc4
+Block Index: 4, Set Index: 6, Tag: 4e59e
+Memory reads: 87
+Memory writes: 318
+Cache hits: 864
+Cache misses: 87
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 87
+Memory writes: 318
+Cache hits: 865
+Cache misses: 87
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 87
+Memory writes: 318
+Cache hits: 866
+Cache misses: 87
+0x804ae19:
+R 9cb3cd0
+Block Index: 10, Set Index: 6, Tag: 4e59e
+Memory reads: 87
+Memory writes: 318
+Cache hits: 867
+Cache misses: 87
+0x804ae19:
+W 9cb3cd0
+Block Index: 10, Set Index: 6, Tag: 4e59e
+Memory reads: 87
+Memory writes: 319
+Cache hits: 868
+Cache misses: 87
+0x804ae1c:
+R 9cb3cd4
+Block Index: 14, Set Index: 6, Tag: 4e59e
+Memory reads: 87
+Memory writes: 319
+Cache hits: 869
+Cache misses: 87
+0x804ae1c:
+W 9cb3cd4
+Block Index: 14, Set Index: 6, Tag: 4e59e
+Memory reads: 87
+Memory writes: 320
+Cache hits: 870
+Cache misses: 87
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 87
+Memory writes: 320
+Cache hits: 871
+Cache misses: 87
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 87
+Memory writes: 320
+Cache hits: 872
+Cache misses: 87
+0x804ae19:
+R 9cb3ce0
+Block Index: 0, Set Index: 7, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 38, Curr valid: 1, Curr tag: 4e59d
+Memory reads: 88
+Memory writes: 320
+Cache hits: 872
+Cache misses: 88
+0x804ae19:
+W 9cb3ce0
+Block Index: 0, Set Index: 7, Tag: 4e59e
+Memory reads: 88
+Memory writes: 321
+Cache hits: 873
+Cache misses: 88
+0x804ae1c:
+R 9cb3ce4
+Block Index: 4, Set Index: 7, Tag: 4e59e
+Memory reads: 88
+Memory writes: 321
+Cache hits: 874
+Cache misses: 88
+0x804ae1c:
+W 9cb3ce4
+Block Index: 4, Set Index: 7, Tag: 4e59e
+Memory reads: 88
+Memory writes: 322
+Cache hits: 875
+Cache misses: 88
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 88
+Memory writes: 322
+Cache hits: 876
+Cache misses: 88
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 88
+Memory writes: 322
+Cache hits: 877
+Cache misses: 88
+0x804ae19:
+R 9cb3cf0
+Block Index: 10, Set Index: 7, Tag: 4e59e
+Memory reads: 88
+Memory writes: 322
+Cache hits: 878
+Cache misses: 88
+0x804ae19:
+W 9cb3cf0
+Block Index: 10, Set Index: 7, Tag: 4e59e
+Memory reads: 88
+Memory writes: 323
+Cache hits: 879
+Cache misses: 88
+0x804ae1c:
+R 9cb3cf4
+Block Index: 14, Set Index: 7, Tag: 4e59e
+Memory reads: 88
+Memory writes: 323
+Cache hits: 880
+Cache misses: 88
+0x804ae1c:
+W 9cb3cf4
+Block Index: 14, Set Index: 7, Tag: 4e59e
+Memory reads: 88
+Memory writes: 324
+Cache hits: 881
+Cache misses: 88
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 88
+Memory writes: 324
+Cache hits: 882
+Cache misses: 88
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 88
+Memory writes: 324
+Cache hits: 883
+Cache misses: 88
+0x804ae19:
+R 9cb3d00
+Block Index: 0, Set Index: 8, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 39, Curr valid: 1, Curr tag: 4e59d
+Memory reads: 89
+Memory writes: 324
+Cache hits: 883
+Cache misses: 89
+0x804ae19:
+W 9cb3d00
+Block Index: 0, Set Index: 8, Tag: 4e59e
+Memory reads: 89
+Memory writes: 325
+Cache hits: 884
+Cache misses: 89
+0x804ae1c:
+R 9cb3d04
+Block Index: 4, Set Index: 8, Tag: 4e59e
+Memory reads: 89
+Memory writes: 325
+Cache hits: 885
+Cache misses: 89
+0x804ae1c:
+W 9cb3d04
+Block Index: 4, Set Index: 8, Tag: 4e59e
+Memory reads: 89
+Memory writes: 326
+Cache hits: 886
+Cache misses: 89
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 89
+Memory writes: 326
+Cache hits: 887
+Cache misses: 89
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 89
+Memory writes: 326
+Cache hits: 888
+Cache misses: 89
+0x804ae19:
+R 9cb3d10
+Block Index: 10, Set Index: 8, Tag: 4e59e
+Memory reads: 89
+Memory writes: 326
+Cache hits: 889
+Cache misses: 89
+0x804ae19:
+W 9cb3d10
+Block Index: 10, Set Index: 8, Tag: 4e59e
+Memory reads: 89
+Memory writes: 327
+Cache hits: 890
+Cache misses: 89
+0x804ae1c:
+R 9cb3d14
+Block Index: 14, Set Index: 8, Tag: 4e59e
+Memory reads: 89
+Memory writes: 327
+Cache hits: 891
+Cache misses: 89
+0x804ae1c:
+W 9cb3d14
+Block Index: 14, Set Index: 8, Tag: 4e59e
+Memory reads: 89
+Memory writes: 328
+Cache hits: 892
+Cache misses: 89
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 89
+Memory writes: 328
+Cache hits: 893
+Cache misses: 89
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 89
+Memory writes: 328
+Cache hits: 894
+Cache misses: 89
+0x804ae19:
+R 9cb3d20
+Block Index: 0, Set Index: 9, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 39, Curr valid: 1, Curr tag: 4e59d
+Memory reads: 90
+Memory writes: 328
+Cache hits: 894
+Cache misses: 90
+0x804ae19:
+W 9cb3d20
+Block Index: 0, Set Index: 9, Tag: 4e59e
+Memory reads: 90
+Memory writes: 329
+Cache hits: 895
+Cache misses: 90
+0x804ae1c:
+R 9cb3d24
+Block Index: 4, Set Index: 9, Tag: 4e59e
+Memory reads: 90
+Memory writes: 329
+Cache hits: 896
+Cache misses: 90
+0x804ae1c:
+W 9cb3d24
+Block Index: 4, Set Index: 9, Tag: 4e59e
+Memory reads: 90
+Memory writes: 330
+Cache hits: 897
+Cache misses: 90
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 90
+Memory writes: 330
+Cache hits: 898
+Cache misses: 90
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 90
+Memory writes: 330
+Cache hits: 899
+Cache misses: 90
+0x804ae19:
+R 9cb3d30
+Block Index: 10, Set Index: 9, Tag: 4e59e
+Memory reads: 90
+Memory writes: 330
+Cache hits: 900
+Cache misses: 90
+0x804ae19:
+W 9cb3d30
+Block Index: 10, Set Index: 9, Tag: 4e59e
+Memory reads: 90
+Memory writes: 331
+Cache hits: 901
+Cache misses: 90
+0x804ae1c:
+R 9cb3d34
+Block Index: 14, Set Index: 9, Tag: 4e59e
+Memory reads: 90
+Memory writes: 331
+Cache hits: 902
+Cache misses: 90
+0x804ae1c:
+W 9cb3d34
+Block Index: 14, Set Index: 9, Tag: 4e59e
+Memory reads: 90
+Memory writes: 332
+Cache hits: 903
+Cache misses: 90
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 90
+Memory writes: 332
+Cache hits: 904
+Cache misses: 90
+0x804ae16:
+R bf8ef49c
+Block Index: 1c, Set Index: 4, Tag: 5fc77a
+Memory reads: 90
+Memory writes: 332
+Cache hits: 905
+Cache misses: 90
+0x804ae19:
+R 9cb3d40
+Block Index: 0, Set Index: a, Tag: 4e59e
+CACHE MISS!!
+Returned Place For inserting: 0
+Curr Priority: 39, Curr valid: 1, Curr tag: 4e59d
+Memory reads: 91
+Memory writes: 332
+Cache hits: 905
+Cache misses: 91
+0x804ae19:
+W 9cb3d40
+Block Index: 0, Set Index: a, Tag: 4e59e
+Memory reads: 91
+Memory writes: 333
+Cache hits: 906
+Cache misses: 91
+0x804ae1c:
+R 9cb3d44
+Block Index: 4, Set Index: a, Tag: 4e59e
+Memory reads: 91
+Memory writes: 333
+Cache hits: 907
+Cache misses: 91
+0x804ae1c:
+W 9cb3d44
+Block Index: 4, Set Index: a, Tag: 4e59e
+Memory reads: 91
+Memory writes: 334
+Cache hits: 908
+Cache misses: 91
+0x804ae10:
+R bf8ef498
+Block Index: 18, Set Index: 4, Tag: 5fc77a
+Memory reads: 91
+Memory writes: 334
+Cache hits: 909
+Cache misses: 91
+#eof
+Memory reads: 91
+Memory writes: 334
+Cache hits: 909
+Cache misses: 91
